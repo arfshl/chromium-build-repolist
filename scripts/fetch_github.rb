@@ -21,7 +21,7 @@ current_data = if File.exist?(DATA_FILE)
                  { "github" => {}, "google" => {} }
                end
 
-puts "=== FETCHING & PARSING GITHUB ASSETS (EXPLICIT MODE) ==="
+puts "=== FETCHING & PARSING GITHUB ASSETS ===
 
 github_repos.each do |repo|
   
@@ -64,8 +64,8 @@ github_repos.each do |repo|
       current_data['github']['hibbiki_win64_installer'] = installer ? installer['browser_download_url'] : "https://github.com/#{repo}"
 
     when 'Hibbiki/chromium-win32'
-      archive   = assets.find { |a| a['name'].end_with?('.7z') && !a['name'].include?('sync') }
-      installer = assets.find { |a| a['name'] == 'mini_installer.exe' }
+      archive   = assets.find { |a| a['name'] == 'chrome.sync.7z' }
+      installer = assets.find { |a| a['name'] == 'mini_installer.sync.exe' }
       
       current_data['github']['hibbiki_win32_archive']   = archive ? archive['browser_download_url'] : "https://github.com/#{repo}"
       current_data['github']['hibbiki_win32_installer'] = installer ? installer['browser_download_url'] : "https://github.com/#{repo}"
@@ -94,19 +94,14 @@ github_repos.each do |repo|
       current_data['github']['marmaduke_linux_archive']   = linux_archive ? linux_archive['browser_download_url'] : "https://github.com/#{repo}"
       
     when 'macchrome/macstable'
-      mac_intel = assets.find { |a| a['name'].end_with?('.dmg') && (a['name'].include?('x64') || !a['name'].include?('arm64')) }
-      mac_arm   = assets.find { |a| a['name'].end_with?('.dmg') && a['name'].include?('arm64') }
+      mac_intel = assets.find { |a| a['name'].end_with?('.tar.xz') && a['name'].include?('ungoogled') }
       
       current_data['github']['marmaduke_mac_intel'] = mac_intel ? mac_intel['browser_download_url'] : "https://github.com/#{repo}"
-      current_data['github']['marmaduke_mac_arm']   = mac_arm ? mac_arm['browser_download_url'] : "https://github.com/#{repo}"
 
     when 'macchrome/droidchrome'
       apk_arm64 = assets.find { |a| a['name'].end_with?('.apk') && (a['name'].include?('arm64') || a['name'].include?('v8a')) }
-      apk_arm32 = assets.find { |a| a['name'].end_with?('.apk') && (a['name'].include?('arm') || a['name'].include?('v7a')) && !a['name'].include?('64') }
-      
-      current_data['github']['marmaduke_android_arm64'] = apk_arm64 ? apk_arm64['browser_download_url'] : "https://github.com/#{repo}"
-      current_data['github']['marmaduke_android_arm32'] = apk_arm32 ? apk_arm32['browser_download_url'] : "https://github.com/#{repo}"
 
+      current_data['github']['marmaduke_android_arm64'] = apk_arm64 ? apk_arm64['browser_download_url'] : "https://github.com/#{repo}"
 
     # ==========================================
     # 3. ROBRICH999 / CHROMIUM_CLANG (MULTIPLATEFORM & MULTI-ARCH)

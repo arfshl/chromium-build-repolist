@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - main
-    files:
+    paths:
       - 'scripts/**'
       - '.github/workflows/**'
       - 'templates/**'
