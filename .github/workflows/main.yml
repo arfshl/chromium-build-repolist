@@ -1,0 +1,43 @@
+name: Generate README
+
+on:
+  workflow_dispatch: 
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v6
+    - name: Set up Ruby
+    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+    # change this to (see https://github.com/ruby/setup-ruby#versioning):
+    # uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@v1 # v1.195.0
+      with:
+        ruby-version: 4.0.2
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    - name: Generate README
+      run: |
+        bundle exec ruby scripts/fetch_github.rb
+        bundle exec ruby scripts/fetch_chromium.rb
+        bundle exec ruby scripts/generate_readme.rb
+    - name: Commit and push changes
+      run: |
+        TIMESTAMP=$(date -u +"%Y%m%d %H:%M UTC")
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Last Updated: $TIMESTAMP"
+        git push
+      continue-on-error: true
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
