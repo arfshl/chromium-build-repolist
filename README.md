@@ -178,7 +178,7 @@ For help, version 34 works fine on older CPU processors.
 
 - ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx/chrome.zip) • [Installer](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1648942/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1648942/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1648968/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1648968/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
 #### Chromium for 32-bit Windows
 
@@ -186,7 +186,7 @@ For help, version 34 works fine on older CPU processors.
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](https://github.com/macchrome/winchrome/releases/download/v109.5414.120-M109.0.5414.120-r1070088-Win64/ungoogled-chromium-109.0.5414.130-1_Win32.7z) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win/1648932/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win/1648932/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win/1648993/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win/1648993/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
 
 # Chromium for 64-bit Windows on Arm
@@ -203,18 +203,18 @@ For help, version 34 works fine on older CPU processors.
 
 # Chromium for macOS 12+ 64-bit
 
-- <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1648955/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
+- <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1649021/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
 
 # Chromium for 64-bit macOS on Arm
 
 - <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://github.com/macchrome/macstable) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
-- <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1648968/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
+- <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1649004/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
 
 # Chromium for Android 10.0+
 
 - <img src="assets/logo.png" width="20" alt="logo"> [Stable Releases](https://github.com/macchrome/droidchrome/releases/download/v148.7778.210-M148.0.7778.210-r1610480-Ungoogled-And64/arm64_ChromePublic_HEVC-148.0.7778.210.apk) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/android64-%235b6367)
 
-- <img src="assets/logo.png" width="20" alt="logo"> [APK Installer](https://storage.googleapis.com/chromium-browser-snapshots/Android/1648960/chrome-android.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android-%235b6367)
+- <img src="assets/logo.png" width="20" alt="logo"> [APK Installer](https://storage.googleapis.com/chromium-browser-snapshots/Android/1649004/chrome-android.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android-%235b6367)

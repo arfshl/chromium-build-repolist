@@ -23,12 +23,12 @@
     "robrich_linux_rpm_avx512": "https://github.com/RobRich999/Chromium_Clang"
   },
   "google": {
-    "Win_x64_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1648942/chrome-win.zip",
-    "Win_x64_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1648942/mini_installer.exe",
-    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1648932/chrome-win.zip",
-    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1648932/mini_installer.exe",
-    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1648955/chrome-mac.zip",
-    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1648968/chrome-mac.zip",
-    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1648960/chrome-android.zip"
+    "Win_x64_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1648968/chrome-win.zip",
+    "Win_x64_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1648968/mini_installer.exe",
+    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1648993/chrome-win.zip",
+    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1648993/mini_installer.exe",
+    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1649021/chrome-mac.zip",
+    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1649004/chrome-mac.zip",
+    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1649004/chrome-android.zip"
   }
 }
