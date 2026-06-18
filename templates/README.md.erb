@@ -141,7 +141,7 @@ Since version 89, Chromium needs a CPU with SSE3 support (Archive: PDF)
 For help, version 88 works fine on older CPU processors. The last stable version is 88.0.4324.190
 
     installer, archive (win32 • stable)
-    installer, archive (win32/win64 • stable • ungoogled)
+    installer/archive (win32/win64 • stable • ungoogled)
 
 
 Since version 50, Chromium is not available on XP and Vista (Archive: 1)
@@ -172,7 +172,7 @@ For help, version 34 works fine on older CPU processors.
 
 - <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](<%= @links.dig('github', 'robrich_win64_archive_avx') || "https://github.com/RobRich999/Chromium_Clang" %>) • [Installer](<%= @links.dig('github', 'robrich_win64_installer_avx') || "https://github.com/RobRich999/Chromium_Clang" %>) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](<%= @links.dig('google', 'Win_x64_archive') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win_x64/" %>) • [Installer](<%= @links.dig('google', 'Win_x64_installer') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win_x64/" %>) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](<%= @links.dig('google', 'Win_x64_archive') || @links.dig('google', 'win_x64_archive') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win_x64/" %>) • [Installer](<%= @links.dig('google', 'Win_x64_installer') || @links.dig('google', 'win_x64_installer') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win_x64/" %>) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
 
 # ====== DOWN HERE STILL UNDER MAINTENANCE ======
@@ -189,25 +189,25 @@ For help, version 34 works fine on older CPU processors.
 
 - <img src="assets/logo.png" width="20" alt="logo"> [Archive](<%= @links.dig('github', 'hibbiki_win32_archive') || "https://github.com/hibbiki/chromium-win32" %>) ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
-- <img src="assets/logo.png" width="20" alt="logo"> [Archive](<%= @links.dig('github', 'marmaduke_win32_archive') || "https://github.com/macchrome/winchrome" %>) • [Installer](<%= @links.dig('github', 'marmaduke_win32_installer') || "https://github.com/macchrome/winchrome" %>) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- <img src="assets/logo.png" width="20" alt="logo"> [Archive](<%= @links.dig('github', 'marmaduke_win32_archive') || @links.dig('github', 'marmaduke_win32_ungoogled') || "https://github.com/macchrome/winchrome" %>) • [Installer](<%= @links.dig('github', 'marmaduke_win32_installer') || "https://github.com/macchrome/winchrome" %>) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
-- <img src="assets/logo.png" width="20" alt="logo"> [Archive](<%= @links.dig('google', 'Win_archive') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win/" %>) • [Installer](<%= @links.dig('google', 'Win_installer') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win/" %>) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- <img src="assets/logo.png" width="20" alt="logo"> [Archive](<%= @links.dig('google', 'Win_archive') || @links.dig('google', 'win_archive') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win/" %>) • [Installer](<%= @links.dig('google', 'Win_installer') || @links.dig('google', 'win_installer') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win/" %>) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
 
 # Chromium for macOS 12+ 64-bit
 
-- <img src="assets/logo.png" width="20" alt="logo"> [Archive](<%= @links.dig('google', 'Mac') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Mac/" %>) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
+- <img src="assets/logo.png" width="20" alt="logo"> [Archive](<%= @links.dig('google', 'Mac') || @links.dig('google', 'mac') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Mac/" %>) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
 
 # Chromium for 64-bit macOS on Arm
 
 - <img src="assets/logo.png" width="20" alt="logo"> [Archive](<%= @links.dig('github', 'marmaduke_mac_arm') || "https://github.com/macchrome/macstable" %>) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
-- <img src="assets/logo.png" width="20" alt="logo"> [Archive](<%= @links.dig('google', 'Mac_Arm') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Mac_Arm/" %>) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
+- <img src="assets/logo.png" width="20" alt="logo"> [Archive](<%= @links.dig('google', 'Mac_Arm') || @links.dig('google', 'mac_arm') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Mac_Arm/" %>) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
 
 # Chromium for Android 10.0+
 
 - <img src="assets/logo.png" width="20" alt="logo"> [Stable Releases](<%= @links.dig('github', 'marmaduke_android_arm64') || "https://github.com/macchrome/android" %>) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/android64-%235b6367)
 
-- <img src="assets/logo.png" width="20" alt="logo"> [APK Installer](<%= @links.dig('google', 'Android') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Android/" %>) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android-%235b6367)
+- <img src="assets/logo.png" width="20" alt="logo"> [APK Installer](<%= @links.dig('google', 'Android') || @links.dig('google', 'android') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Android/" %>) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android-%235b6367)

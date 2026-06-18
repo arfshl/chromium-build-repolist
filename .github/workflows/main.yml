@@ -2,6 +2,13 @@ name: Generate README
 
 on:
   workflow_dispatch: 
+  push:
+    branches:
+      - main
+    files:
+      - 'scripts/**'
+      - '.github/workflows/**'
+      - 'templates/**'
   schedule:
     - cron: "0 */6 * * *"
 

@@ -14,29 +14,29 @@ class ReadmeGenerator
   end
 
   def render
-    # 1. Validate that the data file exists
+    # 1. Validasi apakah file data JSON ada
     unless File.exist?(@data_path)
       puts "Error: Data file #{@data_path} not found! Please run fetch_github.rb first."
       return
     end
 
-    # 2. Load repository links from the "github" section in JSON
-    raw_json = JSON.parse(File.read(@data_path))
-    @links = raw_json['github'] || {}
+    # 2. LOAD SECARA UTUH (Mengatasi masalah URL kosong / sial sebelumnya)
+    # Jangan dipotong menjadi raw_json['github'], agar data 'google' tidak hilang
+    @links = JSON.parse(File.read(@data_path))
 
-    # 3. Read the ERB template
+    # 3. Baca ERB template
     template_content = File.read(@template_path)
 
-    # 4. Compile with ERB Ruby Engine
+    # 4. Compile menggunakan ERB Ruby Engine
     renderer = ERB.new(template_content)
     result = renderer.result(binding)
 
-    # 5. Write the result directly to the main README.md file in the repo root
+    # 5. Tulis hasilnya langsung ke file README.md utama
     File.write(@output_path, result)
     puts "Successfully generated README.md from latest data source"
   end
 end
 
-# Execute the generator
+# Eksekusi generator
 generator = ReadmeGenerator.new(DATA_FILE, TEMPLATE_FILE, OUTPUT_FILE)
 generator.render
