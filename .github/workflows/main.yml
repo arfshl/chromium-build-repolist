@@ -34,7 +34,7 @@ jobs:
     - name: Generate README
       run: |
         ruby scripts/fetch_github.rb
-        ruby scripts/fetch_chromium.rb
+        ruby scripts/fetch_google.rb
         ruby scripts/generate_readme.rb
     - name: Commit and push changes
       run: |
