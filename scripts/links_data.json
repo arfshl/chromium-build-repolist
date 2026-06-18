@@ -1,7 +1,7 @@
 {
   "github": {
-    "hibbiki_win64_archive": "https://github.com/Hibbiki/chromium-win64/releases/download/v149.0.7827.156-r162507/chrome.7z",
-    "hibbiki_win64_installer": "https://github.com/Hibbiki/chromium-win64/releases/download/v149.0.7827.156-r162507/mini_installer.exe",
+    "hibbiki_win64_archive": "https://github.com/Hibbiki/chromium-win64/releases/download/v149.0.7827.156-r1625079/chrome.7z",
+    "hibbiki_win64_installer": "https://github.com/Hibbiki/chromium-win64/releases/download/v149.0.7827.156-r1625079/mini_installer.exe",
     "hibbiki_win32_archive": "https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/chrome.sync.7z",
     "hibbiki_win32_installer": "https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/mini_installer.sync.exe",
     "marmaduke_win64_archive": "https://github.com/macchrome/winchrome/releases/download/v146.7680.246-M146.0.7680.246-r1582197-Win64/ungoogled-chromium-146.0.7680.246-1_Win64.7z",
@@ -23,12 +23,12 @@
     "robrich_linux_rpm_avx512": "https://github.com/RobRich999/Chromium_Clang"
   },
   "google": {
-    "Win_x64_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1648968/chrome-win.zip",
-    "Win_x64_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1648968/mini_installer.exe",
-    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1648993/chrome-win.zip",
-    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1648993/mini_installer.exe",
-    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1649021/chrome-mac.zip",
-    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1649004/chrome-mac.zip",
-    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1649004/chrome-android.zip"
+    "Win_x64_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1649184/chrome-win.zip",
+    "Win_x64_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1649184/mini_installer.exe",
+    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1649168/chrome-win.zip",
+    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1649168/mini_installer.exe",
+    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1649240/chrome-mac.zip",
+    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1649246/chrome-mac.zip",
+    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1649197/chrome-android.zip"
   }
 }
