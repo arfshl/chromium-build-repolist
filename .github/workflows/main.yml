@@ -33,9 +33,9 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Generate README
       run: |
-        bundle exec ruby scripts/fetch_github.rb
-        bundle exec ruby scripts/fetch_chromium.rb
-        bundle exec ruby scripts/generate_readme.rb
+        ruby scripts/fetch_github.rb
+        ruby scripts/fetch_chromium.rb
+        ruby scripts/generate_readme.rb
     - name: Commit and push changes
       run: |
         TIMESTAMP=$(date -u +"%Y%m%d %H:%M UTC")
