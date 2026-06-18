@@ -21,7 +21,7 @@ current_data = if File.exist?(DATA_FILE)
                  { "github" => {}, "google" => {} }
                end
 
-puts "=== FETCHING & PARSING GITHUB ASSETS ===
+puts "=== FETCHING & PARSING GITHUB ASSETS ==="
 
 github_repos.each do |repo|
   
