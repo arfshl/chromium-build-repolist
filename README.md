@@ -38,6 +38,7 @@ For more, check a [list of software package management systems](https://en.wikip
 - ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Packages .rpm](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-rpm-avx/chromium-browser-unstable-151.0.7874.0-1.x86_64.rpm) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
 #### Chromium for 64-bit and 32-bit Linux
+# ====== DOWN HERE STILL UNDER MAINTENANCE ======
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> Arch Linux ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
@@ -81,7 +82,7 @@ For more, check a [list of software package management systems](https://en.wikip
     CentOS is a distribution affiliated with Red Hat (RHEL).
     </details>
 
-# Windows 11, 10
+# Windows
 <details>
 
 <summary>How to install, update and remove Chromium, on Windows?</summary>
@@ -134,6 +135,10 @@ Package
 
 <summary>Windows 8.1, 8, 7, XP, Vista... and old versions</summary>
 <br>
+
+Unoffcial builds of Chromium for Windows 7/8/8.1, XP and Vista [are available](https://github.com/e3kskoy7wqk/Chromium-for-windows-7-REWORK/releases). They are based on the latest stable version that supports these Windows versions. So they are updated and secure.
+
+
 Since version 110, Chromium is not available on Windows 7, 8, 8.1, Server 2012 and Server 2012 R2 (Archive: 1)
 For help, version 109 works fine. The last stable version for them is 109.0.5414.120
 
@@ -180,6 +185,7 @@ For help, version 34 works fine on older CPU processors.
 
 - 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1649184/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1649184/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
+
 #### Chromium for 32-bit Windows
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/chrome.sync.7z) • [Installer](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/mini_installer.sync.exe) ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
@@ -189,7 +195,7 @@ For help, version 34 works fine on older CPU processors.
 - 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable]() • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win/1649168/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win/1649168/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
 
-# Chromium for 64-bit Windows on Arm
+#### Chromium for 64-bit Windows on Arm
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/stable/download/v120.0.6099.199-r1668-winarm64/chrome.zip) [Installer](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/stable/download/v120.0.6099.199-r1668-winarm64/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Arm-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/signed-%23877105) ![Static Badge](https://img.shields.io/badge/win64--arm-%235b6367)
 
@@ -197,24 +203,72 @@ For help, version 34 works fine on older CPU processors.
 
 - 🟡 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/canary/download/v122.0.6231.0-r1243752-winarm64/chrome.zip) [Installer](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/canary/download/v122.0.6231.0-r1243752-winarm64/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Arm-036b96) ![Static Badge](https://img.shields.io/badge/signed-%23877105) ![Static Badge](https://img.shields.io/badge/win64--arm-%235b6367)
 
-# ====== DOWN HERE STILL UNDER MAINTENANCE ======
+
+# macOS
+
+<details>
+
+<summary>How to install, update and remove Chromium, on macOS?</summary>
+<br>
+
+About updates: your settings, bookmarks, extensions, history, passwords, cookies... will be saved. Do not worry!
+For automated updates, choose one of the Chromium #updaters
+
+Installer
+
+    Download the DMG file
+    Close Chromium browser if opened
+    Execute this DMG file
+    Drag its icon on Applications folder
+    You may then "Eject" and throw away this disk image
+    To remove it definitively: drag the app from the Applications folder to the Trash.
 
 
+Archive
 
-# Chromium for macOS 12+ 64-bit
+    Download the ZIP archive file
+    Close Chromium browser if opened
+    Unzip this ZIP file
+    Double click on the unzipped folder to open it
+    Drag its icon on Applications folder
+    To remove it definitively: drag the app from the Applications folder to the Trash
 
-- <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1649240/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
+</details>
+
+<details>
+<summary>Chromium for older macOS versions</summary>
+<br>
+
+For older macOS (10.7+), you can use the [Chromium-legacy](https://github.com/blueboxd/chromium-legacy) project. 
+</details>
+
+####  Chromium for 64-bit macOS on Intel
+
+- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://github.com/macchrome/macstable/releases/download/v146.7680.143-M146.0.7680.143-r1582197-macOS/Chromium.app.ungoogled-146.0.7680.143.tar.xz) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
+
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1649240/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
 
-# Chromium for 64-bit macOS on Arm
+#### Chromium for 64-bit macOS on Arm
 
-- <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://github.com/macchrome/macstable) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1649246/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
-- <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1649246/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
+#### Chromium for 32-bit macOS
+Since version 39, Chromium and Google Chrome [are not available in 32-bit version for macOS.](https://workspaceupdates.googleblog.com/2014/09/google-chrome-64-bit-for-mac-and-windows.html)
+
+# Android
+
+#### Chromium for 64-bit and 32-bit Android
+
+- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Packages .apk](https://github.com/macchrome/droidchrome/releases/download/v148.7778.210-M148.0.7778.210-r1610480-Ungoogled-And64/arm64_ChromePublic_HEVC-148.0.7778.210.apk) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/android64-%235b6367)
+
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Android/1649197/chrome-android.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android32-%235b6367)
 
 
-# Chromium for Android 10.0+
+# iOS
 
-- <img src="assets/logo.png" width="20" alt="logo"> [Stable Releases](https://github.com/macchrome/droidchrome/releases/download/v148.7778.210-M148.0.7778.210-r1610480-Ungoogled-And64/arm64_ChromePublic_HEVC-148.0.7778.210.apk) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/android64-%235b6367)
+Chromium on iOS is a big fake!
 
-- <img src="assets/logo.png" width="20" alt="logo"> [APK Installer](https://storage.googleapis.com/chromium-browser-snapshots/Android/1649197/chrome-android.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android-%235b6367)
+Check the official blog post and build instructions to understand that Chromium cannot use the existing content/implementation, which is based on V8/Blink. It is just a skin on top of Safari. Go your way! 
+
+
