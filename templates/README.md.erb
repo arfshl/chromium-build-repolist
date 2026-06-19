@@ -1,3 +1,19 @@
+<table>
+  <tr>
+    <td valign="center">
+      <img src="assets/logo.png" alt="logo" width="60">
+    </td>
+    <td valign="center">
+      <h1>Chromium</h1>
+      <p>The free and open-source project behind Google Chrome</p>
+    </td>
+  </tr>
+</table>
+
+<br clear="left"/>
+
+
+
 - 🟢 Stable builds
 - ⚫ Development/beta builds
 - 🟡 Canary builds
