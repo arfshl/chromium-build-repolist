@@ -22,12 +22,9 @@ How to install, update and remove Chromium, on Linux distributions?
 
 In most cases, Chromium is directly available in the official repository of [each Linux distribution](https://chromium.googlesource.com/chromium/src/+/master/docs/linux/chromium_packages.md). So it is easy to install, update and remove it via the integrated software/package manager or in command-lines.
 
-There are other ways like:
+There also ([Snap](https://en.wikipedia.org/wiki/Snap_(package_manager))) and ([Flatpak](https://en.wikipedia.org/wiki/Flatpak)) packages are available and sometimes more up-to-date than the official repository. So you can use them if you want to have the latest version of Chromium.
 
-- [chromium snap-package](https://snapcraft.io/chromium) ([Snap](https://en.wikipedia.org/wiki/Snap_(package_manager)))
-- [chromium flatpak-package](https://flathub.org/apps/details/org.chromium.Chromium) ([Flatpak](https://en.wikipedia.org/wiki/Flatpak))
-
-For more, check a [list of software package management systems](https://en.wikipedia.org/wiki/List_of_software_package_management_systems#Linux).
+For more info, check a [list of software package management systems](https://en.wikipedia.org/wiki/List_of_software_package_management_systems#Linux).
 
 </details>
 
@@ -57,12 +54,6 @@ For more, check a [list of software package management systems](https://en.wikip
 
        sudo pacman -S chromium
 
-    If you prefer, you can install the [Snap package](https://snapcraft.io/install/chromium/arch) or [Flatpak package](https://flathub.org/apps/details/org.chromium.Chromium) of Chromium.
-
-    Info:
-
-    - [Chromium at Arch Linux wiki](https://wiki.archlinux.org/title/Chromium)
-    - [Arch Linux is an independent distribution](https://archlinux.org/)
     </details>
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> CentOS ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
@@ -74,21 +65,47 @@ For more, check a [list of software package management systems](https://en.wikip
 
     To install the stable Chromium version on CentOS 7+: 
 
-       $ sudo yum -y update
-       $ sudo yum install -y epel-release
-       $ sudo yum install -y chromium
-    $ - requires given Linux commands to be executed as a regular non-privileged user
+       sudo yum -y update
+       sudo yum install -y epel-release
+       sudo yum install -y chromium
 
-    To run it:
-
-       $ chromium
-
-    If you prefer, you can install the [Snap package](https://snapcraft.io/chromium) or [Flatpak package](https://flathub.org/apps/details/org.chromium.Chromium) of Chromium.
-
-    Info:
-
-    CentOS is a distribution affiliated with Red Hat (RHEL).
     </details>
+
+
+- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Snap ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+
+   <details>
+
+   <summary>Available in snapcraft.io</summary>
+   <br>
+
+    To install the stable Chromium with snap package: 
+
+       sudo snap install chromium
+
+    To install the ffmpeg codecs for Chromium with snap package: 
+
+       sudo snap install chromium-ffmpeg 
+       
+    </details>
+
+- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Flatpak ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+
+   <details>
+
+   <summary>Available in flathub.org</summary>
+   <br>
+
+    To install the stable Chromium with flatpak package: 
+
+        flatpak install flathub org.chromium.Chromium
+
+    To install ungoogled-chromium with flatpak package: 
+
+        flatpak install flathub io.github.ungoogled_software.ungoogled_chromium
+
+    </details>
+
 
 # Windows
 <details>
