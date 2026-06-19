@@ -112,6 +112,21 @@ For more info, check a [list of software package management systems](https://en.
 
     </details>
 
+- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Puppy Linux ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+
+   <details>
+
+   <summary>Available in the official repository</summary>
+   <br>
+
+    Follow the posts at [Announcements about LxPup, ScPup, UPups, Chromium, LXQt, Kernels etc.](https://forum.puppylinux.com/viewtopic.php?f=7&t=124)
+
+     1) Install it via Menu → Internet → Get Web Browser
+
+     2) or [download it from the Sourceforge repository](https://sourceforge.net/projects/lxpup/files/Other/chromium/)
+
+    </details>
+
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> openSUSE ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
@@ -135,10 +150,9 @@ For more info, check a [list of software package management systems](https://en.
    <br>
 
     To install the stable Chromium version on RHEL 7+: 
-
-       sudo yum -y update
-       sudo yum install -y epel-release https://blog.slackware.nl/chromium-for-slackware-with-salt-and-pepper/
-       sudo yum install -y chromium
+    
+       sudo yum install epel-release
+       sudo yum install chromium
 
     </details>
 
@@ -215,7 +229,9 @@ For more info, check a [list of software package management systems](https://en.
 
 
     [ArnoldTheBats' builds (Builds compiled by Tony Ditchfield)](https://chromium.arnoldthebat.co.uk/)
+
     [Alex313031's builds (Builds compiled by Alexander David Frick)](https://github.com/Alex313031/chromium-builds)
+
     [Linux Chromium OS Full](https://storage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Linux_ChromiumOS_Full/) (Builds compiled by the [official buildbot](https://ci.chromium.org/p/chromium/g/chromium.chromiumos/console) • Snapshots repository)
        
     </details>
