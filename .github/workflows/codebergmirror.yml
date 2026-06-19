@@ -17,5 +17,5 @@ jobs:
 
       - name: Push mirror
         run: |
-          git remote add codeberg https://arfshl:${{ secrets.CODEBERG_TOKEN }}@codeberg.org/arfshl/anti-gambling-domains.git
+          git remote add codeberg https://arfshl:${{ secrets.CODEBERG_TOKEN }}@codeberg.org/arfshl/chromium-build-repolist.git
           git push --mirror codeberg
