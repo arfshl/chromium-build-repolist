@@ -7,7 +7,7 @@ DATA_FILE = File.join(__dir__, 'links_data.json')
 # scanned github repos
 github_repos = [
   'Hibbiki/chromium-win64',
-  'Hibbiki/chromium-win32',
+#  'Hibbiki/chromium-win32',
   'macchrome/winchrome',
   'macchrome/linchrome',
   'macchrome/macstable',
@@ -63,12 +63,12 @@ github_repos.each do |repo|
       current_data['github']['hibbiki_win64_archive']   = archive ? archive['browser_download_url'] : "https://github.com/#{repo}"
       current_data['github']['hibbiki_win64_installer'] = installer ? installer['browser_download_url'] : "https://github.com/#{repo}"
 
-    when 'Hibbiki/chromium-win32'
-      archive   = assets.find { |a| a['name'] == 'chrome.sync.7z' }
-      installer = assets.find { |a| a['name'] == 'mini_installer.sync.exe' }
+#    when 'Hibbiki/chromium-win32'
+#      archive   = assets.find { |a| a['name'] == 'chrome.sync.7z' }
+#      installer = assets.find { |a| a['name'] == 'mini_installer.sync.exe' }
       
-      current_data['github']['hibbiki_win32_archive']   = archive ? archive['browser_download_url'] : "https://github.com/#{repo}"
-      current_data['github']['hibbiki_win32_installer'] = installer ? installer['browser_download_url'] : "https://github.com/#{repo}"
+#      current_data['github']['hibbiki_win32_archive']   = archive ? archive['browser_download_url'] : "https://github.com/#{repo}"
+#      current_data['github']['hibbiki_win32_installer'] = installer ? installer['browser_download_url'] : "https://github.com/#{repo}"
 
 
     # ==========================================

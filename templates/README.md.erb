@@ -4,8 +4,29 @@ The free and open-source project behind Google Chrome
 
 <br clear="left"/>
 
+###### If you want to contribute, edit the [templates/README.md.erb](templates/README.md.erb) instead of this README.md file. It is automatically generated from the template .
 
-#### If you want to contribute, edit the [templates/README.md.erb](templates/README.md.erb) instead of this README.md file. It is automatically generated from the template .
+<details>
+
+<summary>OS</summary>
+<br>
+
+[Windows 64-bit](https://github.com/arfshl/chromium-build-repolist#chromium-for-64-bit-windows)
+
+[Windows 32-bit](https://github.com/arfshl/chromium-build-repolist#chromium-for-32-bit-windows)
+
+[Windows 64-bit ARM](https://github.com/arfshl/chromium-build-repolist#chromium-for-64-bit-windows-on-arm)
+
+[macOS](https://github.com/arfshl/chromium-build-repolist#macos)
+
+[Linux](https://github.com/arfshl/chromium-build-repolist#linux)
+
+[*BSD](https://github.com/arfshl/chromium-build-repolist#*bsd)
+
+[Android](https://github.com/arfshl/chromium-build-repolist#android)
+
+</details>
+
 
 - 🟢 Stable builds
 - ⚫ Development/beta builds
@@ -23,7 +44,7 @@ How to install, update and remove Chromium, on Linux distributions?
 
 In most cases, Chromium is directly available in the official repository of [each Linux distribution](https://chromium.googlesource.com/chromium/src/+/master/docs/linux/chromium_packages.md). So it is easy to install, update and remove it via the integrated software/package manager or in command-lines.
 
-There also ([Snap](https://en.wikipedia.org/wiki/Snap_(package_manager))) and ([Flatpak](https://en.wikipedia.org/wiki/Flatpak)) packages are available and sometimes more up-to-date than the official repository. So you can use them if you want to have the latest version of Chromium.
+There also [Snap](https://en.wikipedia.org/wiki/Snap_(package_manager)) and [Flatpak](https://en.wikipedia.org/wiki/Flatpak) packages are available and sometimes more up-to-date than the official repository. So you can use them if you want to have the latest version of Chromium.
 
 For more info, check a [list of software package management systems](https://en.wikipedia.org/wiki/List_of_software_package_management_systems#Linux).
 
@@ -121,9 +142,9 @@ For more info, check a [list of software package management systems](https://en.
 
     Follow the posts at [Announcements about LxPup, ScPup, UPups, Chromium, LXQt, Kernels etc.](https://forum.puppylinux.com/viewtopic.php?f=7&t=124)
 
-     1) Install it via Menu → Internet → Get Web Browser
+     1. Install it via Menu → Internet → Get Web Browser
 
-     2) or [download it from the Sourceforge repository](https://sourceforge.net/projects/lxpup/files/Other/chromium/)
+     2. or [download it from the Sourceforge repository](https://sourceforge.net/projects/lxpup/files/Other/chromium/)
 
     </details>
 
@@ -236,8 +257,37 @@ For more info, check a [list of software package management systems](https://en.
        
     </details>
 
+
+# *BSD
+
+- 🟢 <img src="assets/logo.png" width="20" alt="logo"> FreeBSD ![Static Badge](https://img.shields.io/badge/*bsd-%235b6367)
+
+   <details>
+
+   <summary>Available in FreshPorts</summary>
+   <br>
+
+    Info:
+
+    Chromium at [FreeBSD wiki](https://wiki.freebsd.org/Chromium), [FreshPorts](https://www.freshports.org/www/chromium/) and [FreeBSD source code](https://svnweb.freebsd.org/ports/head/www/chromium/)
+
+    </details>
+
+
+- 🟢 <img src="assets/logo.png" width="20" alt="logo"> OpenBSD ![Static Badge](https://img.shields.io/badge/*bsd-%235b6367)
+
+   <details>
+
+   <summary>Available in OpenBSD Ports</summary>
+   <br>
+
+    Info:
+
+    Chromium at [OpenBSD ports](https://github.com/openbsd/ports/tree/master/www/chromium) and [OpenBSD source code}(https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/www/chromium/)
+
+    </details>
+
 # Windows
-# ====== DOWN HERE STILL UNDER MAINTENANCE ======
 <details>
 
 <summary>How to install, update and remove Chromium, on Windows?</summary>
@@ -247,42 +297,40 @@ For automated updates, choose one of the Chromium #updaters
 
 Installer
 
-    Download the EXE executable file (This is a 7-zip self-extracting archive. So you can unzip it to see its content)
-    Close Chromium browser if opened
-    Execute this EXE file
-    Wait for 2 or 3 seconds (Installation is silent)
-    Open Chromium browser. It is updated!
-    To remove it definitively: use the standard way (or a software like Bulk Crap Uninstaller, Geek Uninstaller, Revo Uninstaller, Ccleaner...)
+1. Download the EXE executable file (This is a [7-zip](https://www.7-zip.org/)) self-extracting archive. So you can unzip it to see its content)
+2. Close Chromium browser if opened
+3. Execute this EXE file
+4. Wait for 2 or 3 seconds (Installation is silent)
+5. Open Chromium browser. It is updated!
+6. To remove it definitively: use the [standard way](https://support.microsoft.com/en-us/help/4028054/windows-10-repair-or-remove-programs) (or a software like Bulk Crap Uninstaller, Geek Uninstaller, Revo Uninstaller, Ccleaner...)
 
 
 Archive
 
-    Download the ZIP archive file
-    Close Chromium browser if opened
-    Unzip this ZIP file
-    Delete all the files from your installation directory
-    Move the files from the unzipped directory to your installation directory
-    Open Chromium browser. It is updated!
-    To remove it definitively: delete your installation directory
+1. Download the ZIP archive file
+2. Close Chromium browser if opened
+3. Unzip this ZIP file
+4. Delete all the files from your installation directory
+5. Move the files from the unzipped directory to your installation directory
+6. Open Chromium browser. It is updated!
+7. To remove it definitively: delete your installation directory
 
 
 Portable
 Note: Chromium has #secure-preferences feature based on the machine SID. So extensions, certificates and passwords are not portable. The best way to migrate your data is to synchronize them.
 
-    Download and unzip "chrlauncher-xxxxxxx.zip"
-    Execute chrlauncher.exe (chrlauncher is a free and open-source Chromium launcher/updater)
-    Close Chromium browser if a notification displays a new version
-    Click on the "Download" button
-    Wait for download and automatic installation
-    Open Chromium browser. It is updated!
-    To remove it definitively: delete the chrlauncher folder
+1. Download and unzip "chrlauncher-xxxxxxx.zip"
+2. Execute chrlauncher.exe ([chrlauncher](https://github.com/henrypp/chrlauncher) is a free and open-source Chromium launcher/updater)
+3. Close Chromium browser if a notification displays a new version
+4. Click on the "Download" button
+5. Wait for download and automatic installation
+6. Open Chromium browser. It is updated!
+7. To remove it definitively: delete the chrlauncher folder
 
 
 Package
 
-    Install Chocolatey (A free and open-source package manager) in command-line
-    Chromium will be automatically updated via Chocolatey (using our API)
-    To remove it definitively: use the "uninstall" command-line via Chocolatey
+    
 
 </details>
 
@@ -291,38 +339,41 @@ Package
 <summary>Windows 8.1, 8, 7, XP, Vista... and old versions</summary>
 <br>
 
-Unoffcial builds of Chromium for Windows 7/8/8.1, XP and Vista [are available](https://github.com/e3kskoy7wqk/Chromium-for-windows-7-REWORK/releases). They are based on the latest stable version that supports these Windows versions. So they are updated and secure.
+Unoffcial builds of Chromium for Windows 7/8/8.1, XP and Vista [are available](https://github.com/e3kskoy7wqk/Chromium-for-windows-7-REWORK/releases). They are based on the latest stable version that supports these Windows versions.
 
+Chromium-based browser who provide experience like Vanilla Chromium are also available for Windows XP/Vista/7/8/8.1.
 
-Since version 110, Chromium is not available on Windows 7, 8, 8.1, Server 2012 and Server 2012 R2 (Archive: 1)
+[Supermium for Windows XP/Vista/7/8/8.1](https://win32subsystem.live/supermium/?legacy=true)
+[Thorium for Windows 7/8/8.1](https://thorium.rocks/win7/)
+[Thorium for Windows XP/Vista](https://thorium.rocks/winxp/)
+
+Since version 110, Chromium is [not available](https://support.google.com/chrome/thread/185534985/) on Windows 7, 8, 8.1, Server 2012 and Server 2012 R2 [(Archive: 1)](https://archive.is/dCOEx)
 For help, version 109 works fine. The last stable version for them is 109.0.5414.120
 
-    installer, archive (win64 • stable)
-    installer, archive (win32 • stable)
-    installer, archive (win64 • stable • ungoogled)
-    Thorium releases for Windows 7/8: installer, archive (win32/win64 • stable)
+[installer, archive](https://github.com/Hibbiki/chromium-win64/releases/tag/v109.0.5414.120-r1070088) (win64 • stable)
+[installer, archive](https://github.com/Hibbiki/chromium-win32/releases/tag/v109.0.5414.120-r1070088) (win32 • stable)
+[installer, archive](https://github.com/macchrome/winchrome/releases/tag/v109.5414.120-M109.0.5414.120-r1070088-Win64) (win64 • stable • ungoogled)
 
-
-Since version 89, Chromium needs a CPU with SSE3 support (Archive: PDF)
+Since version 89, Chromium [needs a CPU with SSE3 support](https://docs.google.com/document/d/1QUzL4MGNqX4wiLvukUwBf6FdCL35kCDoEJTm2wMkahw/edit) [(Archive: PDF)](https://ia600603.us.archive.org/8/items/require-sse3-for-chrome-on-x86-pdf/Require%20SSE3%20for%20Chrome%20on%20x86%20-%20PDF-Require-SSE3-for-Chrome-on-x86.pdf)
 For help, version 88 works fine on older CPU processors. The last stable version is 88.0.4324.190
 
-    installer, archive (win32 • stable)
-    installer/archive (win32/win64 • stable • ungoogled)
+[installer, archive](https://github.com/Hibbiki/chromium-win32/releases/tag/v88.0.4324.190-r2202) (win32 • stable)
+[installer, archive](https://github.com/macchrome/winchrome/releases/tag/v88.0.4324.190-r2202-Win64) (win32/win64 • stable • ungoogled)
 
 
-Since version 50, Chromium is not available on XP and Vista (Archive: 1)
+Since version 50, Chromium is [not available on XP and Vista](https://bugs.chromium.org/p/chromium/issues/detail?id=579196) [(Archive: 1)](https://archive.is/tWGmK)
 For help, version 49 works fine. The last stable version for Windows XP and Vista is 49.0.2623.112
 
-    installer, archive (win32 • stable • archived source)
-    portable (win32 • stable)
-    Other old versions: portable (win32 • dev)
+[installer](https://github.com/arfshl/chromium-build-repolist/releases/download/chromium-49.0.2623.112/chromium_win32_49.0.2623.112_r403382_sync.exe), [archive](https://github.com/arfshl/chromium-build-repolist/releases/download/chromium-49.0.2623.112/chromium_win32_49.0.2623.112_r403382_sync.zip) (win32 • stable) [Archive 1](https://archive.org/details/chromium-49.0.2623.112_r403382_sync) [Archive 2](https://web.archive.org/web/20210603163609/https://github.com/henrypp/chromium/releases/tag/v49.0.2623.112-r403382-win32)
+[portable](https://sourceforge.net/projects/thumbapps/files/Internet/Chromium-nik/Windows%20XP/) (win32 • stable)
+Other old versions: [portable](https://sourceforge.net/projects/crportable/files/) (win32 • dev)
 
 
-Since version 35, Chromium needs a CPU with SSE2 support (Archive: 1)
+Since version 35, Chromium [needs a CPU with SSE2 support](https://bugs.chromium.org/p/chromium/issues/detail?id=349320) [(Archive: 1)](https://archive.is/p0lim)
 For help, version 34 works fine on older CPU processors.
 
-    portable (win32 • dev)
-    builds before 253860 (win32 • dev)
+[portable](https://sourceforge.net/projects/crportable/files/) (win32 • dev)
+[builds before 253860](https://storage.googleapis.com/chromium-browser-continuous/index.html?prefix=Win/253756/) (win32 • dev)
 
 </details>
 
@@ -343,14 +394,14 @@ For help, version 34 works fine on older CPU processors.
 
 #### Chromium for 32-bit Windows
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chromium-build-repolist/releases/download/chrlauncher-from-woolyss/chrlauncher-win32-stable-codecs-sync.zip) • [Archive](<%= @links.dig('github', 'hibbiki_win32_archive') || "https://github.com/hibbiki/chromium-win32" %>) • [Installer](<%= @links.dig('github', 'hibbiki_win32_installer') || "https://github.com/hibbiki/chromium-win32" %>) ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chromium-build-repolist/releases/download/chrlauncher-from-woolyss/chrlauncher-win32-stable-codecs-sync.zip) • [Archive](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/chrome.sync.7z) • [Installer](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/mini_installer.sync.exe) || "https://github.com/hibbiki/chromium-win32" %>) ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chromium-build-repolist/releases/download/chrlauncher-from-woolyss/chrlauncher-win32-stable-ungoogled.zip) • [Archive](https://github.com/macchrome/winchrome/releases/download/v109.5414.120-M109.0.5414.120-r1070088-Win64/ungoogled-chromium-109.0.5414.130-1_Win32.7z) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
 - 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chromium-build-repolist/releases/download/chrlauncher-from-woolyss/chrlauncher-win32-dev-official.zip) • [Archive](<%= @links.dig('google', 'Win_archive') || @links.dig('google', 'win_archive') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win/" %>) • [Installer](<%= @links.dig('google', 'Win_installer') || @links.dig('google', 'win_installer') || "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Win/" %>) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
 
-#### Chromium for 64-bit Windows on Arm
+#### Chromium for 64-bit Windows on ARM
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/stable/download/v120.0.6099.199-r1668-winarm64/chrome.zip) [Installer](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/stable/download/v120.0.6099.199-r1668-winarm64/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Arm-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/signed-%23877105) ![Static Badge](https://img.shields.io/badge/win64--arm-%235b6367)
 
@@ -371,22 +422,22 @@ For automated updates, choose one of the Chromium #updaters
 
 Installer
 
-    Download the DMG file
-    Close Chromium browser if opened
-    Execute this DMG file
-    Drag its icon on Applications folder
-    You may then "Eject" and throw away this disk image
-    To remove it definitively: drag the app from the Applications folder to the Trash.
+1. Download the DMG file
+2. Close Chromium browser if opened
+3. Execute this DMG file
+4. Drag its icon on Applications folder
+5. You may then "Eject" and throw away this disk image
+6. To remove it definitively: drag the app from the Applications folder to the Trash.
 
 
 Archive
 
-    Download the ZIP archive file
-    Close Chromium browser if opened
-    Unzip this ZIP file
-    Double click on the unzipped folder to open it
-    Drag its icon on Applications folder
-    To remove it definitively: drag the app from the Applications folder to the Trash
+1. Download the ZIP archive file
+2. Close Chromium browser if opened
+3. Unzip this ZIP file
+4. Double click on the unzipped folder to open it
+5. Drag its icon on Applications folder
+6. To remove it definitively: drag the app from the Applications folder to the Trash
 
 </details>
 
@@ -424,6 +475,8 @@ Since version 39, Chromium and Google Chrome [are not available in 32-bit versio
 
 Chromium on iOS is a big fake!
 
-Check the official blog post and build instructions to understand that Chromium cannot use the existing content/implementation, which is based on V8/Blink. It is just a skin on top of Safari. Go your way! 
+Check the official [blog post](https://blog.chromium.org/2017/01/open-sourcing-chrome-on-ios.html) and [build instructions](https://chromium.googlesource.com/chromium/src/+/master/docs/ios/build_instructions.md) to understand that Chromium cannot use the existing content/implementation, which is based on V8/Blink. It is just a skin on top of Safari. Go your way! 
+
+
 
 
