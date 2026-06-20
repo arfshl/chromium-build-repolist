@@ -147,14 +147,14 @@ github_repos.each do |repo|
     # 0. UNGOOGLED-CHROMIUM-WINDOWS (MULTIPLATEFORM & UNGOOGLED)
     # ==========================================
     when 'ungoogled-software/ungoogled-chromium-windows'
-      archive_win64   = assets.find { |a| a['name'] == 'installer_x64.exe' }
-      installer_win64 = assets.find { |a| a['name'] == 'x64.zip' }
+      archive_win64   = assets.find { |a| a['name'].end_with?('installer_x64.exe') }
+      installer_win64 = assets.find { |a| a['name'].end_with?('x64.zip') }
 
-      archive_win32   = assets.find { |a| a['name'] == 'installer_x86.exe' }
-      installer_win32 = assets.find { |a| a['name'] == 'x86.zip' }
+      archive_win32   = assets.find { |a| a['name'].end_with?('installer_x86.exe') }
+      installer_win32 = assets.find { |a| a['name'].end_with?('x86.zip') }
 
-      archive_winarm   = assets.find { |a| a['name'] == 'installer_arm64.exe' }
-      installer_winarm = assets.find { |a| a['name'] == 'arm64.zip' }
+      archive_winarm   = assets.find { |a| a['name'].end_with?('installer_arm64.exe') }
+      installer_winarm = assets.find { |a| a['name'].end_with?('arm64.zip') }
 
       current_data['github']['eloston_win64_archive']   = archive_win64 ? archive_win64['browser_download_url'] : "https://github.com/#{repo}"
       current_data['github']['eloston_win64_installer'] = installer_win64 ? installer_win64['browser_download_url'] : "https://github.com/#{repo}"
@@ -166,20 +166,17 @@ github_repos.each do |repo|
       current_data['github']['eloston_winarm_installer'] = installer_winarm ? installer_winarm['browser_download_url'] : "https://github.com/#{repo}"
 
     when 'ungoogled-software/ungoogled-chromium-portablelinux'
+      archive_x86_64   = assets.find { |a| a['name'].end_with?('x86_64.tar.xz') }
+      appimage_x86_64  = assets.find { |a| a['name'].end_with?('x86_64.AppImage') }
 
-    when 'ungoogled-software/ungoogled-chromium-windows' # atau repo linux yang sesuai
-      archive_x86_64  = assets.find { |a| a['name'] == 'installer_x64.exe' }
-      installer_x86_64 = assets.find { |a| a['name'] == 'x64.zip' }
+      archive_arm64    = assets.find { |a| a['name'].end_with?('arm64.tar.xz') }
+      appimage_arm64   = assets.find { |a| a['name'].end_with?('arm64.AppImage') }
 
-      archive_arm64   = assets.find { |a| a['name'] == 'arm64_linux.tar.xz' }
-      appimage_arm64  = assets.find { |a| a['name'] == 'arm64.AppImage' }
+      current_data['github']['eloston_x86_64_archive']   = archive_x86_64 ? archive_x86_64['browser_download_url'] : "https://github.com/#{repo}"
+      current_data['github']['eloston_x86_64_appimage']  = appimage_x86_64 ? appimage_x86_64['browser_download_url'] : "https://github.com/#{repo}"
 
-     current_data['github']['eloston_x86_64_archive']   = archive_x86_64 ? archive_x86_64['browser_download_url'] : "https://github.com/#{repo}"
-     current_data['github']['eloston_x86_64_installer'] = installer_x86_64 ? installer_x86_64['browser_download_url'] : "https://github.com/#{repo}"
-
-     current_data['github']['eloston_arm64_archive']    = archive_arm64 ? archive_arm64['browser_download_url'] : "https://github.com/#{repo}"
-     current_data['github']['eloston_arm64_appimage']   = appimage_arm64 ? appimage_arm64['browser_download_url'] : "https://github.com/#{repo}"
-
+      current_data['github']['eloston_arm64_archive']    = archive_arm64 ? archive_arm64['browser_download_url'] : "https://github.com/#{repo}"
+      current_data['github']['eloston_arm64_appimage']   = appimage_arm64 ? appimage_arm64['browser_download_url'] : "https://github.com/#{repo}"
     puts "-> Done processing variables for #{repo}."
     end
   else
