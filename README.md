@@ -56,7 +56,7 @@ For more info, check a [list of software package management systems](https://en.
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Binaries](https://github.com/Eloston/ungoogled-chromium#downloads) [Download List](https://ungoogled-software.github.io/ungoogled-chromium-binaries/) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable AppImage](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.155-1/ungoogled-chromium-149.0.7827.155-1-x86_64.AppImage) • [Portable Archive](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.155-1/ungoogled-chromium-149.0.7827.155-1-x86_64_linux.tar.xz) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable AppImage](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.155-1/ungoogled-chromium-149.0.7827.155-1-x86_64.AppImage) • [Portable Archive](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.155-1/ungoogled-chromium-149.0.7827.155-1-x86_64_linux.tar.xz) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
 - ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Packages .deb](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-deb-avx2/chromium-browser-unstable_151.0.7874.0-1_amd64.deb) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
@@ -68,7 +68,7 @@ For more info, check a [list of software package management systems](https://en.
 
 #### Chromium for ARM64 Linux
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable AppImage](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.155-1/ungoogled-chromium-149.0.7827.155-1-arm64.AppImage) • [Portable Archive](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.155-1/ungoogled-chromium-149.0.7827.155-1-arm64_linux.tar.xz) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux--arm64-%235b6367)
+- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable AppImage](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.155-1/ungoogled-chromium-149.0.7827.155-1-arm64.AppImage) • [Portable Archive](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.155-1/ungoogled-chromium-149.0.7827.155-1-arm64_linux.tar.xz) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux--arm64-%235b6367)
 
 #### Chromium on official distro repository
 
@@ -397,7 +397,7 @@ For help, version 34 works fine on older CPU processors.
 
 #### Chromium for 32-bit Windows
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chromium-build-repolist/releases/download/chrlauncher-from-woolyss/chrlauncher-win32-stable-codecs-sync.zip) • [Archive](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/chrome.sync.7z) • [Installer](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/mini_installer.sync.exe) || "https://github.com/hibbiki/chromium-win32" %>) ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chromium-build-repolist/releases/download/chrlauncher-from-woolyss/chrlauncher-win32-stable-codecs-sync.zip) • [Archive](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/chrome.sync.7z) • [Installer](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/mini_installer.sync.exe) ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.114-1.1/ungoogled-chromium_149.0.7827.114-1.1_installer_x86.exe) • [Installer](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.114-1.1/ungoogled-chromium_149.0.7827.114-1.1_windows_x86.zip) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
@@ -506,7 +506,7 @@ For older macOS (10.7+), you can use the [Chromium-legacy](https://github.com/bl
 
 #### Chromium for 64-bit macOS on Arm
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1649874/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1649875/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
 #### Chromium for 32-bit macOS
 Since version 39, Chromium and Google Chrome [are not available in 32-bit version for macOS.](https://workspaceupdates.googleblog.com/2014/09/google-chrome-64-bit-for-mac-and-windows.html)
