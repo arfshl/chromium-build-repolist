@@ -12,8 +12,8 @@ github_repos = [
   'macchrome/linchrome',
   'macchrome/macstable',
   'macchrome/droidchrome',
-  'RobRich999/Chromium_Clang'
-  'ungoogled-software/ungoogled-chromium-windows'
+  'RobRich999/Chromium_Clang',
+  'ungoogled-software/ungoogled-chromium-windows',
   'ungoogled-software/ungoogled-chromium-portablelinux'
 ]
 
