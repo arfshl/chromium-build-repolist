@@ -13,6 +13,8 @@ github_repos = [
   'macchrome/macstable',
   'macchrome/droidchrome',
   'RobRich999/Chromium_Clang'
+  'ungoogled-software/ungoogled-chromium-windows'
+  'ungoogled-software/ungoogled-chromium-portablelinux'
 ]
 
 current_data = if File.exist?(DATA_FILE)
@@ -53,6 +55,7 @@ github_repos.each do |repo|
     puts "\nProcessing repository: #{repo} (Total tracked assets: #{assets.size})"
 
     case repo
+    
     # ==========================================
     # 1. HIBBIKI (STABLE WINDOWS)
     # ==========================================
@@ -139,9 +142,46 @@ github_repos.each do |repo|
       current_data['github']['robrich_linux_rpm_avx']    = linux_rpm_avx ? linux_rpm_avx['browser_download_url'] : "https://github.com/#{repo}"
       current_data['github']['robrich_linux_rpm_avx2']   = linux_rpm_avx2 ? linux_rpm_avx2['browser_download_url'] : "https://github.com/#{repo}"
       current_data['github']['robrich_linux_rpm_avx512'] = linux_rpm_avx512 ? linux_rpm_avx512['browser_download_url'] : "https://github.com/#{repo}"
-    end
-    puts "-> Done processing variables for #{repo}."
 
+    # ==========================================
+    # 0. UNGOOGLED-CHROMIUM-WINDOWS (MULTIPLATEFORM & UNGOOGLED)
+    # ==========================================
+    when 'ungoogled-software/ungoogled-chromium-windows'
+      archive_win64   = assets.find { |a| a['name'] == 'installer_x64.exe' }
+      installer_win64 = assets.find { |a| a['name'] == 'x64.zip' }
+
+      archive_win32   = assets.find { |a| a['name'] == 'installer_x86.exe' }
+      installer_win32 = assets.find { |a| a['name'] == 'x86.zip' }
+
+      archive_winarm   = assets.find { |a| a['name'] == 'installer_arm64.exe' }
+      installer_winarm = assets.find { |a| a['name'] == 'arm64.zip' }
+
+      current_data['github']['eloston_win64_archive']   = archive_win64 ? archive_win64['browser_download_url'] : "https://github.com/#{repo}"
+      current_data['github']['eloston_win64_installer'] = installer_win64 ? installer_win64['browser_download_url'] : "https://github.com/#{repo}"
+ 
+      current_data['github']['eloston_win32_archive']   = archive_win32 ? archive_win32['browser_download_url'] : "https://github.com/#{repo}"
+      current_data['github']['eloston_win32_installer'] = installer_win32 ? installer_win32['browser_download_url'] : "https://github.com/#{repo}"
+
+      current_data['github']['eloston_winarm_archive']   = archive_winarm ? archive_winarm['browser_download_url'] : "https://github.com/#{repo}"
+      current_data['github']['eloston_winarm_installer'] = installer_winarm ? installer_winarm['browser_download_url'] : "https://github.com/#{repo}"
+
+    when 'ungoogled-software/ungoogled-chromium-portablelinux'
+
+    when 'ungoogled-software/ungoogled-chromium-windows' # atau repo linux yang sesuai
+      archive_x86_64  = assets.find { |a| a['name'] == 'installer_x64.exe' }
+      installer_x86_64 = assets.find { |a| a['name'] == 'x64.zip' }
+
+      archive_arm64   = assets.find { |a| a['name'] == 'arm64_linux.tar.xz' }
+      appimage_arm64  = assets.find { |a| a['name'] == 'arm64.AppImage' }
+
+     current_data['github']['eloston_x86_64_archive']   = archive_x86_64 ? archive_x86_64['browser_download_url'] : "https://github.com/#{repo}"
+     current_data['github']['eloston_x86_64_installer'] = installer_x86_64 ? installer_x86_64['browser_download_url'] : "https://github.com/#{repo}"
+
+     current_data['github']['eloston_arm64_archive']    = archive_arm64 ? archive_arm64['browser_download_url'] : "https://github.com/#{repo}"
+     current_data['github']['eloston_arm64_appimage']   = appimage_arm64 ? appimage_arm64['browser_download_url'] : "https://github.com/#{repo}"
+
+    puts "-> Done processing variables for #{repo}."
+    end
   else
     puts "Failed to fetch #{repo} (HTTP #{response.code}). Keeping old links if available."
   end
