@@ -166,10 +166,10 @@ github_repos.each do |repo|
       current_data['github']['eloston_winarm_installer'] = installer_winarm ? installer_winarm['browser_download_url'] : "https://github.com/#{repo}"
 
     when 'ungoogled-software/ungoogled-chromium-portablelinux'
-      archive_x86_64   = assets.find { |a| a['name'].end_with?('x86_64.tar.xz') }
+      archive_x86_64   = assets.find { |a| a['name'].end_with?('x86_64_linux.tar.xz') }
       appimage_x86_64  = assets.find { |a| a['name'].end_with?('x86_64.AppImage') }
 
-      archive_arm64    = assets.find { |a| a['name'].end_with?('arm64.tar.xz') }
+      archive_arm64    = assets.find { |a| a['name'].end_with?('arm64_linux.tar.xz') }
       appimage_arm64   = assets.find { |a| a['name'].end_with?('arm64.AppImage') }
 
       current_data['github']['eloston_x86_64_archive']   = archive_x86_64 ? archive_x86_64['browser_download_url'] : "https://github.com/#{repo}"
