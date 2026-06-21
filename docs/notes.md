@@ -425,13 +425,6 @@ Now, even after browser updates, **Chromium** uses PepperFlash. ^^
 
 [NPAPI](https://en.wikipedia.org/wiki/NPAPI) is a deprecated API that allows browser extensions to be developed. Chromium 45.0.2416.0 (331982) is the last version which still has NPAPI plugin support enabled via `chrome://flags` or group policy registry. *([source](https://codereview.chromium.org/1158423003/#ps1) • [NPAPI deprecation](https://www.chromium.org/developers/npapi-deprecation))*
 
-**How to still use a NPAPI plugin?**
-
-Few ways:
-* Switch to other [browsers still supporting NPAPI](https://en.wikipedia.org/wiki/NPAPI#Browser_support) plugins (like [Waterfox](https://en.wikipedia.org/wiki/Waterfox) browser).
-* or install an older Chromium version (Ex: [331982](https://storage.googleapis.com/chromium-browser-continuous/index.html?prefix=Win_x64/331982/), 331959, 331938, 331935...)
-* or install the [IE Tab](https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd) addon which allows users to view pages using the IE *(Internet Explorer)* layout engine.
-
 <details>
 <summary><b>How to still use a NPAPI plugin?</b></summary>
 <br>
