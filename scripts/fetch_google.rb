@@ -1,3 +1,6 @@
+# This script is licensed under GPLv3
+
+
 require 'net/http'
 require 'json'
 require 'uri'

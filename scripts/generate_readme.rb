@@ -1,3 +1,5 @@
+# This script is licensed under GPLv3
+
 require 'erb'
 require 'json'
 
