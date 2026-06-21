@@ -162,7 +162,7 @@ Add the [--no-default-browser-check](https://peter.sh/experiments/chromium-comma
 
 </details>
 
-<details class="info" open>
+<details>
 <summary><b>How to create your own Google API keys?</b></summary>
 <br>
 
@@ -255,5 +255,194 @@ setx GOOGLE_DEFAULT_CLIENT_SECRET "false"</code></pre>
 *([setx](https://docs.microsoft.com/windows-server/administration/windows-commands/setx) = set environment variables permanently)*
 
 Now launch Chromium.
+
+</details>
+
+## Widevine plugin
+
+[Widevine](https://en.wikipedia.org/wiki/Widevine) is a closed-source Google plugin to play DRM (= protected audio/video files) for web browsers. Companies including Amazon Prime Video, BBC, Hulu, Netflix, Spotify and Disney+ use Widevine to manage the distribution of premium content.
+
+**Chromium** does not support Widevine natively. Note that Chromium developers and most of Chromium users do not use this Google plugin at all. We do not bundle/share it. Other people tried to obtain a [licence from Google for an open-source project and finally did not get it](https://blog.samuelmaddock.com/posts/google-widevine-blocked-my-browser/) *(Archive: [1](https://archive.is/wleqi))*.
+
+On this website, the `widevine` support is enabled on the **stable versions**. (These versions are compiled with the GN argument: *enable_widevine = true*). So you need to install the Widevine CDM *(Content Decryption Module)* plugin yourself to play DRM content.
+
+In Chromium and Google Chrome, you can check the Widevine support at `chrome://components` → "Widevine Content Decryption Module" → The number must be different than 0.0.0.0 *([screenshot](https://i.imgur.com/q1MmVDC.jpg))*.
+
+Websites to freely test Widevine:
+* [https://bitmovin.com/demos/drm](https://bitmovin.com/demos/drm)
+* [https://demo.castlabs.com/](https://demo.castlabs.com/) *(Choose videos with labeled "DRM")*
+* [https://shaka-player-demo.appspot.com/demo/](https://shaka-player-demo.appspot.com/demo/)
+
+<details>
+<summary><b>How to install the Widevine CDM plugin?</b></summary>
+<br>
+
+1. First of all, make sure you have a Chromium version with the enabled support of:
+   * **The protected content:** `chrome://settings/content/protectedContent`
+   * **Widevine and H.264/MP4:** Check these tags on this website: `widevine` `all-codecs`
+
+2. Now, get the Widevine CDM plugin.
+
+   **2.1 From official links:** *(For info, it was an automated update via this ~~[official TXT file](https://dl.google.com/widevine-cdm/versions.txt)~~ available until 2024. Now it is obsolete!)*
+   * ~~[4.10.2891.0-win-x64.zip](https://dl.google.com/widevine-cdm/4.10.2891.0-win-x64.zip)~~ *(64-bit Windows)*
+   * ~~[4.10.2891.0-win-arm64.zip](https://dl.google.com/widevine-cdm/4.10.2891.0-win-arm64.zip)~~ *(64-bit Windows on ARM)*
+   * ~~[4.10.2891.0-win-ia32.zip](https://dl.google.com/widevine-cdm/4.10.2891.0-win-ia32.zip)~~ *(32-bit Windows)*
+   * ~~[4.10.2891.0-mac-x64.zip](https://dl.google.com/widevine-cdm/4.10.2891.0-mac-x64.zip)~~ *(64-bit macOS)*
+   * ~~[4.10.2891.0-mac-arm64.zip](https://dl.google.com/widevine-cdm/4.10.2891.0-win-arm64.zip)~~ *(64-bit macOS on ARM)*
+   * ~~[4.10.2891.0-linux-x64.zip](https://dl.google.com/widevine-cdm/4.10.2891.0-linux-x64.zip)~~ *(64-bit Linux)*
+   * ~~4.10.2891.0-linux-ia32.zip~~ *(32-bit Linux)*
+
+   **2.2 Or from the Google Chrome website:** *(You can extract these executable files using [7-Zip](https://en.wikipedia.org/wiki/7-Zip) for example. Official standalone versions:)*
+   * [Google Chrome](https://dl.google.com/chrome/install/standalonesetup64.exe) *(64-bit / Windows)*
+   * [Google Chrome](https://dl.google.com/chrome/install/standalonesetup.exe) *(32-bit / Windows)*
+   * [Google Chrome](https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg) *(macOS)*
+   * [Google Chrome](https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb) *(amd64.deb / Linux)*
+   * [Google Chrome](https://www.google.com/chrome/?standalone=1)
+
+   **2.3 Or from offline installers of Google Chrome:** *(Prefer these following websites because you can unzip the executable files (*.exe) and see the whole content. Note these download links of Google Chrome are official.)*
+   * [Chrome offline installers](https://tools.woolyss.com/chrome-offline-installers/)
+   * [[JP] chrome::noki.eu.org](https://chrome.noki.eu.org/)
+   * [[JP] chrome::github.com/Bush2021/chrome_installer](https://github.com/Bush2021/chrome_installer/releases)
+   * [[JP] chrome::iplaysoft.com](https://www.iplaysoft.com/tools/chrome/)
+
+3. Unzip the content of this Widevine CDM plugin *(This is a [7-Zip](https://en.wikipedia.org/wiki/7-Zip) self-extracting archive)*.
+
+4. Copy this Widevine CDM plugin's content to your Chromium "WidevineCdm" folder like this following structure, on Windows ([screenshot](https://i.imgur.com/Kb1aoca.jpg)):
+
+<pre><code>WidevineCdm
+  ├── LICENSE.txt
+  ├── manifest.json (Note: this file contains the Widevine version or even the file paths ^^)
+  │ 
+  └── _platform_specific
+         └── win_x64 (Note: if it is for 64-bit Windows, obviously!)
+                ├── widevinecdm.dll
+                └── widevinecdm.dll.sig</code></pre>
+
+5. Launch Chromium browser.
+
+6. Go to the top of this website and check if the "widevine" tag is displayed ([screenshot](https://i.imgur.com/F1jXvgR.png)) and check `chrome://components` → "Widevine Content Decryption Module".
+
+7. End.
+
+</details>
+
+## Flash plugin
+
+[Flash](https://en.wikipedia.org/wiki/Adobe_Flash) is a deprecated multimedia software platform. [Adobe retired Flash](https://theblog.adobe.com/adobe-flash-update/) on January 1, 2021, on all platforms. [Roadmap for Chromium](https://www.chromium.org/flash-roadmap). [Roadmap for Firefox](https://developer.mozilla.org/docs/Plugins/Roadmap).
+
+* Since 2021, the Flash PPAPI *(Pepper Plugin Application Programming Interface)* plugin (aka PepperFlash) plugin is discontinued. For info, PepperFlash is secure because it works in a [sandbox](https://en.wikipedia.org/wiki/Sandbox_%28computer_security%29). In short, it executes in its own process, separate from the browser's rendering engine.
+* Since 2015, the Flash [#npapi](#npapi) plugin is discontinued.
+
+<details>
+<summary><b>How to quickly install the Flash plugin?</b> <small>(Obsolete content!)</small></summary>
+<br>
+
+On Windows and macOS, Chromium finds PepperFlash itself *(without `#command-line-flags`)*.
+
+1. Install PepperFlash (PPAPI) from the [Adobe website](https://get.adobe.com/flashplayer/otherversions/).
+2. Disable the checkbox in the `chrome://settings/content/flash` page ([screenshot](https://i.imgur.com/zutpw6c.jpg)).
+3. Test if animation works on the [Flash Player versions](https://get.adobe.com/flashplayer/about/) page.
+4. Enjoy!
+
+</details>
+
+<details>
+<summary><b>How to manually install the Flash plugin?</b> <small>(Obsolete content!)</small></summary>
+<br>
+
+This is a full manual installation tutorial.  
+*(If Google Chrome is already installed, go directly to "3. Add command-line flags")*
+
+### 1. Get PepperFlash (PPAPI)
+This plugin is a non-free (proprietary) software developed by Adobe, and distributed bundled with Google Chrome. So get it from the official sources: Adobe or Google.
+
+#### 1.1 From Adobe
+Different official ways:
+* **Stable version - Download page:** [Adobe Flash Player (Other versions)](https://get.adobe.com/flashplayer/otherversions/) *(Choose your OS and the PPAPI version)*
+* **Stable version - Direct link (Windows):** [install_flash_player_ppapi.exe](https://fpdownload.adobe.com/pub/flashplayer/latest/help/install_flash_player_ppapi.exe)
+* **Stable version - Direct link (macOS):** [install_flash_player_osx_ppapi.dmg](https://fpdownload.adobe.com/pub/flashplayer/latest/help/install_flash_player_osx_ppapi.dmg)
+* **Beta version:** From [Adobe Labs](https://labs.adobe.com/downloads/flashplayer.html) *(Search "PPAPI" and "Chromium" for your platform)*
+
+After install, the plugin path will be:
+* **On a 64-bit Windows:**
+  * `C:\Windows\system32\Macromed\Flash\pepflashplayer64_[version].dll` *(64-bit version)*
+  * `C:\Windows\SysWOW64\Macromed\Flash\pepflashplayer32_[version].dll` *(32-bit version)*
+* **On a 32-bit Windows:**
+  * `C:\Windows\system32\Macromed\Flash\pepflashplayer32_[version].dll` *(32-bit version)*
+
+#### 1.2 From Google Chrome
+[Canary](https://www.chromium.org/getting-involved/dev-channel) channel:
+* **On Windows:** Get `pepflashplayer.dll` from [Chrome Canary (64-bit)](https://www.google.com/intl/en/chrome/canary/?platform=win64) if you use 64-bit Chromium.
+* **On Windows:** Get `pepflashplayer.dll` from [Chrome Canary (32-bit)](https://www.google.com/intl/en/chrome/canary/?platform=win) if you use 32-bit Chromium.
+* **On Mac:** Get `PepperFlashPlayer.plugin` from [Chrome Canary (64-bit)](https://www.google.com/intl/en/chrome/canary/?platform=mac).
+
+#### 1.3 From an unofficial source
+*(Use an online service to prevent `#malware`)*
+1. Search "PepperFlash" or "PPAPI" at [[RU] effect8.ru](http://effect8.ru/soft/media/adobe-flash-player-portable.html) or [patheticcockroach.com](https://notepad.patheticcockroach.com/4029/flash-player-12-for-portable-browsers-32-and-64-bits/).
+2. Download and open the `.7z` archive.
+3. Get `pepflashplayer.dll` (rename it, if needed) and `manifest.json` files.
+
+Optionally, get the Flash version number *(if you want to see the correct version number on Chromium internal pages)*:
+* On all platforms, open the **manifest.json** text file in the PepperFlash folder.
+* On Windows, you can do a right-click → Properties → Details, on the `.dll` file.
+
+### 2. Change the plugin directory
+If you want, prefer a short path for the plugin. It will be easier for the next step. ^^  
+*Example on Windows:* Put this `.dll` file in a path like `C:\PepperFlash\` *(Create the directory if needed)*.
+
+### 3. Add command-line flags
+Use these `#command-line-flags`:
+* **--ppapi-flash-path**=`[plugin path]`
+* **--ppapi-flash-version**=`[plugin version]`
+* And optionally **--allow-outdated-plugins** to disable browser notifications about outdated plugins.
+
+**On Windows**, create a Chromium shortcut. Then go to its properties and edit the target field:
+
+<pre><code>--ppapi-flash-path="C:\PepperFlash\pepflashplayer.dll" --ppapi-flash-version="32.0.0.465" --allow-outdated-plugins</code></pre>
+
+**On Mac**, you will need to launch it from the command-line (in the Terminal):
+
+<pre><code>/Applications/Chromium.app/Contents/MacOS/Chromium --ppapi-flash-path=/Library/Internet\ Plug-Ins/PepperFlashPlayer/PepperFlashPlayer.plugin --ppapi-flash-version=32.0.0.465&</code></pre>
+
+The `&` at the end is not a typo. It is there to make sure Chromium is launched in a separate thread. Without the `&`, Chromium would exit as soon as you quit the Terminal. 
+
+Moreover, to simplify the Chromium launch, check [How to create simple Mac apps from shell scripts](https://mathiasbynens.be/notes/shell-script-mac-apps) ([Archive](https://archive.is/TeIHV)). Also see [#comment-566](https://chromium.woolyss.com/?all=1#comment-566) and [#comment-344](https://chromium.woolyss.com/?all=1#comment-344).
+
+### 4. Restart the browser
+Relaunch it to apply changes.
+
+### 5. Check the installation
+* Type `chrome://settings/content/flash` to manage it.
+* For update, check the [Flash Player version](https://get.adobe.com/flashplayer/about/) on the official page.
+* For security information, see the [security bulletins and advisories](https://helpx.adobe.com/security.html#flashplayer).
+
+### 6. Enjoy!
+Now, even after browser updates, **Chromium** uses PepperFlash. ^^
+
+</details>
+
+## NPAPI plugin
+
+[NPAPI](https://en.wikipedia.org/wiki/NPAPI) is a deprecated API that allows browser extensions to be developed. Chromium 45.0.2416.0 (331982) is the last version which still has NPAPI plugin support enabled via `chrome://flags` or group policy registry. *([source](https://codereview.chromium.org/1158423003/#ps1) • [NPAPI deprecation](https://www.chromium.org/developers/npapi-deprecation))*
+
+**How to still use a NPAPI plugin?**
+
+Few ways:
+* Switch to other [browsers still supporting NPAPI](https://en.wikipedia.org/wiki/NPAPI#Browser_support) plugins (like [Waterfox](https://en.wikipedia.org/wiki/Waterfox) browser).
+* or install an older Chromium version (Ex: [331982](https://storage.googleapis.com/chromium-browser-continuous/index.html?prefix=Win_x64/331982/), 331959, 331938, 331935...)
+* or install the [IE Tab](https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd) addon which allows users to view pages using the IE *(Internet Explorer)* layout engine.
+
+<details>
+<summary><b>How to still use a NPAPI plugin?</b></summary>
+<br>
+
+Few ways:
+* Switch to other [browsers still supporting NPAPI](https://en.wikipedia.org/wiki/NPAPI#Browser_support) plugins (like [Waterfox](https://en.wikipedia.org/wiki/Waterfox) browser).
+* Or install an older Chromium version (Ex: [331982](https://storage.googleapis.com/chromium-browser-continuous/index.html?prefix=Win_x64/331982/), 331959, 331938, 331935...)
+* Or install the [IE Tab](https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd) addon which allows users to view pages using the IE *(Internet Explorer)* layout engine.
+
+More info on site archives:
+* [chromium::wayback.machine](https://web.archive.org/web/20150726200149/http://chromium.woolyss.com/#npapi) *(Sunday, 26 Jul 2015)*
+* [chromium::archive.is](https://archive.is/rCWnE) *(Friday, 17 Jul 2015)*
 
 </details>
