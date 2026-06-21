@@ -36,6 +36,15 @@ jobs:
         ruby scripts/fetch_github.rb
         ruby scripts/fetch_google.rb
         ruby scripts/generate_readme.rb
+        ruby scripts/chrlauncher-api-scripts/win32-dev-official.rb
+        ruby scripts/chrlauncher-api-scripts/win32-stable-codecs-sync.rb
+        ruby scripts/chrlauncher-api-scripts/win32-stable-ungoogled.rb
+        ruby scripts/chrlauncher-api-scripts/win64-dev-avx.rb
+        ruby scripts/chrlauncher-api-scripts/win64-dev-avx2.rb
+        ruby scripts/chrlauncher-api-scripts/win64-dev-avx512.rb
+        ruby scripts/chrlauncher-api-scripts/win64-dev-official.rb
+        ruby scripts/chrlauncher-api-scripts/win64-stable-codecs-sync.rb
+        ruby scripts/chrlauncher-api-scripts/win64-stable-ungoogled.rb
     - name: Commit and push changes
       run: |
         TIMESTAMP=$(date -u +"%Y%m%d %H:%M UTC")
