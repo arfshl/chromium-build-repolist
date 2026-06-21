@@ -1,3 +1,5 @@
+# This script is licensed under GPLv3
+
 require 'json'
 require 'fileutils'
 
