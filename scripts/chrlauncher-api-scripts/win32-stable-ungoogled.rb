@@ -21,7 +21,7 @@ else
   puts "Error: Source file not found at #{DATA_FILE}!"
   puts "Please run your GitHub fetcher script first."
   exit
-end # <--- MASALAH UTAMA: Kamu lupa menambahkan 'end' di sini sebelumnya!
+end
 
 # Fetch the download URL from JSON after the file block is safely closed
 download_url = current_data.dig('github', 'eloston_win32_archive')
@@ -53,7 +53,7 @@ api_data = {
   "os"           => "windows",
   "architecture" => "64-bit",
   "timestamp"    => Time.now.to_i.to_s, # Dynamic Unix timestamp
-  "editor"       => "ungoogled",
+  "editor"       => "eloston",
   "channel"      => "stable",
   "repository"   => repository_url,
   "download"     => download_url,
