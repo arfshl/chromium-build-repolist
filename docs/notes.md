@@ -639,3 +639,423 @@ Free websites without registration:
 * [Octane](https://chromium.github.io/octane/) *(JavaScript benchmark developed by Google)*
 * [Speedometer](https://browserbench.org/Speedometer/) *(Performance benchmark that repeats the same actions using DOM APIs)*
 * [WebXPRT](https://www.principledtechnologies.com/benchmarkxprt/webxprt/) *(HTML5 and JavaScript test developed by benchmark maker Principled Technologies)*
+
+## API
+This is a free and simple API *(Application Programming Interface)* for developers to update **Chromium** to the latest good build via a bash (shell) script, a browser extension... Read my [#notes](#notes). Please, do not use this API to build other websites. To prevent abuse, the site can audit each API request.
+
+<details>
+<summary><b>API details (new)</b></summary>
+<br>
+
+### Response Structure
+
+`chromium` → `windows` →
+* **architecture** → *(string)* `64-bit` or `32-bit`
+* **timestamp** → *(integer)* Unix time of this release built on the Chromium Buildbot server
+* **editor** → *(string)* `The Chromium Authors`
+* **channel** → *(string)* `dev`
+* **repository** → *(string)* [snapshots](https://storage.googleapis.com/chromium-browser-snapshots/index.html)
+* **version** → *(string)* *(like xx.x.xxxx.x)*
+* **revision** → *(integer)* Git revision's commit position
+* **commit** → *(string)* Git revision's commit hash
+
+### [Static string lists](https://github.com/arfshl/chromium-build-repolist/tree/main/api)
+
+### [Static string generator ruby scripts](https://github.com/arfshl/chromium-build-repolist/tree/main/scripts/chrlauncher-api-scripts)
+
+</details>
+
+<details>
+<summary><b>API details</b></summary>
+<br>
+
+### **GET** Request Parameters
+
+* **os** → *(required)* `windows` or `mac` or `android`
+* **bit** → *(optional • 64 by default)* `64` or `32`
+* **out** → *(optional • json by default)* `json` or `string` or `revision`
+
+### Response Structure
+
+`chromium` → `windows` or `mac` or `android` →
+* **architecture** → *(string)* `64-bit` or `32-bit`
+* **timestamp** → *(integer)* Unix time of this release built on the Chromium Buildbot server
+* **editor** → *(string)* `The Chromium Authors`
+* **channel** → *(string)* `dev`
+* **repository** → *(string)* [snapshots](https://storage.googleapis.com/chromium-browser-snapshots/index.html)
+* **version** → *(string)* *(like xx.x.xxxx.x)*
+* **revision** → *(integer)* Git revision's commit position
+* **commit** → *(string)* Git revision's commit hash
+
+### Examples
+
+* [api/?os=mac](https://chromium.woolyss.com/api/?os=mac)
+* [api/?os=windows&out=string](https://chromium.woolyss.com/api/?os=windows&out=string)
+* [api/?os=windows&bit=32&out=revision](https://chromium.woolyss.com/api/?os=windows&bit=32&out=revision)
+
+</details>
+
+## Links
+Except for Wikipedia's Chromium page, these links are official and point only to Google sites.
+
+Focused on **Chromium**:
+* [Chromium Blog](https://blog.chromium.org/)
+* [Chromium Browser Snapshots](https://storage.googleapis.com/chromium-browser-snapshots/index.html)
+* [Chromium Dash](https://chromiumdash.appspot.com/)
+* [Chromium Discussion](https://groups.google.com/a/chromium.org/g/chromium-discuss) *(on Google Groups)*
+* [Chromium Gerrit](https://chromium-review.googlesource.com/) *(Code review)*
+* [Chromium Main Console](https://ci.chromium.org/p/chromium/g/main/console) *(Buildbot console)*
+* [Download Chromium](https://www.chromium.org/getting-involved/download-chromium) *(ZIP archives)*
+* [Chromium Issue Tracker](https://issues.chromium.org/issues?q=status:open)
+* [Monorail](https://bugs.chromium.org/) *(The issue tracking tool for chromium-related projects)*
+* [The Chromium Projects](https://www.chromium.org/) *(The main Chromium website)*
+* [Wikipedia's Chromium page](https://en.wikipedia.org/wiki/Chromium_%28web_browser%29)
+
+Focused on **Google Chrome**:
+* [Chrome Platform Status](https://chromestatus.com/)
+* [Chrome Release Channels](https://sites.google.com/a/chromium.org/dev/getting-involved/dev-channel)
+* [Chrome Web Store](https://chrome.google.com/webstore/category/extensions) *(Extensions and themes 100% compatible with Chromium)*
+* [Google Chrome Help](https://support.google.com/chrome/) *(100% compatible with Chromium)*
+* [Release updates from the Google Chrome team](https://chromereleases.googleblog.com/) *(Google blog)*
+
+---
+
+## Browsers
+
+### 1. Chromium forks
+In simple words, a [fork](https://en.wikipedia.org/wiki/Fork_(software_development)) of Chromium means the Chromium engine is used to create another web browser.
+
+**Proprietary browsers:** *(developed by official contributors of the Chromium `#project`)*
+* [Google Chrome](https://en.wikipedia.org/wiki/Google_chrome) *(USA)*
+* [Microsoft Edge](https://en.wikipedia.org/wiki/Microsoft_Edge) *(USA)*
+* [Opera](https://en.wikipedia.org/wiki/Opera_%28web_browser%29) *(Norway/China • [Opera (company)](https://en.wikipedia.org/wiki/Opera_(company)), [Otello Corporation](https://en.wikipedia.org/wiki/Otello_Corporation), Golden Brick Capital/[Qihoo 360](https://en.wikipedia.org/wiki/Qihoo_360))*
+* [Samsung Internet](https://en.wikipedia.org/wiki/Samsung_Internet) *(South Korea)*
+* [Vivaldi](https://en.wikipedia.org/wiki/Vivaldi_%28web_browser%29) *(Iceland • [Chromium's modified code is still open source](https://help.vivaldi.com/article/is-vivaldi-open-source/))*
+* [Yandex Browser](https://en.wikipedia.org/wiki/Yandex_Browser) *(Russia)*
+
+**I do not recommend:**
+* [360 Secure Browser](https://en.wikipedia.org/wiki/360_Secure_Browser) *(Proprietary)*
+* [Comodo Dragon](https://en.wikipedia.org/wiki/Comodo_Dragon) *(Proprietary • [Famous company](https://en.wikipedia.org/wiki/Comodo_Group) but its Chromium is ever outdated compared to the `#stable-chromium-version`)*
+* [Epic](https://en.wikipedia.org/wiki/Epic_%28web_browser%29) *(Proprietary • [Reviews](https://yro.slashdot.org/story/13/09/06/1411215/epic-a-privacy-focused-web-browser))*
+* [Slimjet (SlimBrowser)](https://en.wikipedia.org/wiki/SlimBrowser) *(Proprietary • [Reviews](https://borncity.com/win/2018/03/27/slimjet-browser-beware-of-bing-search-engine/) - [Archive](https://archive.is/F0GJJ))*
+* [SRWare Iron](https://en.wikipedia.org/wiki/SRWare_Iron) *(Proprietary • Versioning system is not clear: [no source code of the latest version available since 2011](https://www.srware.net/forum/viewtopic.php?t=2134) - [Archive](https://archive.is/Bz7Xu))*
+* Or [other proprietary browser](https://en.wikipedia.org/wiki/Chromium_%28web_browser%29#Browsers_based_on_Chromium) with "better privacy" than Google Chrome.
+
+**Why not recommended?** Because all of these browsers are closed-source, outdated, based on **Chromium** like Google Chrome... and most of the features they remove don't even exist in Chromium in the first place. Control your personal info and `#privacy` yourself. ^^
+
+Colin ([InsanityBit](https://github.com/insanitybit)) explains this very well at "SRWare Iron Browser – A private alternative to Chrome?" *(2012 • Archives: [1](https://archive.is/924Ni), [2](https://archive.is/RInsN))*
+
+Note if a new browser with "better privacy" than Google Chrome is based on **Chromium** and is fully open-source, it should be ok for me. But... Google is famous. Its [privacy policy](https://policies.google.com/privacy) and marketing strategy are well known. So you have to ask yourself some questions. Do you trust an unknown team more than Google? Is it an outdated Chromium fork?
+* [Google engineer finds holes in three 'secure' browsers](https://www.engadget.com/2016/02/04/tavis-ormandy-chromium-bug-hunter/) *(2016 • [Archive](https://archive.is/cyyJ6))*
+* [Google calls out Comodo's Chromodo Chrome-knockoff as insecure crapware](https://www.theregister.co.uk/2016/02/02/google_disses_chromodo/) *(2016 • [Archive](https://archive.is/Ogjmx))*
+* [Google warns!](https://www.zdnet.com/article/avoid-aviator-browser-if-you-care-about-security-and-privacy-google-warns/) *(2015 • [Archive](https://archive.is/p69S7))*
+
+**Few free and open-source Chromium-based browsers:**
+* [Brave](https://en.wikipedia.org/wiki/Brave_(web_browser)) *(Block website trackers and remove intrusive internet advertisements • [code differences](https://github.com/brave/brave-browser/wiki/Deviations-from-Chromium-(features-we-disable-or-remove)) with Chromium)*
+* [Bromite](https://github.com/bromite/bromite) *(Patches for Chromium with adblocking features and enhanced privacy)*
+* [Dooble](https://en.wikipedia.org/wiki/Dooble)
+* [Falkon](https://en.wikipedia.org/wiki/Falkon) *(Formerly QupZilla)*
+* [Iridium](https://iridiumbrowser.de/) *([tarball](https://downloads.iridiumbrowser.de/source/), [git](https://git.iridiumbrowser.de/cgit.cgi/iridium-browser/), [GitHub](https://github.com/iridium-browser), [code differences](https://github.com/iridium-browser/tracker/wiki/Differences-between-Iridium-and-Chromium) with Chromium • [Reviews](https://news.ycombinator.com/item?id=9482689))*
+* [Kiwi Browser](https://github.com/kiwibrowser/src) *(Browser with extensions support, ads & cryptojacking protection...)*
+* [Otter Browser](https://en.wikipedia.org/wiki/Otter_Browser)
+* [qutebrowser](https://en.wikipedia.org/wiki/Qutebrowser) *(A minimalist browser)*
+* [Supermium](https://github.com/win32ss/supermium) *(Compatible with Windows XP, 2003, Vista, 7, 8.x, and newer)*
+* [Thorium](https://github.com/Alex313031/Thorium) *(Chromium fork with patches for speed, privacy, and usability)*
+* [ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium) *(A set of patches for removing Google integration • [2016 reviews](https://news.ycombinator.com/item?id=12577787), [2018 reviews](https://news.ycombinator.com/item?id=18053337), [2020 reviews](https://news.ycombinator.com/item?id=23444864))*
+* ~~[Aviator](https://www.whitehatsec.com/blog-category/aviator/)~~ *(Discontinued project since 2016 • [Reviews](https://www.reddit.com/r/netsec/comments/1ownvs/introducing_whitehat_aviator_a_safer_web_browser/))*
+* ~~[Inox](https://github.com/gcarq/inox-patchset)~~ *(A set of patches applied on the Arch Linux chromium package • [Arch Linux website](https://bbs.archlinux.org/viewtopic.php?id=198763))*
+* ~~[Superbird](https://superbird-browser.com/)~~ *(Based on a development version • [No source code since 2016](https://superbird-browser.com/download.php) - [Archive](https://archive.is/JW5Lh))*
+
+### 2. Other open-source "non-Chromium-based" browsers
+* [Basilisk](https://en.wikipedia.org/wiki/Basilisk_(web_browser)) *(Firefox-based using an old Firefox core version)*
+* [Firefox](https://en.wikipedia.org/wiki/Firefox)
+* [LibreWolf](https://librewolf-community.gitlab.io/) *(Firefox-based)*
+* [GNU IceCat](https://en.wikipedia.org/wiki/GNU_IceCat) *(Firefox-based)*
+* [Midori](https://en.wikipedia.org/wiki/Midori_(web_browser)) *(Webkit-based)*
+* [NetSurf](https://en.wikipedia.org/wiki/NetSurf) *(Works on any OS)*
+* [Pale Moon](https://en.wikipedia.org/wiki/Pale_Moon_(web_browser)) *(Firefox-based using an old Firefox core version)*
+* [Tor Browser](https://en.wikipedia.org/wiki/Tor_Browser#Tor_Browser) *(Firefox-based using Tor, an anonymity network)*
+* [Waterfox](https://en.wikipedia.org/wiki/Waterfox) *(Firefox-based using an old Firefox core version • Acquired by System1, an advertising company)*
+* and [other open-source browsers](https://en.wikipedia.org/wiki/Comparison_of_web_browsers).
+
+---
+
+## Privacy
+For a better privacy protection, use open-source browsers like **Chromium** or **Firefox**. Do not forget: just because it is open-source does not mean it is secure and respects user privacy. Moreover, security ≠ privacy ≠ anonymity. 
+
+If your browser is fully "open-source", it means that somebody with the capability can review the `#source-code`. It is easier for developers to find malicious code with versioning tools like Git or SVN. *(Ex: [Chromium downloads a Chrome extension as a binary without source code](https://bugs.chromium.org/p/chromium/issues/detail?id=500922) → corrected 7 days after the report)*. Only open-source code allows such defense. This is better for secure browsing and user privacy. 
+
+The [security of Chromium](https://www.chromium.org/Home/chromium-security) is very solid. While I recommend **ungoogled-chromium**, **Bromite**, and **Firefox** *(cf. `about:config`/user.js settings, [containers system](https://support.mozilla.org/kb/containers), better [content-filtering](https://wiki.archlinux.org/index.php/Firefox/Privacy), easier way to [stop browser automatic connections](https://support.mozilla.org/kb/how-stop-firefox-making-automatic-connections), support of a [self-hosted Firefox Sync server](https://moz-services-docs.readthedocs.io/en/latest/))* as the most reliable browsers for privacy enthusiasts in standard web browsing, Chromium is probably a reasonable alternative for everyday web browsing.
+
+My way for a standard web-browsing *(but do as you like ^^)*:
+1. Modify your `#hosts-file` to natively block domains that serve ads, spyware, and malware.
+2. Use a VPN with strong encryption for your whole OS or router to bypass many restrictions on the Internet. Note that you are not anonymous behind a VPN service *(cf. [Browser fingerprint](https://en.wikipedia.org/wiki/Device_fingerprint), [Server-side tagging](https://developers.google.com/tag-manager/serverside)...)*. It is better than browser VPN/proxy `#extensions`.
+3. Use an up-to-date web browser.
+4. Change a few `#browser-settings`.
+5. Install a few `#extensions`.
+
+<details>
+<summary><b>How to really be anonymous on the Web?</b></summary>
+<br>
+
+The anonymization solutions are especially necessary for the exercise of freedoms (ex: for journalists, political opponents in certain countries, researchers, [whistleblowers](https://en.wikipedia.org/wiki/Whistleblower)...). These solutions are obviously very used by hackers too. Personally, I think **most people cannot be anonymous on the Web** even using a VPN, proxy, or TOR network. It is a myth that you cannot be tracked online. If you exist, you are findable, especially if you use multiple devices and websites. There are a lot of technologies to identify a user and get their data. Check the `#guides` and `#tests` for more information.
+
+But **it is possible to really be anonymous on the Web** if you respect all security rules. The book *"The Art of Invisibility"* written in 2017 by [Kevin D. Mitnick](https://en.wikipedia.org/wiki/Kevin_Mitnick) will convince you. In a few words, do not trust [proprietary software/services](https://www.gnu.org/proprietary/), third-party VPN service providers ([VPN Leaks](https://archive.is/qOrJ9), ['no log' VPN providers...](https://archive.is/xnvw9), [Another VPN leak...](https://archive.is/oCfm4), [VPN hacked](https://archive.is/s6M7Q)...) and cryptocurrency ([like Bitcoin](https://archive.is/jVVZ7)).
+
+1. Buy a new computer (like a used computer) with cash, from an unknown person.
+2. Then remove the internal HDD (or format it). You will not use it. Prefer an external USB flash/SSD drive.
+3. Use [Tails](https://en.wikipedia.org/wiki/Tails_(operating_system)), [Whonix](https://en.wikipedia.org/wiki/Whonix), [Qubes OS](https://en.wikipedia.org/wiki/Qubes_OS), or a similar live Linux distribution. These ones use the Tor network *(Note: [Tor is often attacked](https://en.wikipedia.org/wiki/Tor_(anonymity_network)#Weaknesses))*.
+4. Change the [MAC address](https://en.wikipedia.org/wiki/MAC_address).
+5. Connect to a public WiFi connection.
+6. Do not change settings or add extensions on Tor Browser. It will prevent your [Browser fingerprint](https://en.wikipedia.org/wiki/Device_fingerprint).
+7. Never login to a site/service for which you are already known.
+8. [SearX](https://en.wikipedia.org/wiki/Searx) and [.onion](https://en.wikipedia.org/wiki/.onion) addresses are welcome.
+9. Here we go!
+
+</details>
+
+<details>
+<summary><b>Do you know...</b></summary>
+<br>
+
+Sure you can protect your privacy against tracking and profiling tools but it is really painful because these tracking tools are everywhere today: on the Internet (website, app...), at home (computer, phone, router, smart TV, smart home speaker, smart bulb, smart grid...), in your car (GPS system, connected car...), in the street (video surveillance camera...), at your ISP, and elsewhere. You can find them in hardware (firmware) and software (operating system, app, website, extension...).
+
+**Do you know in all computers (excepted RISC-V and Libreboot) there is an exploit-friendly firmware that the user has no access to?**  
+*Ex: in [Intel processors](https://en.wikipedia.org/wiki/Intel_Management_Engine), in [AMD processors](https://en.wikipedia.org/wiki/AMD_Platform_Security_Processor), in [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi) (proprietary Broadcom processor).*
+
+**Do you know you are readily recognizable if you install browser extensions like an ad-blocker?**  
+It means, if you install browser extensions, your [Browser fingerprint](https://en.wikipedia.org/wiki/Device_fingerprint) is unique. So you are unique on the Web.  
+*Ex: [browserleaks::proxy](https://browserleaks.com/proxy), [Browser Fingerprint](https://archive.is/fw0Bh)*
+
+**Do you know there are probably untrusted certificates on your computer?**  
+*Ex: [Apple, Google, Microsoft and Mozilla...](https://archive.is/iYKcG), [Dell...](https://archive.is/9h315), [Google...](https://archive.is/HnjRl), [Microsoft...](https://archive.is/2RQHc), [Lenovo...](https://archive.is/Fh9TU), [Surveillance firm...](https://archive.is/ysp6m)*
+
+**Do you know it is possible to follow a user behind Tor browser?**  
+*Ex: [Advanced Tor browser fingerprinting](https://archive.is/kENPo), [Browser Fingerprinting](https://archive.is/fw0Bh), [Tor and its discontents](https://archive.is/HYuMo), with CSS ([noscript-tracking.go](https://archive.is/6gNkx), [CrookedStyleSheets](https://archive.is/o2Hw1)), with extension fingerprinting or with a zero-day exploit!...*
+
+**About the "No log" mention of a VPN, do you know the jurisdiction of the country where the VPN server is located has authority over the jurisdiction of the country where the VPN provider is located?**  
+*Ex: Choose a VPN provider from the United Kingdom and connect to a French VPN server. There are no logs in the United Kingdom. Ok, but this is not the problem! The VPN server is in France and there will be logs in France. This is the law. [[FR] Minimal logs lifetime in France: 360 days](https://web.archive.org/web/20200429110751/https://www.argedis.com/wp-content/uploads/2018/06/WS.007-Dure%CC%81e-de-conservation-donne%CC%81es.pdf) (Source: ["Article 3"](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023646013&categorieLien=id)). [[FR] Minimal logs lifetime in Europe: 14 days](https://archive.is/TZ3kn). So be careful when your VPN provider and its VPN server are located in countries from the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes), [Nine Eyes](https://en.wikipedia.org/wiki/Five_Eyes#Nine_Eyes) or [Fourteen Eyes](https://en.wikipedia.org/wiki/Five_Eyes#Fourteen_Eyes).*
+
+**Do you know Linux (like Windows and Mac) devices have a unique identifier?**  
+*Ex: [Linux devices have a unique identifier called machine-id. Here is how to change it.](https://archive.is/0OLMG)*
+
+</details>
+
+### 1. Browser update
+
+The reason for updating to the latest version is security. As security threats are found, they are fixed. Using an old version expose user to a number of security holes and privacy issues. Browsers are far more subject to hacking than other software.
+
+### 2. Browser settings
+
+Adjust all settings and advanced settings in `chrome://settings`:
+* Do not log in with a Google account in the browser *([screenshot](https://i.imgur.com/GFoSBn1.png) • Do not sync your data!)*
+* Do not save passwords in the browser *(Prefer a free and open-source password manager like [Bitwarden](https://en.wikipedia.org/wiki/Bitwarden), [KeePass](https://en.wikipedia.org/wiki/KeePass), [LessPass](https://github.com/lesspass/lesspass) or [Password Safe](https://en.wikipedia.org/wiki/Password_Safe))*
+* Enable the [incognito](https://www.chromium.org/user-experience/incognito) (or private) mode *(Ctrl+Shift+N shortcut • Use a [#flag](#command-line-flags) to start Chromium in this mode)*
+* Disable all options in the "Privacy and security" section *(`chrome://settings/privacy`)* because most of them use an external Google service. *(Ex: "Safe Browsing" option uses [Google Safe Browsing](https://en.wikipedia.org/wiki/Google_Safe_Browsing) • More info about [privacy settings](https://support.google.com/chrome/answer/114836/))*
+* Block third-party cookies *(`chrome://settings/content/cookies`)*
+* Block the [#flash](#flash) plugin *(`chrome://settings/content/flash`)*
+* Do not share your location *(`chrome://settings/content/location`)*
+* Prevent [canvas fingerprinting](https://en.wikipedia.org/wiki/Canvas_fingerprinting) *(Use the `--disable-reading-from-canvas` [#flag](#command-line-flags))*
+
+### 3. Hosts file
+
+Modify your [hosts file](https://en.wikipedia.org/wiki/Hosts_%28file%29) to prevent your OS from connecting to domains who serve ads, spyware and malware. This will increase your OS security and save bandwidth.
+* [Dan Pollock's list](https://someonewhocares.org/hosts/)
+* [MVPS HOSTS](https://winhelp2002.mvps.org/hosts.htm)
+* [Peter Lowe's list](https://pgl.yoyo.org/adservers/)
+* [Malware Domain List](https://www.malwaredomainlist.com/)
+* [Unified hosts file with base extensions](https://github.com/StevenBlack/hosts)
+* [No more ads, tracking and other virtual garbage](https://github.com/notracking/hosts-blocklists)
+
+Note:
+* Few [#extensions](#extensions) like **uBlock Origin Lite** can also use these lists in their settings.
+* Few tools like [Pi-hole](https://en.wikipedia.org/wiki/Pi-hole) and [AdAway](https://en.wikipedia.org/wiki/AdAway) can also use these lists in their settings.
+* Free and open-source auto-updating Hosts managers: [hostsmgr](https://github.com/henrypp/hostsmgr), [HostsFileEditor](https://github.com/scottlerch/HostsFileEditor) *(on Windows)*, [Gas Mask](https://github.com/2ndalpha/gasmask) *(on macOS)*
+
+### 4. DNS services
+
+By default you are using the DNS servers of your ISP but you do not have to stick with them. Before to choose one, [compare DNS performance](https://www.dnsperf.com/#!dns-resolvers). Free [alternative Internet DNS services](https://en.wikipedia.org/wiki/Category:Alternative_Internet_DNS_services) for personal use:
+* [Adguard DNS](https://adguard.com/en/adguard-dns/overview.html)
+* [Cloudflare DNS resolver](https://en.wikipedia.org/wiki/1.1.1.1) *(by [Cloudflare](https://en.wikipedia.org/wiki/Cloudflare#Domain_Name_System_(DNS)) • [1.1.1.1 for Families](https://developers.cloudflare.com/1.1.1.1/1.1.1.1-for-families/))*
+* [Comodo Secure DNS](https://www.comodo.com/secure-dns/) *(by [Comodo](https://en.wikipedia.org/wiki/Comodo_Group))*
+* [DynDNS](https://dyn.com/labs/dyn-internet-guide/) *(by [Dyn](https://en.wikipedia.org/wiki/Dyn_(company)))*
+* [Google Public DNS](https://developers.google.com/speed/public-dns/)
+* [Nextdns](https://www.nextdns.io)
+* [OpenDNS](https://www.opendns.com/) *(by [Cisco](https://en.wikipedia.org/wiki/Cisco_Systems))*
+* [OpenNIC](https://www.opennic.org/)
+* [Quad9 DNS](https://www.quad9.net/)
+* [Yandex.DNS](https://dns.yandex.com/) *(by [Yandex](https://en.wikipedia.org/wiki/Yandex) • [Technical details - IPv4 and IPv6](https://dns.yandex.com/advanced/))*
+
+Note:
+* The [DNS over HTTPS (aka DoH)](https://www.chromium.org/developers/dns-over-https) page on the official Chromium website.
+* You can also use a [DNS over HTTPS](https://en.wikipedia.org/wiki/DNS_over_HTTPS) client *(screenshot of [Firefox 62+](https://i.imgur.com/OjsmrhY.png))*. Check [Publicly available servers](https://github.com/curl/curl/wiki/DNS-over-HTTPS).
+* You can also use a [DNSCrypt](https://en.wikipedia.org/wiki/DNSCrypt) client *(Ex: [Encrypt your DNS traffic with Simple DNSCrypt for Windows](https://www.ghacks.net/2018/02/19/encrypt-your-dns-traffic-with-simplednscrypt-for-windows/))*
+* You can also use your own DNS resolver with [Unbound](https://en.wikipedia.org/wiki/Unbound_(DNS_server)) or other software.
+
+### 5. Web search engines
+
+Note: Few [#dns-services](#dns-services) and [#extensions](#extensions) exist to protect user privacy on search engines.
+
+#### Search engines
+*Search engines index the content of web pages by running an algorithm on a [web crawler](https://en.wikipedia.org/wiki/Web_crawler).*
+* [Baidu](https://en.wikipedia.org/wiki/Baidu)
+* [Bing](https://en.wikipedia.org/wiki/Bing_(search_engine))
+* [Gigablast](https://en.wikipedia.org/wiki/Gigablast)
+* [Google Search](https://en.wikipedia.org/wiki/Google_Search)
+* [Mojeek](https://en.wikipedia.org/wiki/Mojeek)
+* [Yahoo! Search](https://en.wikipedia.org/wiki/Yahoo!_Search)
+* [Yandex Search](https://en.wikipedia.org/wiki/Yandex_Search)
+
+#### Metasearch engine
+*Metasearch engines use another search engine's data to produce its own results from the Internet. [Search engine map](https://www.searchenginemap.com/).*
+* [Disconnect Search](https://search.disconnect.me/) *(by [Disconnect.me](https://en.wikipedia.org/wiki/Disconnect_Mobile) • Uses Bing, Yahoo... results)*
+* [DuckDuckGo](https://en.wikipedia.org/wiki/DuckDuckGo) *(uses its own crawler + [Bing, Yahoo, Yandex, Wikipedia...](https://duck.co/help/results/sources) results, on [Amazon servers](https://www.robtex.com/dns-lookup/duckduckgo.com#records) (AWS) • Review at an [8ch](https://archive.md/LJ0HP) page archive • To search without JS, choose the [html](https://duckduckgo.com/html) or [lite](https://duckduckgo.com/lite) version)*
+* [Ecosia](https://en.wikipedia.org/wiki/Ecosia) *(uses Bing results)*
+* [Fireball](https://en.wikipedia.org/wiki/Fireball_(search_engine)) *(uses Bing results)*
+* [Oscobo](https://www.oscobo.com/)
+* [Private.sh](https://private.sh/) *(by [Private Internet Access](https://en.wikipedia.org/wiki/Private_Internet_Access) • Uses Gigablast results)*
+* [Qwant](https://en.wikipedia.org/wiki/Qwant) *(uses its own crawler but is [partner with Microsoft](https://news.microsoft.com/europe/features/qwant-and-microsoft-announce-an-exclusive-partnership-for-a-unique-internet-research-experience/) for [Bing results, Bing Ads and Microsoft Azure](https://about.qwant.com/legal/privacy/) • Its [lite](https://lite.qwant.com/) version)*
+* [Startpage](https://en.wikipedia.org/wiki/Startpage.com) *(uses [Google](https://www.startpage.com/eng/company-background.html) results • [Owned by System1, an advertising company](https://www.ghacks.net/2019/11/16/startpage-search-owner-changes-raise-serious-questions/))*
+* [Swisscows](https://en.wikipedia.org/wiki/Swisscows) *(uses its own crawler + Bing results with enabled parental filter)*
+* [YaCy](https://en.wikipedia.org/wiki/YaCy) *(A peer-to-peer search engine)*
+
+If you are a web developer, develop your own metasearch engine yourself ^^
+* [Searx](https://asciimoo.github.io/searx/) *(uses many search engines • [Source code](https://github.com/asciimoo/searx) in Python • Author: Adam Tauber, [@Searx_engine](https://twitter.com/Searx_engine) • [Searx instances](https://searx.space/))*
+* [MetaGer](https://en.wikipedia.org/wiki/MetaGer) *(uses Yahoo... results • [Source code](https://gitlab.metager.de/open-source/MetaGer) in PHP)*
+* [Whoogle Search](https://github.com/benbusby/whoogle-search) *(uses Google results • Source code in Python • Author: Ben Busby)*
+* [Googol](https://github.com/broncowdd/googol) *(uses Google results • Source code in PHP • Author: Bronco)*
+
+### 6. Extensions
+
+Note:
+* With the use of extensions, you become more easily identifiable (cf. [Browser fingerprint](https://en.wikipedia.org/wiki/Device_fingerprint), [Server-side tagging](https://developers.google.com/tag-manager/serverside)...)
+* Extensions hosted on the Chrome Web Store are updated via the Chrome update mechanism (cf. [Chromium source code](https://source.chromium.org/chromium/chromium/src/+/master:extensions/common/extension_urls.cc?q=kChromeWebstoreUpdateURL&ss=chromium)) which developers and users do not control. For a manual installation, read the [#external-extension-installation](#external-extension-installation) part.
+* Here, priority to open-source (and non-obfuscated code) extensions for Chromium and Firefox:
+
+#### Block ads, trackers, scripts and popups
+[uBlock Origin, uBlock Origin Lite](https://en.wikipedia.org/wiki/UBlock_Origin)
+* Download: [store (Lite version)](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh), [store](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [amo](https://addons.mozilla.org/firefox/addon/ublock-origin/)
+* Alternatives: [Privacy Badger](https://en.wikipedia.org/wiki/Privacy_Badger), [Adblock Plus](https://en.wikipedia.org/wiki/Adblock_Plus), [AdBlock](https://en.wikipedia.org/wiki/AdBlock), [Disconnect](https://en.wikipedia.org/wiki/Disconnect_Mobile), [Ghostery](https://en.wikipedia.org/wiki/Ghostery), [Adguard AdBlocker](https://adguard.com/en/adguard-browser-extension/overview.html), [Fair AdBlocker](https://chrome.google.com/webstore/detail/fair-adblocker/lgblnfidahcdcjddiepkckcfdhpknnjh), Forget Me Not, NoScript
+* Info: Add filters to your ad-blocker via [FilterLists](https://filterlists.com/) (an [open-source website](https://github.com/collinbarrett/FilterLists))
+* My advice: By default, block third-party scripts and frames (uBlock Origin [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode) • [screenshot](https://i.imgur.com/mDwijrG.png)). Also, about **Adblock Plus** or **AdBlock**, disable "[Acceptable Ads](https://en.wikipedia.org/wiki/Adblock_Plus#Controversy_over_ad_filtering_and_ad_whitelisting)" option ([screenshot](https://i.imgur.com/zUXtnOZ.)
+
+## Malware
+
+Your antivirus has detected a [malicious software](https://en.wikipedia.org/wiki/Malware) in **Chromium** files.
+
+### False positive?
+
+You have downloaded Chromium from a **reliable source** ([#notes](#notes)) and maybe also used open-source [#updaters](#updaters). In this case, it is surely a false positive. The detection is generic (heuristic). There is absolutely no backdoor or other malware inside Chromium. Remember that the full [#source-code](#source-code) is available. You will get a similar result if you compile Chromium yourself.
+
+Note a specific thing about Chromium browser:
+1. Chromium has no [digital signature](https://en.wikipedia.org/wiki/Digital_signature) (unlike Google Chrome). It is not signed because is [open source and not "owned" per se by any one particular developer or organization](https://bugs.chromium.org/p/chromium/issues/detail?id=304454#c4). Moreover, a certificate is not free for developers ([Apple Developer Program](https://developer.apple.com/support/purchase-activation/)).
+2. Antivirus use generic detection and database of malware signatures.
+3. [VirusTotal](https://en.wikipedia.org/wiki/VirusTotal) which aggregates many antivirus is a Google service using its [Trusted Source project to limit false positives](https://www.ghacks.net/2015/02/11/virustotals-trusted-source-project-attempts-to-limit-false-positives/) for software like Google Chrome (because it is digitally signed), not for Chromium.
+4. So, unsigned Chromium + any antivirus or VirusTotal service = More chance to get an antivirus alert.
+
+False positive reports known for few years ago:
+* [False positive - chromium 79](https://community.broadcom.com/symantecenterprise/communities/community-home/digestviewer/viewthread?MessageKey=e65f724a-bbc3-422c-b8a3-cf87720f988f) *(2019 • Broadcom • Archive: [1](https://archive.is/MRzlD))*
+* [Chromium 32bit download has a virus?](https://www.dslreports.com/forum/r31826946-Chromium-32bit-download-has-a-virus) *(2018 • Avast antivirus • Archive: [1](https://web.archive.org/web/20180213112726/http://www.dslreports.com/forum/r31826946-Chromium-32bit-download-has-a-virus))*
+* [IDP.Generic reported for chromium executable](https://forum.avast.com/?topic=215072.0) *(2018 • Avast antivirus • Archive: [1](https://archive.is/QfqWv))*
+* [False positive on Chromium executable](https://forum.avast.com/?topic=187915.0) *(2016 • Avast antivirus • Archive: [1](https://archive.is/e0lBT))*
+* [False positive with Chromium](https://support.pandasecurity.com/forum/viewtopic.php?f=22&t=4931) *(2015 • Panda Internet Security • Archive: [1](https://archive.is/ncVKR))*
+* [False Positive on latest Chromium Nightly?](https://forum.avast.com/?topic=146192.0) *(2014 • Avast antivirus • Archive: [1](https://archive.is/M8Zez))*
+* [AntiVirus detected Malware while syncing using gclient](https://bugs.chromium.org/p/chromium/issues/detail?id=441184) *(2014 • Chromium Issue Tracker • Archive: [1](https://archive.is/Oa39K))*
+* [pepflashplayer.dll tagged as malware and removed by F-Secure](https://bugs.chromium.org/p/chromium/issues/detail?id=128507) *(2012 • Chromium Issue Tracker • Archive: [1](https://archive.is/GS1ap))*
+* [Kaspersky detects Chrome as Trojan](https://bugs.chromium.org/p/chromium/issues/detail?id=32751) *(2010 • Chromium Issue Tracker • Archive: [1](https://archive.is/Pw2kj))*
+* [Avast! Anti-Virus reports Google Chrome as Trojan](https://bugs.chromium.org/p/chromium/issues/detail?id=3227) *(2008 • Chromium Issue Tracker • Archive: [1](https://archive.is/he6Fx))*
+
+### Authentic malware?
+
+Yes. Obviously, it is also possible.
+* The common entry methods for Chromium virus are freeware downloads as bundled software (bundleware) and spam e-mails. It means Chromium has been silently installed via another software. Do not forget Chromium is free and open-source. So malware writers use Chromium to push malicious code on to your system. Remove this "fake" or suspicious Chromium web browser (like BeagleBrowser, BoBrowser, BrowserAir, Chedot, eFast Browser, Fusion Browser, Mustang Browser, MyBrowser, Olcinium Browser, Palikan, Qword Browser, [Torch](https://en.wikipedia.org/wiki/Torch_(browser)), Tortuga Browser...).
+* The other way is about a compromised Chromium repository on a **reliable source** ([#notes](#notes)).
+
+### Free tools to scan your system
+
+Anti-malware:
+* [AdwCleaner](https://toolslib.net/downloads/viewdownload/1-adwcleaner) and [Malwarebytes](https://en.wikipedia.org/wiki/Malwarebytes_Anti-Malware) *(by Malwarebytes)*
+* [Kaspersky Virus Removal Tool](https://support.kaspersky.com/kvrt2020) *(by Kaspersky)*
+* [Kaspersky Rescue Disk](https://support.kaspersky.com/krd18) *(by Kaspersky • Bootable ISO file)*
+* [Emsisoft Emergency Kit](https://www.emsisoft.com/en/home/emergency-kit/) *(by Emsisoft)*
+* [Norton Power Eraser](https://support.norton.com/sp/static/external/tools/npe.html) *(by Symantec)*
+
+Antivirus:  
+*(Independent tests and distinctions: [AV-Test](https://www.av-test.org/en/antivirus/home-windows/), [Virus Bulletin](https://www.virusbulletin.com/), [AV-Comparatives](https://www.av-comparatives.org/testmethod/real-world-protection-tests/), [Gartner](https://www.gartner.com/reviews/market/endpoint-protection-platforms))*
+* Windows Defender *(on Windows 10)*
+* [Avast](https://www.avast.com/en-us/installation-files) *(Prefer the offline installer. Then choose the advanced installation)*
+* [Kaspersky Security Cloud](https://www.kaspersky.com/downloads/thank-you/free-antivirus-download)
+* [Bitdefender](https://www.bitdefender.com/solutions/free.html)
+* [Avira](https://www.avira.com/en/free-antivirus-windows)
+* [ClamAV](https://en.wikipedia.org/wiki/Clam_AntiVirus) and [Immunet](https://en.wikipedia.org/wiki/Immunet) *(Open-source • Developed by Cisco)*
+
+Anti-ransomware:
+* [Avast ransomware decryption tools](https://www.avast.com/ransomware-decryption-tools)
+* [Kaspersky tools](https://support.kaspersky.com/utility)
+* [No More Ransom!](https://www.nomoreransom.org/) *([Decryption tools](https://www.nomoreransom.org/en/decryption-tools.html))*
+
+### Free online services to scan your files
+*(no registration required)*
+* [Jotti](https://virusscan.jotti.org/)
+* [VirusTotal](https://en.wikipedia.org/wiki/VirusTotal) *(by Google • Its [lite](https://www.virustotal.com/old-browsers/) version)*
+* [MetaDefender](https://metadefender.opswat.com/) *(by [OPSWAT](https://web.archive.org/web/20190830032241/https://en.wikipedia.org/wiki/OPSWAT))*
+* [virSCAN](https://www.virscan.org/)
+* [Hybrid Analysis](https://www.hybrid-analysis.com/) *(by Payload Security)*
+
+If you find an issue:
+* Contact your anti-virus or anti-malware support
+* Report it on the official **Chromium** supports. For links, see my [#comment-1](#comment-1) below.
+
+## Chromium updaters
+
+To update **Chromium** automatically.
+
+As always, never install a closed-source software especially if you have never heard it before! [GitHub](https://github.com/search?o=desc&q=Chromium+update&ref=searchresults&s=updated&type=Repositories) and its [Gist](https://gist.github.com/search?q=Chromium+update) service are good places to find good stuff. So, try these free and open-source **Chromium updaters**:
+
+### Updaters on Windows
+
+* For info, in the [#windows](#windows) section, each "Portable" version uses [chrlauncher](https://github.com/henrypp/chrlauncher) which can install, update and launch Chromium automatically. You can change its settings in the `chrlauncher.ini` file.
+* [chrlauncher](https://github.com/henrypp/chrlauncher) *(by Henry++ • 2022 • C • Compatible with all Windows releases of this website)*
+* [Chocolatey](https://community.chocolatey.org/packages/chromium) *(by the Chocolatey team • 2023 • In command-line • Compatible with the Hibbiki's releases and The Chromium authors' releases of this website • [Package core](https://github.com/chocolatey-community/chocolatey-coreteampackages/tree/master/automatic/chromium))*
+* [Scoop](https://github.com/ScoopInstaller/Scoop) *(by the Scoop team • 2023 • In command-line • Compatible with the Hibbiki's releases and the Ungoogled releases of this website)*
+* [ungoogled-updater](https://github.com/NeverDecaf/ungoogled-updater) *(by NeverDecaf • 2023 • Python • Compatible with the Ungoogled releases of this website)*
+* [ChromiumForWindows](https://github.com/iklevente/ChromiumForWindows) *(by Ilyó Kovács Levente • 2022 • C# • Compatible with all Windows releases of this website)*
+* [Simple Chromium Updater (chrupd.cmd)](https://github.com/mkorthof/chrupd) *(by mkorthof • 2023 • Batchfile • Compatible with all Windows releases of this website)*
+* [ChromiumUpdathe](https://github.com/xPucTu4/ChromiumUpdathe) *(by Hristo Bogdanov • 2021 • C#)*
+* [chromium for windows installer](https://github.com/Lusito/chromium-windows) *(by Lusito • 2020 • Javascript)*
+* [cr-updater](https://github.com/pwlin/cr-updater) *(by pwlin • 2018 • Batchfile, PHP)*
+* [Chromium_Updater](https://github.com/Programming4life/chromium_updater) *(by Programming4life • 2018 • Rust)*
+* [ChrUpdWin.cmd](https://gist.github.com/mikhaelkh/12dec36d4a1c4136628b) *(by Michael Kharitonov • 2018 • Batchfile)*
+* [A web installer for Chromium](https://www.reddit.com/r/browsers/comments/4md8sd/so_i_made_a_web_installer_for_chromium/) *(by LonelyCannibal • 2017 • AutoIt • Archive: [ZIP](f/chromium-installer-by-LonelyCannibal.zip))*
+* [Chromium Downloader](https://github.com/stsy/ChromiumDownloader) *(by stsy • 2016 • C#)*
+
+### Updaters on macOS
+
+* [Homebrew Tap for the Marmaduke Chromium builds](https://github.com/mtslzr/homebrew-marmaduke-chromium) *(by Charl P. Botha, then Matthew Salazar • 2023 • Ruby • Compatible with all Marmaduke releases of this website)*
+* [chromiumUpdater.js](https://gist.github.com/TayIorRobinson/d757e4952cdfde69122672241386dc10) *(by TayIorRobinson • 2021 • NodeJS • Compatible with the stable Chromium version of Marmaduke)*
+* [chromium-updater-mac](https://github.com/wangxufire/chromium-updater-mac) *(by wangxufire • 2018 • Python)*
+* [chromium-downloader-script](https://github.com/mloporchio/chromium-downloader-script) *(by Matteo Loporchio • 2017 • Shell)*
+* [chromium-downloader](https://github.com/mloporchio/chromium-downloader) *(by Matteo Loporchio • 2017 • C)*
+* [update_chromium_osx](https://github.com/k9ordon/update_chromium_osx) *(by Klemens Gordon • 2016 • Shell)*
+* [chromium-on-mac](https://github.com/nicolargo/chromium-on-mac/) *(by NicoLargo • 2015 • Shell)*
+
+### Discontinued updaters
+
+* ~~[Chromium Update Notifications](https://github.com/kkkrist/chromium-notifier)~~ *(by Christian Mund • 2022 • Compatible with all releases of this website • Archive: [CRX](f/kkkrist-chromium-notifier-2.0.0.crx))*
+* ~~[Chromium Auto Updater [Root]](https://github.com/adolfintel/chromiumUpdater)~~ *(by Federico Dossena • 2019 • Java)*
+* ~~[Chromium Updater](https://github.com/cgand/chromium-updater)~~ *(by the FreeSMUG team • 2018 • [Chrome Web Store](https://chrome.google.com/webstore/detail/freesmug-updater-for-chro/ccgjmadhdidfloacagcnnodbkedkjedg) • Archive: [ZIP](f/freesmug-chromium-updater-0.1.1.5.zip))*
+* ~~[getChromium](https://github.com/andDevW/getChromium)~~ *(by Andrew Wright • 2018 • Java)*
+* ~~[Chromium Updater (crupdater)](https://sourceforge.net/projects/crupdater/)~~ *(by Muhammer Ayes aka Zychopat • 2016 • Batchfile, AutoIt)*
+* ~~[chromium-nightly-updater](https://github.com/vikrant82/chromium-nightly-updater)~~ *(by Vikrant Chaudhary • 2016 • Java)*
+* ~~[Chromium updater script for OS X](https://github.com/grosskur/chromium-updater)~~ *(by Alan Grosskurth • 2016 • Shell)*
+* ~~[Chromium-Download-Manager](https://github.com/xinhugo/Chromium-Download-Manager)~~ *(by xinhugo • 2015 • Batchfile)*
+* ~~[chromium-update](https://github.com/wwalexander/chromium-update)~~ *(by William Alexander • 2015 • PowerShell)*
+* ~~[Chromium Upgrader for Mac OS X](https://github.com/mozamimy/chromium-updater)~~ *(by mozamimy • 2015 • Shell)*
+* ~~[Chromium Updater](https://github.com/GameScripting/ChromiumUpdater)~~ *(by Daniel Huhn • 2014 • Javascript)*
+* ~~[Chromatic](https://mrgeckosmedia.com/applications/info/chromatic)~~ *(by Mr Gecko • 2014 • App • [Source code](https://github.com/GRMrGecko/Chromatic))*
+* ~~[extension.chromium-updater](https://github.com/Hallbin/extension.chromium-updater)~~ *(by Jackson Tan aka Hallbin • 2014 • Javascript, CSS)*
+* ~~[Chromium-updater](https://autoit.de/thread/18902-chromium-updater/)~~ *(by Das Schwert • 2010 • AutoIt)*
+* ~~[chromium updater.py](https://gist.github.com/asenchi/128477)~~ *(by Curt Micol aka asenchi • 2009 • Python)*
+
+Thanks a lot for all developers!  
+I do not support these tools. Please, contact the developers for thanks, issue, help...
