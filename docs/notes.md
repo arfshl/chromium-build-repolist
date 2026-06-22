@@ -439,3 +439,203 @@ More info on site archives:
 * [chromium::archive.is](https://archive.is/rCWnE) *(Friday, 17 Jul 2015)*
 
 </details>
+
+## HTML5 audio/video
+
+By default, [Chromium does not support proprietary codecs](https://www.chromium.org/audio-video) (AAC, H.264/MP4) in the [HTML &lt;audio&gt; and &lt;video&gt; elements](https://developer.mozilla.org/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content). Check HTML5 audio/video support at [https://tools.woolyss.com/html5-audio-video-tester/](https://tools.woolyss.com/html5-audio-video-tester/)
+
+<details>
+<summary><b>How to use Chromium with all audio/video codecs?</b></summary>
+<br>
+
+Few ways:
+* On Windows and Mac, use builds with `all-codecs` or `all-codecs+`.
+* Or compile Chromium from `#source-code` with proprietary codecs, yourself.
+* Or install an older version having the **ffmpegsumo** file (Ex: [333350](https://storage.googleapis.com/chromium-browser-continuous/index.html?prefix=Win_x64/333350/), 333334, 333283, 333258...).
+* Or choose other `#browsers`.
+* On Linux, you can use Chromium with proprietary codecs (ex: FFmpeg under Ubuntu).
+
+Before June 4, 2015, we used an alternative with the Google Chrome **ffmpegsumo** file and our **Patch HTML5 Media** extension. More info on site archives:
+* [chromium::wayback.machine](https://web.archive.org/web/20150608153250/http://chromium.woolyss.com/#html5-audio-video) *(Monday, 8 Jun 2015)*
+* [chromium::archive.is](https://archive.is/Eqvjz) *(Friday, 5 Jun 2015)*
+
+</details>
+
+<details>
+<summary><b>Note about the H.265/HEVC video codec</b></summary>
+<br>
+
+Chromium does (and will) not natively support the [H.265/HEVC](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding) codec ([official source](https://bugs.chromium.org/p/chromium/issues/detail?id=684382#c1)).
+* The license of H.265/HEVC is non-free. It is currently mainly supported by Apple ([Support of H.265/HEVC in web browsers](https://caniuse.com/#feat=hevc)).
+* The Chromium team prefers to focus on the open-source [AV1](https://en.wikipedia.org/wiki/AV1) codec. This one is supported by major companies ([Alliance for Open Media](https://en.wikipedia.org/wiki/Alliance_for_Open_Media)) like Google, Microsoft, Intel, Samsung... ([Support of AV1 in web browsers](https://caniuse.com/#feat=av1)).
+
+</details>
+
+If there is a video issue, disable **hardware acceleration** (see [#browser-crash](#browser-crash)).
+
+## Advanced
+
+### 1. Internal pages
+
+To access to all internal pages, use `chrome://about`. Copy and paste this special URL directly into the address bar (omnibox). Obviously, this special URL works only in **Chromium** and Google Chrome. Note: About configuration settings, there is nothing similar to Firefox's `about:config` in Chromium.
+
+Few internal pages:
+* `chrome://components` *(Show and update info about available components like Widevine...)*
+* `chrome://conflicts` *(List all modules loaded into the browser)*
+* `chrome://credits` *(View all licensing info • Similar to this [online page](f/credits.html))*
+* `chrome://flags` *(View all experimental features • You can set each feature)*
+* `chrome://gpu` *(Show info about GPU)*
+* `chrome://net-export` *(Get all networking related info)*
+* `chrome://omnibox` *(Test and follow responses of the searches via the omnibox/address bar)*
+* `chrome://policy` *(Manage Chromium, for administrators • [Policy list](https://chromeenterprise.google/policies/))*
+* `chrome://predictors` *(List autocomplete action predictors and resource prefetch predictors based on user recent search and browsing history)*
+* `chrome://quota-internals` *(Show info about disk space and storage usage)*
+* `chrome://settings/content/all` *(List the number of cookies each site has set)*
+* `chrome://sync-internals` *(Show info about the Chromium sync feature)*
+* `chrome://translate-internals` *(View all supported internal languages)*
+* `chrome://version` *(Show details of Chromium version)*
+
+<details>
+<summary><b>About browser plugins</b></summary>
+<br>
+
+Since version 57, the `chrome://plugins` page no longer exists ([official source](https://bugs.chromium.org/p/chromium/issues/detail?id=615738)).
+
+Info:
+* **Manage PDF viewer and Flash plugins:** `chrome://settings/content`
+* **Update components (like Widevine):** `chrome://components`
+
+</details>
+
+### 2. Keyboard shortcuts
+
+To use keyboard shortcuts (on Windows, Mac and Linux), check this full [list of official shortcuts](https://support.google.com/chrome/answer/157179)... and [this one](https://developer.chrome.com/docs/devtools/shortcuts/) if you are developer. Most of the shortcuts are similar to IE, Firefox or any other browser.
+
+### 3. Command-line flags
+
+There are command-line flags (or "switches") that **Chromium** accept in order to enable particular features or modify otherwise default functionality. Note flags often contain experimental or obsolete code, so they tend not to stick around for long.
+* [Run Chromium with flags](https://www.chromium.org/developers/how-tos/run-chromium-with-flags)
+* [List of Chromium command-line switches](https://peter.sh/experiments/chromium-command-line-switches/) *(Auto-updated list provided by Peter Beverloo)*
+
+<details>
+<summary><b>How to start Chromium directly in <a href="https://www.chromium.org/user-experience/incognito">incognito</a> (or private) mode, on Windows?</b></summary>
+<br>
+
+Add the `--incognito` flag at the end of the Chromium shortcut and restart the browser ([screenshot](https://i.imgur.com/EAnDuji.jpg)).
+
+<pre><code>"C:\{...}\Chromium\Application\chrome.exe" --incognito</code></pre>
+
+</details>
+
+### 4. User data directory
+
+About your profile (history, bookmarks...), it is important to know [where is stored your user data](https://chromium.googlesource.com/chromium/src/+/master/docs/user_data_dir.md).
+
+<details>
+<summary><b>How to change the user data directory?</b></summary>
+<br>
+
+Add the `--user-data-dir` flag at the end of the Chromium shortcut and restart the browser ([screenshot](https://i.imgur.com/EAnDuji.jpg)).
+
+<pre><code>"C:\{...}\Chromium\Application\chrome.exe" --user-data-dir=..\my-profile-path</code></pre>
+
+</details>
+
+### 5. External extension installation
+
+<details>
+<summary><b>How to install an external browser add-on?</b></summary>
+<br>
+
+*If you wish to install extensions directly instead of just downloading the **.crx** source file, you must:*
+1. Change the flag `chrome://flags/#extension-mime-request-handling` to **"Always prompt for install"**.
+2. Click on the link of the **.crx** file you want to install.
+
+Download the **.crx** source file of any extension directly from the Chrome Web Store via [Get CRX](https://chrome.google.com/webstore/detail/get-crx/dijpllakibenlejkbajahncialkbdkjc) or via a site like [Chrome Extension Downloader](https://chrome-extension-downloader.com/), [CRX Extractor](https://crxextractor.com/), or [Crx4Chrome](https://www.crx4chrome.com/). *(For info, you can see the source code before downloading the extension using [CRX Viewer](https://github.com/Rob--W/crxviewer))*
+
+1. Go to `chrome://extensions`
+2. Drag and drop the **.crx** file on `chrome://extensions`
+
+**If it does not work...**
+1. Add the `--enable-easy-off-store-extension-install` flag at the end of the Chromium shortcut and restart the browser ([screenshot](https://i.imgur.com/XwEtvnH.png)).
+2. Go to `chrome://extensions`
+3. Drag and drop the **.crx** file on `chrome://extensions`
+
+**If it still does not work...**
+1. Unzip the **.crx** file.
+2. Go to `chrome://extensions`
+3. Drag and drop the unzipped folder on the page... or click on **Developer mode** (Toggle in top right) then **Load unpacked extension...** ([screenshot](https://i.imgur.com/nNkj7Kx.png)).
+
+**About updates:**
+* You have to update manually.
+* You can update when you want! ^^
+* If ever a new version sucks, just re-install the previous one.
+
+</details>
+
+### 6. Source code
+
+Before all, check the official [guide for developers](https://www.chromium.org/developers).
+
+Official links to easily get or see the full **Chromium** source code:
+* [Google Git chromium/src](https://chromium.googlesource.com/chromium/src/)
+* [The official GitHub mirror of the Chromium source](https://github.com/chromium/chromium)
+* [Chromium Code Search](https://source.chromium.org/) or [chromium/src](https://source.chromium.org/chromium/chromium/src) *(Old pages: [Code search](https://cs.chromium.org/) or [chromium/src/](https://cs.chromium.org/chromium/src/))*
+* - [Source tarballs](https://storage.googleapis.com/chromium-browser-official/?marker=chromium-149) and its [mirror](https://gsdview.appspot.com/chromium-browser-official/?marker=chromium-149) *("-lite" is for building desktop Chromium)*.
+  - Also, there is the official [Github mirror](https://github.com/chromium/chromium/releases).
+* Chromium source code of the latest stable version: [chromium-149.0.7827.155.tar.xz](https://storage.googleapis.com/chromium-browser-official/chromium-149.0.7827.155.tar.xz) *([mirror](https://gsdview.appspot.com/chromium-browser-official/chromium-149.0.7827.155.tar.xz) • [File checksums](https://storage.googleapis.com/chromium-browser-official/chromium-149.0.7827.155.tar.xz.hashes))*
+* ~~[ViewVC](https://src.chromium.org/viewvc/chrome/)~~ *(Obsolete since the version 39.0.2132.2, on August 2014)*
+
+Interesting info:
+* \[video\] [Building Chromium from source](https://www.youtube.com/watch?v=jeRKirsUq4k) *(by Aphrx • 2021 • [mirror](f/video-building-chromium-from-source-2021.mp4))*
+* [Building ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium/blob/master/docs/building.md) *(by Eloston • 2020)*
+* [How to build chromium on Windows](https://github.com/intel/webml-polyfill/wiki/How-to-build-chromium-on-Windows) *(by Intel • 2019)*
+* [How to build chromium on macOS](https://github.com/intel/webml-polyfill/wiki/How-to-build-chromium-on-macOS) *(by Intel • 2019)*
+* [How to build chromium for Android](https://github.com/intel/webml-polyfill/wiki/How-to-build-chromium-for-Android) *(by Intel • 2019)*
+* [How to build chromium for Linux](https://github.com/intel/webml-polyfill/wiki/How-to-build-chromium-on-Linux) *(by Intel • 2019)*
+* [Building Chromium on Windows from source](https://sinclairinat0r.com/2019/04/29/building-chromium-on-windows-from-source) *(by Jeremy Sinclair • 2019 • Archive: [1](https://archive.is/YWO5h))*
+* [How to compile Chromium with audio/video codecs for Windows](https://github.com/henrypp/chromium) *(by Nik • 2018 • Archive: [ZIP](f/chromium-master-by-nik.zip))*
+* [How to build Chromium with proprietary codecs (OS X)](https://gitlab.com/noencoding/OS-X-Chromium-with-proprietary-codecs/-/wikis/home) *(by No encoding • 2018 • Archive: [1](https://archive.is/Gu4gf))*
+* [Bash script to build and install latest stable Chromium from source on OS X](https://github.com/the-bobo/easychromium) *(by Bobo • 2017 • Archive: [ZIP](f/easychromium-master.zip))*
+* [[UA] Компіляція браузера Chromium для Ubuntu (x265, HEVC)](https://lexxai.blogspot.com/2016/09/chromium-ubuntu-x265-hevc.html) *(by D.Bilous • 2016 • Archive: [1](https://archive.is/8v0JJ))*
+* ~~[How to compile Chromium for Mac](https://archive.is/fOEFU)~~ *(by sbagmeijer • 2015 • Original site is down!)*
+* ~~[Contributing to Chromium: an illustrated guide](https://meowni.ca/posts/chromium-101/)~~ *(2015 • Archives: [1](https://archive.is/dSoL5) or [PDF](f/PDF-contributing-to-chromium.pdf))*
+
+### 7. Older version
+
+Never update your browser with a very old version. It even does not start.
+
+To downgrade Chromium installed with the **Installer** (.exe):
+1. Open Chromium and check its actual version at `chrome://version`
+2. Close Chromium.
+3. Uninstall Chromium WITHOUT to delete your [#user-data-directory](#user-data-directory). It is an option of its uninstaller. *([screenshot](https://i.imgur.com/0ZTntYw.png))*
+4. Get the **Installer** (.exe) of an older version *(from the [→ download/](https://chromium.woolyss.com/download/) page or [Snapshots repository](https://storage.googleapis.com/chromium-browser-snapshots/index.html) about "official" builds)*
+5. Execute it to install Chromium.
+6. Open Chromium and check the new installed version at `chrome://version`
+
+### 8. Browser crash
+
+You have encountered a browser crash or issue :/
+
+Few ways to help you:
+* To disable hardware acceleration: `chrome://flags/#disable-accelerated-video-decode` or `chrome://settings` → [Advanced] → System
+* To disable/enable a browser feature: `chrome://flags`
+* To check for conflicting software: `chrome://conflicts`
+* To disable extensions/add-ons: `chrome://extensions`
+
+Also you can use [#command-line-flags](#command-line-flags): `--disable-gpu`, `--disable-accelerated-video-decode`...
+
+### 9. Browser benchmark
+
+To test performances of the browser, do different benchmarks.  
+Except as otherwise noted, for the result, **a higher number is better**.
+
+Free websites without registration:
+* [ARES-6](https://browserbench.org/ARES-6/) *(Various tests using the newest web standards and features)*
+* [Basemark](https://web.basemark.com/) *(Various tests using the newest web standards and features)*
+* [JetStream](https://browserbench.org/JetStream/) *(JavaScript benchmark developed by Apple)*
+* [Kraken](https://mozilla.github.io/krakenbenchmark.mozilla.org/) *(JavaScript benchmark developed by Mozilla • Result: **A lower number is better**)*
+* [MotionMark](https://browserbench.org/MotionMark/) *(Graphics benchmark developed by the WebKit team)*
+* [Octane](https://chromium.github.io/octane/) *(JavaScript benchmark developed by Google)*
+* [Speedometer](https://browserbench.org/Speedometer/) *(Performance benchmark that repeats the same actions using DOM APIs)*
+* [WebXPRT](https://www.principledtechnologies.com/benchmarkxprt/webxprt/) *(HTML5 and JavaScript test developed by benchmark maker Principled Technologies)*
