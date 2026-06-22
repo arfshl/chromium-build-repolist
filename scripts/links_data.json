@@ -38,7 +38,7 @@
     "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650118/chrome-win.zip",
     "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650118/mini_installer.exe",
     "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1650125/chrome-mac.zip",
-    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650123/chrome-mac.zip",
-    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1650113/chrome-android.zip"
+    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650125/chrome-mac.zip",
+    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1650123/chrome-android.zip"
   }
 }
