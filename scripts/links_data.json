@@ -35,10 +35,10 @@
   "google": {
     "Win_x64_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650099/chrome-win.zip",
     "Win_x64_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650099/mini_installer.exe",
-    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650096/chrome-win.zip",
-    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650096/mini_installer.exe",
-    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1650109/chrome-mac.zip",
-    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650109/chrome-mac.zip",
-    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1650104/chrome-android.zip"
+    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650104/chrome-win.zip",
+    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650104/mini_installer.exe",
+    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1650110/chrome-mac.zip",
+    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650110/chrome-mac.zip",
+    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1650109/chrome-android.zip"
   }
 }
