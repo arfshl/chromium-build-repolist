@@ -937,7 +937,103 @@ Note:
 * Download: [store (Lite version)](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh), [store](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), [amo](https://addons.mozilla.org/firefox/addon/ublock-origin/)
 * Alternatives: [Privacy Badger](https://en.wikipedia.org/wiki/Privacy_Badger), [Adblock Plus](https://en.wikipedia.org/wiki/Adblock_Plus), [AdBlock](https://en.wikipedia.org/wiki/AdBlock), [Disconnect](https://en.wikipedia.org/wiki/Disconnect_Mobile), [Ghostery](https://en.wikipedia.org/wiki/Ghostery), [Adguard AdBlocker](https://adguard.com/en/adguard-browser-extension/overview.html), [Fair AdBlocker](https://chrome.google.com/webstore/detail/fair-adblocker/lgblnfidahcdcjddiepkckcfdhpknnjh), Forget Me Not, NoScript
 * Info: Add filters to your ad-blocker via [FilterLists](https://filterlists.com/) (an [open-source website](https://github.com/collinbarrett/FilterLists))
-* My advice: By default, block third-party scripts and frames (uBlock Origin [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode) • [screenshot](https://i.imgur.com/mDwijrG.png)). Also, about **Adblock Plus** or **AdBlock**, disable "[Acceptable Ads](https://en.wikipedia.org/wiki/Adblock_Plus#Controversy_over_ad_filtering_and_ad_whitelisting)" option ([screenshot](https://i.imgur.com/zUXtnOZ.)
+* My advice: By default, block third-party scripts and frames (uBlock Origin [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode) • [screenshot](https://i.imgur.com/mDwijrG.png)). Also, about **Adblock Plus** or **AdBlock**, disable "[Acceptable Ads](https://en.wikipedia.org/wiki/Adblock_Plus#Controversy_over_ad_filtering_and_ad_whitelisting)" option ([screenshot](https://i.imgur.com/zUXtnOZ.png)).
+
+#### Stop link redirection in Google, DuckDuckGo and Yandex search pages
+[Don't track me Google](https://github.com/Rob--W/dont-track-me-google)
+* Download: [store](https://chrome.google.com/webstore/detail/dont-track-me-google/gdbofhhdmcladcmmfjolgndfkpobecpg), [amo](https://addons.mozilla.org/fr/firefox/addon/dont-track-me-google1/)
+* Alternatives: [Redirect Blocker](https://chrome.google.com/webstore/detail/redirect-blocker/kjkidapfdhbcllgoaoobklapepffmcca), Redirect Bypasser
+
+#### Clean URLs to remove tracking elements from URLs
+[ClearURLs](https://gitlab.com/KevinRoebert/ClearUrls)
+* Download: [store](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk), [amo](https://addons.mozilla.org/fr/firefox/addon/clearurls/)
+* Alternatives: [Neat-URL](https://github.com/Smile4ever/Neat-URL)
+
+#### Control the HTTP Referer on a per-site basis
+[Referer Control](https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin)
+* Download: [store](https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin), [amo](https://addons.mozilla.org/firefox/addon/referercontrol/)
+* Alternatives: Smart Referer, [Web Developer](https://en.wikipedia.org/wiki/Web_Developer_%28software%29)
+* Info on [wikipedia](https://en.wikipedia.org/wiki/HTTP_referer)
+
+#### Prevent canvas fingerprint
+[Canvas Blocker (Fingerprint protect)](https://add0n.com/canvas-fingerprint-blocker.html)
+* Download: [store](https://chrome.google.com/webstore/detail/canvas-blocker-fingerprin/nomnklagbgmgghhjidfhnoelnjfndfpd), [amo](https://addons.mozilla.org/fr/firefox/addon/canvas-blocker-no-fingerprint/)
+* Alternatives: Canvas Defender, Canvas Fingerprint Defender
+* Info on [wikipedia](https://en.wikipedia.org/wiki/Canvas_fingerprinting), [browserleaks](https://browserleaks.com/canvas), [ghacks](https://www.ghacks.net/2017/07/17/canvas-defender-canvas-fingerprinting-protection/)
+
+#### Emule locally CDN
+[Decentraleyes](https://git.synz.io/Synzvato/decentraleyes)
+* Download: [store](https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj), [amo](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/)
+* Alternatives: [LocalCDN](https://codeberg.org/nobody/LocalCDN)
+* Info on [wikipedia](https://en.wikipedia.org/wiki/Content_delivery_network), [decentraleyes test page](https://decentraleyes.org/test/), [localcdn test page](https://www.localcdn.org/test/check)
+
+#### Prevent WebRTC IP leak
+[WebRTC Leak Shield](https://chrome.google.com/webstore/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl)
+* Download: [store](https://chrome.google.com/webstore/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl), [amo](https://addons.mozilla.org/fr/firefox/addon/webrtc-leak-shield/)
+* Alternatives: [WebRTC Control](https://chrome.google.com/webstore/detail/webrtc-control/fjkmabmdepjfammlpliljpnbhleegehm), ~~WebRTC Network Limiter~~, ~~WebRTC Leak Prevent~~
+* Info: An extension can only block the [leak of your IP address](https://en.wikipedia.org/wiki/WebRTC#Concerns). It does not block WebRTC in the "core" of Chromium. **uBlock Origin** can protect against the WebRTC IP leak. You can do some [#tests](#tests).
+
+#### Prevent CSS Exfil attack
+[CSS Exfil Protection](https://github.com/mlgualtieri/CSS-Exfil-Protection)
+* Download: [store](https://chrome.google.com/webstore/detail/css-exfil-protection/ibeemfhcbbikonfajhamlkdgedmekifo), [amo](https://addons.mozilla.org/firefox/addon/css-exfil-protection/)
+* Info on [BleepingComputer](https://www.bleepingcomputer.com/news/security/css-code-can-be-abused-to-collect-sensitive-user-data/), [Github](https://github.com/jbtronics/CrookedStyleSheets) and [mike-gualtieri.com](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense)
+
+#### Unblock websites with a browser VPN/proxy
+[Browsec](https://browsec.com/)
+* Download: [store](https://chrome.google.com/webstore/detail/browsec-vpn-free-and-unli/omghfjlpggmjjaagoclmmobgdodcjboh), [amo](https://addons.mozilla.org/firefox/addon/browsec/)
+* Alternatives: [anonymoX](https://chrome.google.com/webstore/detail/anonymox/icpklikeghomkemdellmmkoifgfbakio), [HidemanVPN](https://chrome.google.com/webstore/detail/hideman-vpn/dbdbnchagbkhknegmhgikkleoogjcfge), [TunnelloVPN](https://chrome.google.com/webstore/detail/tunnello-vpn-unblock-ultr/hoapmlpnmpaehilehggglehfdlnoegck), [TouchVPN](https://chrome.google.com/webstore/detail/free-proxy-to-unblock-any/bihmplhobchoageeokmgbdihknkjbknd), [Hotspot Shield](https://chrome.google.com/webstore/detail/hotspot-shield-vpn-free-p/nlbejmccbhkncgokjcmghpfloaajcffj)
+* My advice: Prefer to pay for a safe and secure VPN provider protecting your whole OS; or use a free VPN service without registration. Do not use Hola!, ZenMate or Betternet in their free version. [Hola!](https://en.wikipedia.org/wiki/Hola_(VPN)) is a botnet. [Betternet](https://thebestvpn.com/reviews/betternet/) shares/sells user data to third-parties. In its free version, ZenMate needs a registration.
+
+#### Display sites quality
+[WOT (Web of Trust)](https://en.wikipedia.org/wiki/WOT_Services)
+* Download: [store](https://chrome.google.com/webstore/detail/wot-web-of-trust-website/bhmmomiinigofkjcapegjjndpbikblnp), [amo](https://addons.mozilla.org/firefox/addon/wot-safe-browsing-tool/)
+* Alternatives: [DuckDuckGo Privacy Essentials](https://github.com/duckduckgo/duckduckgo-privacy-extension), [Terms of Service; Didn’t Read](https://github.com/tosdr/browser-extensions)
+* My advice for the WOT addon: Do not share your data. (WOT settings → Real-time protection → Set to off)
+
+### 7. Tools
+
+* [Firewall](https://en.wikipedia.org/wiki/Personal_firewall)
+* [Freenet](https://en.wikipedia.org/wiki/Freenet)
+* [I2P](https://en.wikipedia.org/wiki/I2P) *(Invisible Internet Project)*
+* [Proxy](https://en.wikipedia.org/wiki/Proxy_server)
+* [VPN](https://en.wikipedia.org/wiki/Virtual_private_network) *(Virtual private network)*
+* [Tor](https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29) *(Anonymity network)*
+
+### 8. Guides
+
+* [Technical analysis of client identification mechanisms](https://www.chromium.org/Home/chromium-security/client-identification-mechanisms) *(Chromium)*
+* [Privacy tools](https://www.privacytools.io/) *(2021 • [Source code](https://github.com/privacytoolsIO/privacytools.io))*
+* [PRISM break](https://prism-break.org/) *(2021 • [Source code](https://gitlab.com/prism-break/prism-break))*
+* [Privacy Respecting](https://github.com/nikitavoloboev/privacy-respecting) *(2021)*
+* [[FR] Google Tag Manager (Server-Side Tagging), la nouvelle arme anti adblock?](https://www.pixeldetracking.com/fr/google-tag-manager-server-side-tagging)  
+  *(2020 • Google Tag Manager (Server-Side Tagging), the new anti-adblock weapon: [[Translated EN] HTML](f/HTML-Google-Tag-Manager-the-new-anti-adblock-weapon.html), [[Translated EN] PDF](f/PDF-Google-Tag-Manager-the-new-anti-adblock-weapon.pdf))*
+* [Web browser privacy: What do browsers say when they phone home?](https://www.scss.tcd.ie/Doug.Leith/publications.php?PME_sys_qf2=Web%20Browser%20Privacy) *(2020 • Archive: [PDF](f/PDF-browser-privacy.pdf))*
+* [Who left open the cookie jar?](https://wholeftopenthecookiejar.com/) *(2018 • Archives: [1](https://web.archive.org/web/20181220113547/https://wholeftopenthecookiejar.eu/), [PDF](f/PDF-who-left-open-the-cookie-jar.pdf))*
+* [Online tracking: A 1-million-site measurement and analysis](https://webtransparency.cs.princeton.edu/webcensus/) *(2017 • Archive: [PDF](f/PDF-OpenWPM-1-million-site-tracking-measurement.pdf))*
+* [Are VPN providers more trustworthy than your ISP?](https://www.skadligkod.se/general-security/are-vpn-providers-more-trustworthy-than-your-isp/) *(2017 • Archive: [1](https://archive.is/VZcBd))*
+* [Don't use VPN services](https://gist.github.com/joepie91/5a9909939e6ce7d09e29) *(2015 • Archive: [1](https://archive.is/FRJyA))*
+* [Category: Internet privacy](https://en.wikipedia.org/wiki/Category:Internet_privacy) *(Wikipedia)*
+* [Chromium privacy](https://www.chromium.org/Home/chromium-privacy)
+
+### 9. Tests
+
+Reputable and reliable sites to show or prevent user data tracking:
+* [Am I Unique](https://amiunique.org/) *(Device fingerprinting)*
+* [AudioContext fingerprint test page](https://audiofingerprint.openwpm.com/)
+* [Browser Leaks](https://browserleaks.com/) *(WebRTC IP leak, System fonts, HTML5 Canvas fingerprinting...)*
+* [BrowserSpy](https://browserspy.dk/) *(It shows how much information can be retrieved from web browser)*
+* [Browsing experience security check](https://www.cloudflare.com/ssl/encrypted-sni/) *(Secure DNS, DNSSEC, TLS 1.3, Encrypted SNI)*
+* [Device Info](https://www.deviceinfo.me) *(Web browser security/privacy testing)*
+* [VPN & Torrent IP Leak Test](https://www.top10vpn.com/do-i-leak/) *(IP, DNS and WebRTC leaks)*
+* [DNS leak test](https://www.dnsleaktest.com/)
+* [EFF Cover Your Track](https://coveryourtracks.eff.org/) *(Device fingerprinting)*
+* [Evercookie](https://github.com/samyk/evercookie) *(Persistent cookies)*
+* [IP Leak](https://ipleak.net/) *(IP, DNS and WebRTC leaks)*
+* [IP Leak privacy test](https://ipleak.com/full-report/) *(IP address, DNS, WebRTC...)*
+* [Permission.site](https://github.com/chromium/permission.site) *(To test the interaction of web APIs and browser permissions)*
+* [TorZillaPrint](https://github.com/arkenfox/TZP) *(Advanced scripts for Firefox and Tor browsers • [Test site](https://arkenfox.github.io/TZP/), [Mirror](https://tools.woolyss.com/tpz/index.html))*
+* [Toolz](https://github.com/d3ward/toolz) *(Ad Block Test • [Test site](https://d3ward.github.io/toolz/adblock))*
+* [Webpage tracking only using CSS (and no JS)](https://github.com/jbtronics/CrookedStyleSheets/)
 
 ## Malware
 
