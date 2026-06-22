@@ -7,9 +7,9 @@ require 'fileutils'
 # __dir__ is "scripts/api-scripts"
 DATA_FILE = File.expand_path(File.join(__dir__, '..', 'links_data.json'))
 
-# Target output: api/win64-stable-ungoogle-codecs
+# Target output: api/win64-stable-ungoogled-codecs
 OUTPUT_DIR = File.expand_path(File.join(__dir__, '..', '..', 'api'))
-OUTPUT_FILE = File.join(OUTPUT_DIR, 'win64-stable-ungoogle-codecs')
+OUTPUT_FILE = File.join(OUTPUT_DIR, 'win64-stable-ungoogled-codecs')
 
 # Ensure the target 'api' directory exists
 FileUtils.mkdir_p(OUTPUT_DIR)
