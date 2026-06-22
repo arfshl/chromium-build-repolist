@@ -73,7 +73,7 @@ The free and open-source project behind Google Chrome
 
 #### [API (for developers)](docs/notes.md#api)
 
-</details>>
+</details>
 
 #### [Links](docs/notes.md#links)
 
@@ -102,7 +102,7 @@ The free and open-source project behind Google Chrome
 
 #### [Tests](docs/notes.md#9-tests)
 
-</details>>
+</details>
 
 #### [Malware](docs/notes.md#malware)
 
@@ -215,7 +215,7 @@ For help, version 34 works fine on older CPU processors.
 
 - ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-avx512.zip) • [Archive](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx512/chrome.zip) • [Installer](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx512/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx512-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650240/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650240/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650216/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650216/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
 
 #### Chromium for 32-bit Windows
@@ -330,7 +330,7 @@ For older macOS (10.7+), you can use the [Chromium-legacy](https://github.com/bl
 
 #### Chromium for 64-bit macOS on Arm
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650268/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650260/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
 #### Chromium for 32-bit macOS
 Since version 39, Chromium and Google Chrome [are not available in 32-bit version for macOS.](https://workspaceupdates.googleblog.com/2014/09/google-chrome-64-bit-for-mac-and-windows.html)
