@@ -149,14 +149,15 @@ github_repos.each do |repo|
     # 0. UNGOOGLED-CHROMIUM-WINDOWS (MULTIPLATEFORM & UNGOOGLED)
     # ==========================================
     when 'ungoogled-software/ungoogled-chromium-windows'
-      archive_win64   = assets.find { |a| a['name'].end_with?('installer_x64.exe') }
-      installer_win64 = assets.find { |a| a['name'].end_with?('x64.zip') }
+      
+      installer_win64   = assets.find { |a| a['name'].end_with?('installer_x64.exe') }
+      archive_win64  = assets.find { |a| a['name'].end_with?('x64.zip') }
 
-      archive_win32   = assets.find { |a| a['name'].end_with?('installer_x86.exe') }
-      installer_win32 = assets.find { |a| a['name'].end_with?('x86.zip') }
+      installer_win32 = assets.find { |a| a['name'].end_with?('installer_x86.exe') }
+      archive_win32 = assets.find { |a| a['name'].end_with?('x86.zip') }
 
-      archive_winarm   = assets.find { |a| a['name'].end_with?('installer_arm64.exe') }
-      installer_winarm = assets.find { |a| a['name'].end_with?('arm64.zip') }
+      installer_winarm = assets.find { |a| a['name'].end_with?('installer_arm64.exe') }
+      archive_winarm = assets.find { |a| a['name'].end_with?('arm64.zip') }
 
       current_data['github']['eloston_win64_archive']   = archive_win64 ? archive_win64['browser_download_url'] : "https://github.com/#{repo}"
       current_data['github']['eloston_win64_installer'] = installer_win64 ? installer_win64['browser_download_url'] : "https://github.com/#{repo}"
