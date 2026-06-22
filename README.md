@@ -27,9 +27,7 @@ The free and open-source project behind Google Chrome
 
 </details>
 
-
 #### [Notes](docs/notes.md)
-
 
 <details>
 
@@ -55,21 +53,21 @@ The free and open-source project behind Google Chrome
 <summary><b>Advanced</b></summary>
 <br>
 
-#### [Internal pages](docs/notes.md#internal-pages)
+#### [Internal pages](docs/notes.md#1-internal-pages)
 
-#### [Keyboard shortcuts](docs/notes.md#keyboard-shortcuts)
+#### [Keyboard shortcuts](docs/notes.md#2-keyboard-shortcuts)
 
-#### [Command-line flags](docs/notes.md#command-line-flags)
+#### [Command-line flags](docs/notes.md#3-command-line-flags)
 
-#### [User data directory](docs/notes.md#user-data-directory)
+#### [User data directory](docs/notes.md#4-user-data-directory)
 
-#### [External extension installation](docs/notes.md#external-extension-installation)
+#### [External extension installation](docs/notes.md#5-external-extension-installation)
 
-#### [Source code](docs/notes.md#source-code)
+#### [Source code](docs/notes.md#6-source-code)
 
-#### [Older version](docs/notes.md#older-version)
+#### [Older version](docs/notes.md#7-older-version)
 
-#### [Browser crash](docs/notes.md#browser-crash)
+#### [Browser crash](docs/notes.md#8-browser-crash)
 
 #### [Browser benchmark](docs/notes.md#browser-benchmark)
 
@@ -77,37 +75,34 @@ The free and open-source project behind Google Chrome
 
 </details>>
 
-
 #### [Links](docs/notes.md#links)
 
 #### [Browsers](docs/notes.md#browsers)
-
 
 <details>
 
 <summary><b>Privacy</b></summary>
 <br>
 
-#### [Browser update](docs/notes.md#browser-update)
+#### [Browser update](docs/notes.md#1-browser-update)
 
-#### [Browser settings](docs/notes.md#browser-settings)
+#### [Browser settings](docs/notes.md#2-browser-settings)
 
-#### [Hosts file](docs/notes.md#hosts-file)
+#### [Hosts file](docs/notes.md#3-hosts-file)
 
-#### [DNS services](docs/notes.md#dns-services)
+#### [DNS services](docs/notes.md#4-dns-services)
 
-#### [Web search engines](docs/notes.md#web-search-engines)
+#### [Web search engines](docs/notes.md#5-web-search-engines)
 
-#### [Extensions](docs/notes.md#extensions)
+#### [Extensions](docs/notes.md#6-extensions)
 
-#### [Tools](docs/notes.md#tools)
+#### [Tools](docs/notes.md#7-tools)
 
-#### [Guides](docs/notes.md#guides)
+#### [Guides](docs/notes.md#8-guides)
 
-#### [Tests](docs/notes.md#tests)
+#### [Tests](docs/notes.md#9-tests)
 
 </details>>
-
 
 #### [Malware](docs/notes.md#malware)
 
@@ -220,7 +215,7 @@ For help, version 34 works fine on older CPU processors.
 
 - ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-avx512.zip) • [Archive](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx512/chrome.zip) • [Installer](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx512/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx512-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650216/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650216/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650240/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650240/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
 
 #### Chromium for 32-bit Windows
@@ -231,7 +226,7 @@ For help, version 34 works fine on older CPU processors.
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-stable-ungoogled-codecs.zip) • [Archive](https://github.com/macchrome/winchrome/releases/download/v109.5414.120-M109.0.5414.120-r1070088-Win64/ungoogled-chromium-109.0.5414.130-1_Win32.7z) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650214/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650214/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650241/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650241/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
 
 #### Chromium for 64-bit Windows on ARM
@@ -335,7 +330,7 @@ For older macOS (10.7+), you can use the [Chromium-legacy](https://github.com/bl
 
 #### Chromium for 64-bit macOS on Arm
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650260/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650268/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
 #### Chromium for 32-bit macOS
 Since version 39, Chromium and Google Chrome [are not available in 32-bit version for macOS.](https://workspaceupdates.googleblog.com/2014/09/google-chrome-64-bit-for-mac-and-windows.html)
