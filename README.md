@@ -50,6 +50,7 @@ The free and open-source project behind Google Chrome
 
 </details>
 
+<details>
 
 <summary><b>Advanced</b></summary>
 <br>
@@ -81,8 +82,8 @@ The free and open-source project behind Google Chrome
 
 #### [Browsers](docs/notes.md#browsers)
 
-</details>
 
+<details>
 
 <summary><b>Privacy</b></summary>
 <br>
@@ -219,7 +220,7 @@ For help, version 34 works fine on older CPU processors.
 
 - ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-avx512.zip) • [Archive](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx512/chrome.zip) • [Installer](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx512/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx512-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650240/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650240/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650216/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650216/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
 
 #### Chromium for 32-bit Windows
@@ -230,7 +231,7 @@ For help, version 34 works fine on older CPU processors.
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-stable-ungoogled-codecs.zip) • [Archive](https://github.com/macchrome/winchrome/releases/download/v109.5414.120-M109.0.5414.120-r1070088-Win64/ungoogled-chromium-109.0.5414.130-1_Win32.7z) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650241/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650241/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650214/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650214/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
 
 #### Chromium for 64-bit Windows on ARM
