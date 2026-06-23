@@ -35,10 +35,10 @@
   "google": {
     "Win_x64_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650741/chrome-win.zip",
     "Win_x64_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650741/mini_installer.exe",
-    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650722/chrome-win.zip",
-    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650722/mini_installer.exe",
+    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650743/chrome-win.zip",
+    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650743/mini_installer.exe",
     "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1650758/chrome-mac.zip",
-    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650757/chrome-mac.zip",
+    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650751/chrome-mac.zip",
     "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1650747/chrome-android.zip"
   }
 }

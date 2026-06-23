@@ -167,7 +167,7 @@ Chromium-based browser who provide experience like Vanilla Chromium are also ava
 
 [Supermium for Windows XP/Vista/7/8/8.1](https://win32subsystem.live/supermium/?legacy=true)
 
-[Thorium for Windows 7/8/8.1](https://thorium.rocks/win7/)
+[Thorium for Windows 7/8/8.1](https://thorium.rocks/win7)
 
 [Thorium for Windows XP/Vista](https://thorium.rocks/winxp/)
 
@@ -226,7 +226,7 @@ For help, version 34 works fine on older CPU processors.
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-stable-ungoogled-codecs.zip) • [Archive](https://github.com/macchrome/winchrome/releases/download/v109.5414.120-M109.0.5414.120-r1070088-Win64/ungoogled-chromium-109.0.5414.130-1_Win32.7z) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650722/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650722/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650743/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win/1650743/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
 
 #### Chromium for 64-bit Windows on ARM
@@ -330,7 +330,7 @@ For older macOS (10.7+), you can use the [Chromium-legacy](https://github.com/bl
 
 #### Chromium for 64-bit macOS on Arm
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650757/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650751/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
 #### Chromium for 32-bit macOS
 Since version 39, Chromium and Google Chrome [are not available in 32-bit version for macOS.](https://workspaceupdates.googleblog.com/2014/09/google-chrome-64-bit-for-mac-and-windows.html)
