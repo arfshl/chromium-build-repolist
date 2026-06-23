@@ -37,8 +37,18 @@
     "Win_x64_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1650741/mini_installer.exe",
     "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650743/chrome-win.zip",
     "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1650743/mini_installer.exe",
-    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1650764/chrome-mac.zip",
-    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650766/chrome-mac.zip",
-    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1650755/chrome-android.zip"
+    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1650775/chrome-mac.zip",
+    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1650779/chrome-mac.zip",
+    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1650768/chrome-android.zip"
+  },
+  "thorium": {
+    "thorium_win64_archive_avx2": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_138.0.7204.303.zip",
+    "thorium_win64_installer_avx2": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_mini_installer.exe",
+    "thorium_win64_archive_avx": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX_138.0.7204.303.zip",
+    "thorium_win64_installer_avx": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX_mini_installer.exe",
+    "thorium_win64_archive_sse3": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE3_138.0.7204.303.zip",
+    "thorium_win64_installer_sse3": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE3_mini_installer.exe",
+    "thorium_win64_archive_sse4": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE4_138.0.7204.303.zip",
+    "thorium_win64_installer_sse4": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE4_mini_installer.exe"
   }
 }
