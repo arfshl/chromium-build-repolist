@@ -1,4 +1,4 @@
-name: Generate README
+name: Generate README and API
 
 on:
   workflow_dispatch: 
@@ -35,6 +35,7 @@ jobs:
       run: |
         ruby scripts/fetch_github.rb
         ruby scripts/fetch_google.rb
+        ruby scripts/fetch_thorium.rb
         ruby scripts/generate_readme.rb
         ruby scripts/chrlauncher-api-scripts/win32-dev-official.rb
         ruby scripts/chrlauncher-api-scripts/win32-stable-ungoogled.rb
@@ -45,6 +46,7 @@ jobs:
         ruby scripts/chrlauncher-api-scripts/win64-stable-codecs-sync.rb
         ruby scripts/chrlauncher-api-scripts/win64-stable-ungoogled.rb
         ruby scripts/chrlauncher-api-scripts/win64-stable-ungoogled-codecs.rb
+        ruby scripts/chrlauncher-api-scripts/win64-thorium.rb
     - name: Commit and push changes
       run: |
         TIMESTAMP=$(date -u +"%Y%m%d %H:%M UTC")
