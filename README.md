@@ -339,12 +339,12 @@ For older macOS (10.7+), you can use the [Chromium-legacy](https://github.com/bl
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://github.com/macchrome/macstable/releases/download/v146.7680.143-M146.0.7680.143-r1582197-macOS/Chromium.app.ungoogled-146.0.7680.143.tar.xz) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1652890/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1652886/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
 
 #### Chromium for 64-bit macOS on Arm
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1652889/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1652886/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
 #### Chromium for 32-bit macOS
 Since version 39, Chromium and Google Chrome [are not available in 32-bit version for macOS.](https://workspaceupdates.googleblog.com/2014/09/google-chrome-64-bit-for-mac-and-windows.html)
