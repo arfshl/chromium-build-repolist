@@ -33,13 +33,13 @@
     "eloston_arm64_appimage": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.196-1/ungoogled-chromium-149.0.7827.196-1-arm64.AppImage"
   },
   "google": {
-    "Win_x64_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1652945/chrome-win.zip",
-    "Win_x64_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1652945/mini_installer.exe",
-    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1652950/chrome-win.zip",
-    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1652950/mini_installer.exe",
-    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1652994/chrome-mac.zip",
-    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1652999/chrome-mac.zip",
-    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1652982/chrome-android.zip"
+    "Win_x64_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1653011/chrome-win.zip",
+    "Win_x64_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1653011/mini_installer.exe",
+    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1652993/chrome-win.zip",
+    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1652993/mini_installer.exe",
+    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1653045/chrome-mac.zip",
+    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1653042/chrome-mac.zip",
+    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1653030/chrome-android.zip"
   },
   "thorium": {
     "thorium_win64_archive_avx2": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_138.0.7204.303.zip",
