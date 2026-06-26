@@ -221,6 +221,9 @@ For help, version 34 works fine on older CPU processors.
 
 - 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1652872/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1652872/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
+#### Thorium for 64-bit Windows
+Thorium [can used with chrlauncher](https://raw.githubusercontent.com/arfshl/chromium-build-repolist/main/assets/thorium-chrlauncher.png) for updater and it's also portable 
+
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-thorium-avx.zip) • [Archive](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX_138.0.7204.303.zip) • [Installer](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-thorium-avx2.zip) • [Archive](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_138.0.7204.303.zip) • [Installer](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
@@ -336,7 +339,7 @@ For older macOS (10.7+), you can use the [Chromium-legacy](https://github.com/bl
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://github.com/macchrome/macstable/releases/download/v146.7680.143-M146.0.7680.143-r1582197-macOS/Chromium.app.ungoogled-146.0.7680.143.tar.xz) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1652886/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1652890/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
 
 #### Chromium for 64-bit macOS on Arm
