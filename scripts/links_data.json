@@ -6,8 +6,8 @@
     "hibbiki_win32_installer": "https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/mini_installer.sync.exe",
     "marmaduke_win64_archive": "https://github.com/macchrome/winchrome/releases/download/v150.7871.56-M150.0.7871.56-r1639810-Win64/ungoogled-chromium-150.0.7871.56-1_Win64.7z",
     "marmaduke_win64_installer": "https://github.com/macchrome/winchrome/releases/download/v150.7871.56-M150.0.7871.56-r1639810-Win64/150.0.7871.56_ungoogled_mini_installer.exe",
-    "marmaduke_linux_archive": "https://github.com/macchrome/linchrome/releases/download/v146.7680.143-M146.0.7680.143-r1582197-portable-ungoogled-Lin64/ungoogled-chromium_146.0.7680.143_1.vaapi_linux.tar.xz",
-    "marmaduke_mac_intel": "https://github.com/macchrome/macstable/releases/download/v146.7680.143-M146.0.7680.143-r1582197-macOS/Chromium.app.ungoogled-146.0.7680.143.tar.xz",
+    "marmaduke_linux_archive": "https://github.com/macchrome/linchrome/releases/download/v150.7871.55-M150.0.7871.55-r1639810-portable-ungoogled-Lin64/ungoogled-chromium_150.0.7871.55_1.vaapi_linux.tar.xz",
+    "marmaduke_mac_intel": "https://github.com/macchrome/macstable/releases/download/v150.7871.55-M150.0.7871.55-r1639810-macOS/Chromium.app.ungoogled-150.0.7871.55.tar.xz",
     "marmaduke_android_arm64": "https://github.com/macchrome/droidchrome/releases/download/v148.7778.210-M148.0.7778.210-r1610480-Ungoogled-And64/arm64_ChromePublic_HEVC-148.0.7778.210.apk",
     "robrich_win64_installer_avx": "https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx/mini_installer.exe",
     "robrich_win64_installer_avx2": "https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx2/mini_installer.exe",
@@ -33,13 +33,13 @@
     "eloston_arm64_appimage": "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-arm64.AppImage"
   },
   "google": {
-    "Win_x64_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1653769/chrome-win.zip",
-    "Win_x64_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1653769/mini_installer.exe",
-    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1653773/chrome-win.zip",
-    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1653773/mini_installer.exe",
-    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1653781/chrome-mac.zip",
-    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1653781/chrome-mac.zip",
-    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1653777/chrome-android.zip"
+    "Win_x64_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1653780/chrome-win.zip",
+    "Win_x64_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1653780/mini_installer.exe",
+    "Win_archive": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1653783/chrome-win.zip",
+    "Win_installer": "https://storage.googleapis.com/chromium-browser-snapshots/Win/1653783/mini_installer.exe",
+    "Mac": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/1653788/chrome-mac.zip",
+    "Mac_Arm": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1653789/chrome-mac.zip",
+    "Android": "https://storage.googleapis.com/chromium-browser-snapshots/Android/1653785/chrome-android.zip"
   },
   "thorium": {
     "thorium_win64_archive_avx2": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_138.0.7204.303.zip",
