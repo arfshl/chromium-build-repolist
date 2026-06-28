@@ -1,3 +1,5 @@
+#### Script for generating all of these update string [can be found here](https://github.com/arfshl/chromium-build-repolist/tree/main/scripts/chrlauncher-api-scripts)
+
 #### New update URLs for chrlauncher
 
 1. Open your chrlauncher folder, open `chrlauncher.ini` file with notepad
