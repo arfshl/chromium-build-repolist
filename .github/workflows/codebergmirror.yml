@@ -4,7 +4,7 @@ on:
   workflow_dispatch: 
   workflow_run:
     workflows:
-      - "Generate README"
+      - "Generate README and API"
     types:
       - completed
 jobs:
