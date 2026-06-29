@@ -1,19 +1,21 @@
 # This script is licensed under GPLv3
 
-
 require 'net/http'
 require 'json'
 require 'uri'
 
-# Lokasi file database links_data.json di folder yang sama
+# Database filepath relative to this script
 DATA_FILE = File.join(__dir__, 'links_data.json')
 
+# Google Chromium storage platform keys mapped to bucket codes
 google_platforms = {
-  'Win_x64' => 'Win_x64',
-  'Win'     => 'Win',
-  'Mac'     => 'Mac',
-  'Mac_Arm' => 'Mac_Arm',
-  'Android' => 'Android'
+  'Win_x64'   => 'Win_x64',
+  'Win'       => 'Win',
+  'Mac'       => 'Mac',
+  'Mac_Arm'   => 'Mac_Arm',
+  'Android'   => 'Android',
+  'Linux_x64' => 'Linux_x64',
+  'Linux'     => 'Linux'
 }
 
 current_data = if File.exist?(DATA_FILE)
@@ -32,10 +34,9 @@ google_platforms.each do |key, platform_code|
   if response.code == '200'
     last_revision = response.body.strip
     
-    # Kondisi percabangan berdasarkan tipe Platform OS
     case platform_code
     when 'Win_x64', 'Win'
-      # Khusus Windows (32-bit & 64-bit): Buat dua link (Archive Portabel & Mini Installer EXE)
+      # Windows platforms get separate entries for ZIP archives and EXE installers
       archive_url   = "https://storage.googleapis.com/chromium-browser-snapshots/#{platform_code}/#{last_revision}/chrome-win.zip"
       installer_url = "https://storage.googleapis.com/chromium-browser-snapshots/#{platform_code}/#{last_revision}/mini_installer.exe"
       
@@ -45,21 +46,22 @@ google_platforms.each do |key, platform_code|
       puts "Loaded Google Direct Link (Windows): #{key}_archive -> #{archive_url}"
       puts "Loaded Google Direct Link (Windows): #{key}_installer -> #{installer_url}"
 
-    when 'Mac'
-      current_data['google'][key] = "https://storage.googleapis.com/chromium-browser-snapshots/Mac/#{last_revision}/chrome-mac.zip"
-      puts "Loaded Google Direct Link: #{key} -> #{current_data['google'][key]}"
+    when 'Linux_x64', 'Linux'
+      # Linux platforms store binaries inside chrome-linux.zip
+      current_data['google'][key] = "https://storage.googleapis.com/chromium-browser-snapshots/#{platform_code}/#{last_revision}/chrome-linux.zip"
+      puts "Loaded Google Direct Link (Linux): #{key} -> #{current_data['google'][key]}"
 
-    when 'Mac_Arm'
-      current_data['google'][key] = "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/#{last_revision}/chrome-mac.zip"
-      puts "Loaded Google Direct Link: #{key} -> #{current_data['google'][key]}"
+    when 'Mac', 'Mac_Arm'
+      current_data['google'][key] = "https://storage.googleapis.com/chromium-browser-snapshots/#{platform_code}/#{last_revision}/chrome-mac.zip"
+      puts "Loaded Google Direct Link (Mac): #{key} -> #{current_data['google'][key]}"
 
     when 'Android'
       current_data['google'][key] = "https://storage.googleapis.com/chromium-browser-snapshots/Android/#{last_revision}/chrome-android.zip"
-      puts "Loaded Google Direct Link: #{key} -> #{current_data['google'][key]}"
+      puts "Loaded Google Direct Link (Android): #{key} -> #{current_data['google'][key]}"
     end
 
   else
-    # Jika gagal fetch API Google, buat fallback link index static agar tidak kosong/nil
+    # Fallback to static web index storage layout if API resolution fails
     if platform_code == 'Win_x64' || platform_code == 'Win'
       current_data['google']["#{key}_archive"]   ||= "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=#{platform_code}/"
       current_data['google']["#{key}_installer"] ||= "https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=#{platform_code}/"
@@ -70,6 +72,6 @@ google_platforms.each do |key, platform_code|
   end
 end
 
-# Tulis kembali seluruh data dengan format JSON yang rapi
+# Save merged dataset back to JSON database with clean indentation
 File.write(DATA_FILE, JSON.pretty_generate(current_data))
-puts "Successfully saved Google links to scripts/links_data.json"
+puts "Successfully saved Google links to links_data.json"
