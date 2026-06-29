@@ -14,6 +14,9 @@ google_platforms = {
   'Mac'       => 'Mac',
   'Mac_Arm'   => 'Mac_Arm',
   'Android'   => 'Android',
+  'Android_Arm64' => 'Android_Arm64',
+  'AndroidDesktop_x64' => 'AndroidDesktop_x64',
+  'AndroidDesktop_arm64' => 'AndroidDesktop_arm64',
   'Linux_x64' => 'Linux_x64',
   'Linux'     => 'Linux'
 }
@@ -56,8 +59,20 @@ google_platforms.each do |key, platform_code|
       puts "Loaded Google Direct Link (Mac): #{key} -> #{current_data['google'][key]}"
 
     when 'Android'
-      current_data['google'][key] = "https://storage.googleapis.com/chromium-browser-snapshots/Android/#{last_revision}/chrome-android.zip"
+      current_data['google'][key] = "https://storage.googleapis.com/chromium-browser-snapshots/#{platform_code}/#{last_revision}/chrome-android.zip"
       puts "Loaded Google Direct Link (Android): #{key} -> #{current_data['google'][key]}"
+
+    when 'Android_Arm64'
+      current_data['google'][key] = "https://storage.googleapis.com/chromium-browser-snapshots/#{platform_code}/#{last_revision}/chrome-android.zip"
+      puts "Loaded Google Direct Link (Android_Arm64): #{key} -> #{current_data['google'][key]}"
+
+    when 'AndroidDesktop_x64'
+      current_data['google'][key] = "https://storage.googleapis.com/chromium-browser-snapshots/#{platform_code}/#{last_revision}/chrome-android-desktop.zip"
+      puts "Loaded Google Direct Link (AndroidDesktop_x64): #{key} -> #{current_data['google'][key]}"
+
+    when 'AndroidDesktop_arm64'
+      current_data['google'][key] = "https://storage.googleapis.com/chromium-browser-snapshots/#{platform_code}/#{last_revision}/chrome-android-desktop.zip"
+      puts "Loaded Google Direct Link (AndroidDesktop_arm64): #{key} -> #{current_data['google'][key]}"
     end
 
   else
