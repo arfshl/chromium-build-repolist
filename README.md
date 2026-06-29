@@ -354,12 +354,12 @@ For older macOS (10.7+), you can use the [Chromium-legacy](https://github.com/bl
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://github.com/macchrome/macstable/releases/download/v150.7871.55-M150.0.7871.55-r1639810-macOS/Chromium.app.ungoogled-150.0.7871.55.tar.xz) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1654052/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1654058/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
 
 #### Chromium for 64-bit macOS on Arm
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1654053/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1654049/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
 #### Chromium for 32-bit macOS
 Since version 39, Chromium and Google Chrome [are not available in 32-bit version for macOS.](https://workspaceupdates.googleblog.com/2014/09/google-chrome-64-bit-for-mac-and-windows.html)
@@ -397,17 +397,17 @@ For more info, check a [list of software package management systems](https://en.
 
 - ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Packages .rpm](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-rpm-avx/chromium-browser-unstable-151.0.7874.0-1.x86_64.rpm) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/1654028/chrome-linux.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/1654047/chrome-linux.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
 #### Chromium for 32-bit Linux
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Linux/382086/chrome-linux.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/linux32-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Linux/382086/chrome-linux.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/linux32-%235b6367)
 
 #### Chromium for ARM64 Linux
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable AppImage](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-arm64.AppImage) • [Portable Archive](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-arm64_linux.tar.xz) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux--arm64-%235b6367)
 
-#### Chromium on distro repository
+#### Chromium on distro repository (supported architecture is depending on your distro)
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> Arch Linux ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
@@ -632,7 +632,13 @@ For more info, check a [list of software package management systems](https://en.
 
 - 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Packages .apk](https://github.com/macchrome/droidchrome/releases/download/v148.7778.210-M148.0.7778.210-r1610480-Ungoogled-And64/arm64_ChromePublic_HEVC-148.0.7778.210.apk) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/android64-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Android/1654044/chrome-android.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android32-%235b6367)
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Android/1654044/chrome-android.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android-%235b6367)
+
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Android_Arm64/1654032/chrome-android.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android--arm64-%235b6367)
+
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/AndroidDesktop_x64/1654039/chrome-android-desktop.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android--desktop--x64-%235b6367)
+
+- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=AndroidDesktop_Arm64/) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android--desktop--arm64-%235b6367)
 
 
 # iOS
