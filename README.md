@@ -1,4 +1,4 @@
-# ![assets/logo.png) Chromium
+# ![Logo](https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_64.png) Chromium
 
 The free and open-source project behind Google Chrome
 
@@ -205,55 +205,55 @@ For help, version 34 works fine on older CPU processors.
 
 #### Chromium for 64-bit Windows
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-stable-codecs-sync.zip) • [Archive](https://github.com/Hibbiki/chromium-win64/releases/download/v149.0.7827.201-r1625079/chrome.7z) • [Installer](https://github.com/Hibbiki/chromium-win64/releases/download/v149.0.7827.201-r1625079/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-stable-codecs-sync.zip) • [Archive](https://github.com/Hibbiki/chromium-win64/releases/download/v149.0.7827.201-r1625079/chrome.7z) • [Installer](https://github.com/Hibbiki/chromium-win64/releases/download/v149.0.7827.201-r1625079/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-stable-ungoogled.zip) • [Archive](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_windows_x64.zip) • [Installer](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_installer_x64.exe) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-stable-ungoogled.zip) • [Archive](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_windows_x64.zip) • [Installer](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_installer_x64.exe) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-stable-ungoogled-codecs.zip) • [Archive](https://github.com/macchrome/winchrome/releases/download/v150.7871.56-M150.0.7871.56-r1639810-Win64/ungoogled-chromium-150.0.7871.56-1_Win64.7z) • [Installer](https://github.com/macchrome/winchrome/releases/download/v150.7871.56-M150.0.7871.56-r1639810-Win64/150.0.7871.56_ungoogled_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-stable-ungoogled-codecs.zip) • [Archive](https://github.com/macchrome/winchrome/releases/download/v150.7871.56-M150.0.7871.56-r1639810-Win64/ungoogled-chromium-150.0.7871.56-1_Win64.7z) • [Installer](https://github.com/macchrome/winchrome/releases/download/v150.7871.56-M150.0.7871.56-r1639810-Win64/150.0.7871.56_ungoogled_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-avx.zip) • [Archive](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx/chrome.zip) • [Installer](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- ⚫ <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-avx.zip) • [Archive](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx/chrome.zip) • [Installer](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-avx2.zip) • [Archive](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx2/chrome.zip) • [Installer](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx2/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- ⚫ <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-avx2.zip) • [Archive](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx2/chrome.zip) • [Installer](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx2/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-avx512.zip) • [Archive](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx512/chrome.zip) • [Installer](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx512/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx512-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- ⚫ <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-avx512.zip) • [Archive](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx512/chrome.zip) • [Installer](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-win64-avx512/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx512-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1654033/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1654033/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1654000/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1654000/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
 #### Thorium for 64-bit Windows
 Thorium [can used with chrlauncher](https://raw.githubusercontent.com/arfshl/chromium-build-repolist/main/assets/thorium-chrlauncher.png) for updater and it's also portable 
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-thorium-avx.zip) • [Archive](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX_138.0.7204.303.zip) • [Installer](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-thorium-avx.zip) • [Archive](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX_138.0.7204.303.zip) • [Installer](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-thorium-avx2.zip) • [Archive](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_138.0.7204.303.zip) • [Installer](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-thorium-avx2.zip) • [Archive](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_138.0.7204.303.zip) • [Installer](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-thorium-sse3.zip) • [Archive](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE3_138.0.7204.303.zip) • [Installer](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE3_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/sse3-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-thorium-sse3.zip) • [Archive](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE3_138.0.7204.303.zip) • [Installer](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE3_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/sse3-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-thorium-sse4.zip) • [Archive](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE4_138.0.7204.303.zip) • [Installer](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE4_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/sse4-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win64-thorium-sse4.zip) • [Archive](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE4_138.0.7204.303.zip) • [Installer](https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE4_mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/sse4-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
 #### Chromium for 32-bit Windows
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-stable-codecs-sync.zip) • [Archive](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/chrome.sync.7z) • [Installer](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/mini_installer.sync.exe) ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-stable-codecs-sync.zip) • [Archive](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/chrome.sync.7z) • [Installer](https://github.com/Hibbiki/chromium-win32/releases/download/v109.0.5414.120-r1070088/mini_installer.sync.exe) ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-stable-ungoogled.zip) • [Archive](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_windows_x86.zip) • [Installer](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_installer_x86.exe) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-stable-ungoogled.zip) • [Archive](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_windows_x86.zip) • [Installer](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_installer_x86.exe) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-stable-ungoogled-codecs.zip) • [Archive](https://github.com/macchrome/winchrome/releases/download/v109.5414.120-M109.0.5414.120-r1070088-Win64/ungoogled-chromium-109.0.5414.130-1_Win32.7z) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-stable-ungoogled-codecs.zip) • [Archive](https://github.com/macchrome/winchrome/releases/download/v109.5414.120-M109.0.5414.120-r1070088-Win64/ungoogled-chromium-109.0.5414.130-1_Win32.7z) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win/1653997/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win/1653997/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable](https://github.com/arfshl/chrlauncher-bin/archive/refs/heads/win32-dev-official.zip) • [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Win/1654030/chrome-win.zip) • [Installer](https://storage.googleapis.com/chromium-browser-snapshots/Win/1654030/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/win32-%235b6367)
 
 
 #### Chromium for 64-bit Windows on ARM
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/stable/download/v120.0.6099.199-r1668-winarm64/chrome.zip) • [Installer](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/stable/download/v120.0.6099.199-r1668-winarm64/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Arm-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/signed-%23877105) ![Static Badge](https://img.shields.io/badge/win64--arm-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/stable/download/v120.0.6099.199-r1668-winarm64/chrome.zip) • [Installer](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/stable/download/v120.0.6099.199-r1668-winarm64/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Arm-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/signed-%23877105) ![Static Badge](https://img.shields.io/badge/win64--arm-%235b6367)
 
-- ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/beta/download/v115.0.5790.40-r979-winarm64/chrome.zip) • [Installer](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/beta/download/v115.0.5790.40-r979-winarm64/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Arm-036b96) ![Static Badge](https://img.shields.io/badge/signed-%23877105) ![Static Badge](https://img.shields.io/badge/win64--arm-%235b6367)
+- ⚫ <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/beta/download/v115.0.5790.40-r979-winarm64/chrome.zip) • [Installer](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/beta/download/v115.0.5790.40-r979-winarm64/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Arm-036b96) ![Static Badge](https://img.shields.io/badge/signed-%23877105) ![Static Badge](https://img.shields.io/badge/win64--arm-%235b6367)
 
-- 🟡 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/canary/download/v122.0.6231.0-r1243752-winarm64/chrome.zip) • [Installer](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/canary/download/v122.0.6231.0-r1243752-winarm64/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Arm-036b96) ![Static Badge](https://img.shields.io/badge/signed-%23877105) ![Static Badge](https://img.shields.io/badge/win64--arm-%235b6367)
+- 🟡 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/canary/download/v122.0.6231.0-r1243752-winarm64/chrome.zip) • [Installer](https://s3armawstosg-2.s3-us-west-2.amazonaws.com/canary/download/v122.0.6231.0-r1243752-winarm64/mini_installer.exe) ![Static Badge](https://img.shields.io/badge/Arm-036b96) ![Static Badge](https://img.shields.io/badge/signed-%23877105) ![Static Badge](https://img.shields.io/badge/win64--arm-%235b6367)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_windows_arm64.zip) • [Installer](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_installer_arm64.exe) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/win64--arm-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_windows_arm64.zip) • [Installer](https://github.com/ungoogled-software/ungoogled-chromium-windows/releases/download/149.0.7827.200-1.1/ungoogled-chromium_149.0.7827.200-1.1_installer_arm64.exe) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/win64--arm-%235b6367)
 
 #### Chromium on winget package manager
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Hibiki builds ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Hibiki builds ![Static Badge](https://img.shields.io/badge/Hibbiki-036b96) ![Static Badge](https://img.shields.io/badge/sync-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
    <details>
 
@@ -266,7 +266,7 @@ Thorium [can used with chrlauncher](https://raw.githubusercontent.com/arfshl/chr
     
     </details>
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> RobRich999 Chromium_Clang builds ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/avx512-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> RobRich999 Chromium_Clang builds ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/avx512-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
    <details>
 
@@ -281,7 +281,7 @@ Thorium [can used with chrlauncher](https://raw.githubusercontent.com/arfshl/chr
     
     </details>
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> ungoogled-chromium builds ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/win-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> ungoogled-chromium builds ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/win-%235b6367)
 
    <details>
 
@@ -296,7 +296,7 @@ Thorium [can used with chrlauncher](https://raw.githubusercontent.com/arfshl/chr
 
 #### Thorium on winget package manager
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/sse3-731995) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> ![Static Badge](https://img.shields.io/badge/Thorium-036b96) ![Static Badge](https://img.shields.io/badge/Alex313031-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/sse3-731995) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/win64-%235b6367)
 
    <details>
 
@@ -350,14 +350,14 @@ For older macOS (10.7+), you can use the [Chromium-legacy](https://github.com/bl
 
 ####  Chromium for 64-bit macOS on Intel
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://github.com/macchrome/macstable/releases/download/v150.7871.55-M150.0.7871.55-r1639810-macOS/Chromium.app.ungoogled-150.0.7871.55.tar.xz) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://github.com/macchrome/macstable/releases/download/v150.7871.55-M150.0.7871.55-r1639810-macOS/Chromium.app.ungoogled-150.0.7871.55.tar.xz) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1654072/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1654072/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
 
 #### Chromium for 64-bit macOS on Arm
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1654049/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1654072/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac--arm-%235b6367)
 
 #### Chromium for 32-bit macOS
 Since version 39, Chromium and Google Chrome [are not available in 32-bit version for macOS.](https://workspaceupdates.googleblog.com/2014/09/google-chrome-64-bit-for-mac-and-windows.html)
@@ -381,33 +381,33 @@ For more info, check a [list of software package management systems](https://en.
 
 #### Chromium for 64-bit Linux
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://github.com/macchrome/linchrome/releases/download/v150.7871.55-M150.0.7871.55-r1639810-portable-ungoogled-Lin64/ungoogled-chromium_150.0.7871.55_1.vaapi_linux.tar.xz) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://github.com/macchrome/linchrome/releases/download/v150.7871.55-M150.0.7871.55-r1639810-portable-ungoogled-Lin64/ungoogled-chromium_150.0.7871.55_1.vaapi_linux.tar.xz) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/old-b40000) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Binaries](https://github.com/Eloston/ungoogled-chromium#downloads) [Download List](https://ungoogled-software.github.io/ungoogled-chromium-binaries/) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Binaries](https://github.com/Eloston/ungoogled-chromium#downloads) [Download List](https://ungoogled-software.github.io/ungoogled-chromium-binaries/) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable AppImage](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-x86_64.AppImage) • [Portable Archive](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-x86_64_linux.tar.xz) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable AppImage](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-x86_64.AppImage) • [Portable Archive](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-x86_64_linux.tar.xz) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
-- ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Packages .deb](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-deb-avx2/chromium-browser-unstable_151.0.7874.0-1_amd64.deb) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- ⚫ <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Packages .deb](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-deb-avx2/chromium-browser-unstable_151.0.7874.0-1_amd64.deb) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
-- ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Packages .deb](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-deb-avx/chromium-browser-unstable_151.0.7874.0-1_amd64.deb) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- ⚫ <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Packages .deb](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-deb-avx/chromium-browser-unstable_151.0.7874.0-1_amd64.deb) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
-- ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Packages .rpm](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-rpm-avx2/chromium-browser-unstable-151.0.7874.0-1.x86_64.rpm) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- ⚫ <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Packages .rpm](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-rpm-avx2/chromium-browser-unstable-151.0.7874.0-1.x86_64.rpm) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx2-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
-- ⚫ <img src="assets/logo.png" width="20" alt="logo"> [Packages .rpm](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-rpm-avx/chromium-browser-unstable-151.0.7874.0-1.x86_64.rpm) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- ⚫ <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Packages .rpm](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-rpm-avx/chromium-browser-unstable-151.0.7874.0-1.x86_64.rpm) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/1654047/chrome-linux.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/1654057/chrome-linux.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
 #### Chromium for 32-bit Linux
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Linux/382086/chrome-linux.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/linux32-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Linux/382086/chrome-linux.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/last--release-b40000) ![Static Badge](https://img.shields.io/badge/linux32-%235b6367)
 
 #### Chromium for ARM64 Linux
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Portable AppImage](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-arm64.AppImage) • [Portable Archive](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-arm64_linux.tar.xz) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux--arm64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Portable AppImage](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-arm64.AppImage) • [Portable Archive](https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-arm64_linux.tar.xz) ![Static Badge](https://img.shields.io/badge/Eloston-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/linux--arm64-%235b6367)
 
 #### Chromium on distro repository (supported architecture is depending on your distro)
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Arch Linux ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Arch Linux ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -418,7 +418,7 @@ For more info, check a [list of software package management systems](https://en.
 
     </details>
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Debian ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Debian ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -433,7 +433,7 @@ For more info, check a [list of software package management systems](https://en.
     </details>
 
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Fedora ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Fedora ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -447,7 +447,7 @@ For more info, check a [list of software package management systems](https://en.
 
     </details>
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Linux Mint ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Linux Mint ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -461,7 +461,7 @@ For more info, check a [list of software package management systems](https://en.
 
     </details>
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Manjaro ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Manjaro ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -474,7 +474,7 @@ For more info, check a [list of software package management systems](https://en.
 
     </details>
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Puppy Linux ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Puppy Linux ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -489,7 +489,7 @@ For more info, check a [list of software package management systems](https://en.
 
     </details>
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> openSUSE ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> openSUSE ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -504,7 +504,7 @@ For more info, check a [list of software package management systems](https://en.
     </details>
     
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> RHEL 7+ and its clone ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> RHEL 7+ and its clone ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -519,7 +519,7 @@ For more info, check a [list of software package management systems](https://en.
     </details>
 
 
--  🟢 <img src="assets/logo.png" width="20" alt="logo"> Slackware ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+-  🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Slackware ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -530,7 +530,7 @@ For more info, check a [list of software package management systems](https://en.
 
     </details>
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Ubuntu ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Ubuntu ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -544,7 +544,7 @@ For more info, check a [list of software package management systems](https://en.
 
     </details>
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Flatpak ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Flatpak ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -561,7 +561,7 @@ For more info, check a [list of software package management systems](https://en.
 
     </details>
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Snap ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Snap ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -578,7 +578,7 @@ For more info, check a [list of software package management systems](https://en.
        
     </details>
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> Chromium OS ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> Chromium OS ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
    <details>
 
@@ -596,7 +596,7 @@ For more info, check a [list of software package management systems](https://en.
 
 # *BSD
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> FreeBSD ![Static Badge](https://img.shields.io/badge/*bsd-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> FreeBSD ![Static Badge](https://img.shields.io/badge/*bsd-%235b6367)
 
    <details>
 
@@ -610,7 +610,7 @@ For more info, check a [list of software package management systems](https://en.
     </details>
 
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> OpenBSD ![Static Badge](https://img.shields.io/badge/*bsd-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> OpenBSD ![Static Badge](https://img.shields.io/badge/*bsd-%235b6367)
 
    <details>
 
@@ -628,15 +628,15 @@ For more info, check a [list of software package management systems](https://en.
 
 #### Chromium for 64-bit and 32-bit Android
 
-- 🟢 <img src="assets/logo.png" width="20" alt="logo"> [Packages .apk](https://github.com/macchrome/droidchrome/releases/download/v148.7778.210-M148.0.7778.210-r1610480-Ungoogled-And64/arm64_ChromePublic_HEVC-148.0.7778.210.apk) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/android64-%235b6367)
+- 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Packages .apk](https://github.com/macchrome/droidchrome/releases/download/v148.7778.210-M148.0.7778.210-r1610480-Ungoogled-And64/arm64_ChromePublic_HEVC-148.0.7778.210.apk) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/all--codecs-%23877105) ![Static Badge](https://img.shields.io/badge/android64-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Android/1654054/chrome-android.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Android/1654054/chrome-android.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Android_Arm64/1654054/chrome-android.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android--arm64-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Android_Arm64/1654032/chrome-android.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android--arm64-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/AndroidDesktop_x64/1654039/chrome-android-desktop.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android--desktop--x64-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/AndroidDesktop_x64/1654039/chrome-android-desktop.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android--desktop--x64-%235b6367)
 
-- 🔴 <img src="assets/logo.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/AndroidDesktop_arm64/1654046/chrome-android-desktop.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android--desktop--arm64-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/AndroidDesktop_arm64/1654046/chrome-android-desktop.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/android--desktop--arm64-%235b6367)
 
 
 # iOS
