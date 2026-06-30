@@ -11,11 +11,11 @@ blocks = input.scan(/Version:.*?(?=^Version:|\z)/m)
 # The array order should match the order of blocks in file.txt.
 titles = [
   {
-    title: "Chrome (64-bit) for Windows 11, 10",
+    title: "Chrome (64-bit) for Windows latest",
     arch: "64-bit"
   },
   {
-    title: "Chrome (32-bit) for Windows 11, 10",
+    title: "Chrome (32-bit) for Windows 10",
     arch: "32-bit"
   },
   {
@@ -23,15 +23,15 @@ titles = [
     arch: "64-bit"
   },
   {
-    title: "Chrome (32-bit) for Windows 7",
+    title: "Chrome (32-bit) for Windows 7/8/8.1",
     arch: "32-bit"
   },
   {
-    title: "Chrome (32-bit) for Windows XP",
+    title: "Chrome (32-bit) for Windows XP/Vista",
     arch: "32-bit"
   },
   { 
-    title: "Chrome (64-bit) for macOS 12+",
+    title: "Chrome (64-bit) for macOS latest",
     arch: "64-bit"
   }
 ]
@@ -83,6 +83,24 @@ official, stable and offline installers
 
 These offline releases of Google Chrome come from the official Google website. They are not re-packed. You can download them on your device... and unlike other public releases, you can extract their whole content with a ZIP file archiver (like 7-zip, PeaZip...).
 
+</details>
+
+<details>
+
+<summary><b>OS</b></summary>
+<br>
+
+[Windows latest 64-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-64-bit-for-windows-latest)
+
+[Windows 10 32-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-32-bit-for-windows-10)
+
+[Windows 7/8/8.1 64-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-64-bit-for-windows-7881)
+
+[Windows 7/8/8.1 32-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-32-bit-for-windows-7881)
+
+[Windows XP/Vista 32-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-32-bit-for-windows-xp-vista)
+
+[macOS latest 64-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-64-bit-for-macos-latest)
 </details>
 
 
