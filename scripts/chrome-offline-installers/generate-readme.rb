@@ -75,7 +75,7 @@ readme = []
 
 # README header
 readme << <<~MD
-# ![Logo](assets/chrome-small-logo.png) Google Chrome
+# ![Logo](assets/chrome-logo-64.png) Google Chrome
 official, stable and offline installers
 
 <details>

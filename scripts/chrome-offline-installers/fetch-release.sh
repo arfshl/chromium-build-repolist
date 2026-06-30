@@ -12,6 +12,7 @@ pwsh ChromeDownloader.ps1 win 32 -os 10 -do info >> scripts/chrome-offline-insta
 pwsh ChromeDownloader.ps1 win 64 -os 7 -do info >> scripts/chrome-offline-installers/rawdata.txt
 pwsh ChromeDownloader.ps1 win 32 -os 7 -do info >> scripts/chrome-offline-installers/rawdata.txt
 pwsh ChromeDownloader.ps1 win 32 -os xp -do info >> scripts/chrome-offline-installers/rawdata.txt
+pwsh ChromeDownloader.ps1 mac -do info >> scripts/chrome-offline-installers/rawdata.txt
 
 # delete leftovers
 rm ChromeDownloader.ps1
