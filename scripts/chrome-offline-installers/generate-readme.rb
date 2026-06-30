@@ -81,9 +81,7 @@ official, stable and offline installers
 <details>
 <summary><strong>Informations</strong></summary>
 
-These offline releases of Google Chrome come from the official Google website. They are not re-packed.
-
-You can download them on your device, and unlike other public releases, you can extract their whole content with a ZIP file archiver (such as 7-Zip or PeaZip).
+These offline releases of Google Chrome come from the official Google website. They are not re-packed. You can download them on your device... and unlike other public releases, you can extract their whole content with a ZIP file archiver (like 7-zip, PeaZip...).
 
 </details>
 
