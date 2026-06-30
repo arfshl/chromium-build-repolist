@@ -5,8 +5,8 @@ curl -O https://raw.githubusercontent.com/shawnkhall/Tools/main/ChromeDownloader
 
 # Fetch chrome release and print the output to rawdata.txt
 
-pwsh ChromeDownloader.ps1 win 64 -os 11 -do info >> rawdata.txt
-pwsh ChromeDownloader.ps1 win 32 -os 10 -do info >> rawdata.txt
-pwsh ChromeDownloader.ps1 win 64 -os 7 -do info >> rawdata.txt
-pwsh ChromeDownloader.ps1 win 32 -os 7 -do info >> rawdata.txt
-pwsh ChromeDownloader.ps1 win 32 -os 5.1 -do info >> rawdata.txt
+pwsh ChromeDownloader.ps1 win 64 -os 11 -do info >> chrome-offline-installers/rawdata.txt
+pwsh ChromeDownloader.ps1 win 32 -os 10 -do info >> chrome-offline-installers/rawdata.txt
+pwsh ChromeDownloader.ps1 win 64 -os 7 -do info >> chrome-offline-installers/rawdata.txt
+pwsh ChromeDownloader.ps1 win 32 -os 7 -do info >> chrome-offline-installers/rawdata.txt
+pwsh ChromeDownloader.ps1 win 32 -os 5.2 -do info >> chrome-offline-installers/rawdata.txt
