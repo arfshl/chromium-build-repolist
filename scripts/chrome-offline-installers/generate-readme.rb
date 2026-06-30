@@ -1,6 +1,6 @@
 puts "Generating README..."
 # Read the entire contents of file.txt located in the same directory
-input = File.read(File.join(__dir__, "file.txt"))
+input = File.read(File.join(__dir__, "rawdata.txt"))
 
 # Split the input into separate blocks.
 # Each block starts with "Version:" and continues until the next
