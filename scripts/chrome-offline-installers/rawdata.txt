@@ -28,3 +28,9 @@ File: 49.0.2623.112_chrome_installer.exe
 SHA256: 6557a26b9ff6185d2e215ccaf3d64d80a0e65c69ac23a091fc050612724908b8
 Size: 45001120
 Status: ok
+Version: 138.0.7204.184
+Url: https://www.google.com/dl/release2/chrome/acvbvqaeyyrjo6kygs27pc5y27ea_138.0.7204.184/GoogleChrome-138.0.7204.184.dmg
+File: GoogleChrome-138.0.7204.184.dmg
+SHA256: 28cf5f2b9cda5cd09d55f09137d6f447122f1fb5710a59f8128f5880e11df0f6
+Size: 227920842
+Status: ok
