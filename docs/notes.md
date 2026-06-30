@@ -300,14 +300,15 @@ Websites to freely test Widevine:
    * [Google Chrome](https://www.google.com/chrome/?standalone=1)
 
    **2.3 Or from offline installers of Google Chrome:** *(Prefer these following websites because you can unzip the executable files (*.exe) and see the whole content. Note these download links of Google Chrome are official.)*
-   * [Chrome offline installers](https://tools.woolyss.com/chrome-offline-installers/)
+   * [Chrome offline installers](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md)
+   * [Chrome offline installers (woolyss)](https://tools.woolyss.com/chrome-offline-installers/)
    * [[JP] chrome::noki.eu.org](https://chrome.noki.eu.org/)
    * [[JP] chrome::github.com/Bush2021/chrome_installer](https://github.com/Bush2021/chrome_installer/releases)
    * [[JP] chrome::iplaysoft.com](https://www.iplaysoft.com/tools/chrome/)
 
-3. Unzip the content of this Widevine CDM plugin *(This is a [7-Zip](https://en.wikipedia.org/wiki/7-Zip) self-extracting archive)*.
+4. Unzip the content of this Widevine CDM plugin *(This is a [7-Zip](https://en.wikipedia.org/wiki/7-Zip) self-extracting archive)*.
 
-4. Copy this Widevine CDM plugin's content to your Chromium "WidevineCdm" folder like this following structure, on Windows ([screenshot](https://i.imgur.com/Kb1aoca.jpg)):
+5. Copy this Widevine CDM plugin's content to your Chromium "WidevineCdm" folder like this following structure, on Windows ([screenshot](https://i.imgur.com/Kb1aoca.jpg)):
 
 <pre><code>WidevineCdm
   ├── LICENSE.txt
