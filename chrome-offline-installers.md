@@ -30,44 +30,44 @@ These offline releases of Google Chrome come from the official Google website. T
 
 ### Chrome (64-bit) for Windows latest
 
-Version: 149.0.7827.201
+Version: 150.0.7871.47
 
 Channel: Stable
 
 Architecture: 64-bit
 
-Size: 460.49 MB
+Size: 466.52 MB
 
 #### File checksum (SHA256)
-0d76e4e0b953baa6dba3d87112c81456ec71b868ae02358659268d94af51e626
+2499f818f40b230ce38df5391fdda3a94e2336a686a36a8755dc16a16ffedd68
 
 #### Official links
 
-https://www.google.com/dl/release2/chrome/acvtwyykgqcskvoht7qgpdxoewgq_149.0.7827.201/149.0.7827.201_chrome_installer_uncompressed.exe
-https://dl.google.com/dl/release2/chrome/acvtwyykgqcskvoht7qgpdxoewgq_149.0.7827.201/149.0.7827.201_chrome_installer_uncompressed.exe
-https://edgedl.me.gvt1.com/edgedl/dl/release2/chrome/acvtwyykgqcskvoht7qgpdxoewgq_149.0.7827.201/149.0.7827.201_chrome_installer_uncompressed.exe
+https://www.google.com/dl/release2/chrome/hlaraixpx7sigrxa2p4aeezhai_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe
+https://dl.google.com/dl/release2/chrome/hlaraixpx7sigrxa2p4aeezhai_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe
+https://edgedl.me.gvt1.com/edgedl/dl/release2/chrome/hlaraixpx7sigrxa2p4aeezhai_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe
 
 ---
 
 
 ### Chrome (32-bit) for Windows 10
 
-Version: 149.0.7827.201
+Version: 150.0.7871.47
 
 Channel: Stable
 
 Architecture: 32-bit
 
-Size: 375.08 MB
+Size: 382.07 MB
 
 #### File checksum (SHA256)
-90fd7ff7b3b46c01fb44a08f9838497db430dd8c552e5b1cf3431098dead8e6b
+281d0c85336d612f46bef4515b44cec2366d13e7352d5db898c88c3da8056a13
 
 #### Official links
 
-https://www.google.com/dl/release2/chrome/adznegjapoy7r3d4b2jhcew3ma6a_149.0.7827.201/149.0.7827.201_chrome_installer_uncompressed.exe
-https://dl.google.com/dl/release2/chrome/adznegjapoy7r3d4b2jhcew3ma6a_149.0.7827.201/149.0.7827.201_chrome_installer_uncompressed.exe
-https://edgedl.me.gvt1.com/edgedl/dl/release2/chrome/adznegjapoy7r3d4b2jhcew3ma6a_149.0.7827.201/149.0.7827.201_chrome_installer_uncompressed.exe
+https://www.google.com/dl/release2/chrome/c45p6yfabfzpdmrqcmrobdyanq_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe
+https://dl.google.com/dl/release2/chrome/c45p6yfabfzpdmrqcmrobdyanq_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe
+https://edgedl.me.gvt1.com/edgedl/dl/release2/chrome/c45p6yfabfzpdmrqcmrobdyanq_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe
 
 ---
 
