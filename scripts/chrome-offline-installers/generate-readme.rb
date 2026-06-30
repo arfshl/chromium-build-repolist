@@ -19,7 +19,7 @@ titles = [
     arch: "32-bit"
   },
   {
-    title: "Chrome (64-bit) for Windows 7",
+    title: "Chrome (64-bit) for Windows 7/8/8.1",
     arch: "64-bit"
   },
   {
@@ -98,7 +98,7 @@ These offline releases of Google Chrome come from the official Google website. T
 
 [Windows 7/8/8.1 32-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-32-bit-for-windows-7881)
 
-[Windows XP/Vista 32-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-32-bit-for-windows-xp-vista)
+[Windows XP/Vista 32-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-32-bit-for-windows-xpvista)
 
 [macOS latest 64-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-64-bit-for-macos-latest)
 </details>
