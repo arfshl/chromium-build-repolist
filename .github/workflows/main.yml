@@ -1,4 +1,4 @@
-name: Generate README and API
+name: Periodic update
 
 on:
   workflow_dispatch: 
@@ -37,6 +37,8 @@ jobs:
         ruby scripts/fetch_google.rb
         ruby scripts/fetch_thorium.rb
         ruby scripts/generate_readme.rb
+    - name: Generate static API
+      run: |
         ruby scripts/chrlauncher-api-scripts/win32-dev-official.rb
         ruby scripts/chrlauncher-api-scripts/win32-stable-ungoogled.rb
         ruby scripts/chrlauncher-api-scripts/win64-dev-avx.rb
@@ -47,6 +49,9 @@ jobs:
         ruby scripts/chrlauncher-api-scripts/win64-stable-ungoogled.rb
         ruby scripts/chrlauncher-api-scripts/win64-stable-ungoogled-codecs.rb
         ruby scripts/chrlauncher-api-scripts/win64-thorium.rb
+    - name: Generate Chrome README
+      run: |
+        bash chrome-offline-installers/fetch-release.sh
     - name: Commit and push changes
       run: |
         TIMESTAMP=$(date -u +"%Y%m%d %H:%M UTC")
