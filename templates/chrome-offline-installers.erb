@@ -1,0 +1,67 @@
+# ![Logo](https://raw.githubusercontent.com/arfshl/chromium-build-repolist/main/assets/chrome-logo-64.png) Google Chrome
+official, stable and offline installers
+
+<details>
+<summary><strong>Informations</strong></summary>
+
+These offline releases of Google Chrome come from the official Google website. They are not re-packed. You can download them on your device... and unlike other public releases, you can extract their whole content with a ZIP file archiver (like 7-zip, PeaZip...).
+
+</details>
+
+<details>
+
+<summary><b>OS</b></summary>
+<br>
+
+[Windows latest 64-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-64-bit-for-windows-latest)
+
+[Windows 10 32-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-32-bit-for-windows-10)
+
+[Windows 7/8/8.1 64-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-64-bit-for-windows-7881)
+
+[Windows 7/8/8.1 32-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-32-bit-for-windows-7881)
+
+[Windows XP/Vista 32-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-32-bit-for-windows-xpvista)
+
+[macOS latest 64-bit](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md#chrome-64-bit-for-macos-latest)
+
+</details>
+
+<% blocks.each_with_index do |block, i| %>
+<%
+info = titles[i] || {
+  title: "Chrome",
+  arch: "-"
+}
+
+version = value(block, "Version")
+url     = value(block, "Url")
+sha     = value(block, "SHA256")
+size    = value(block, "Size")
+%>
+
+### <%= info[:title] %>
+
+Version: <%= version %>
+
+Channel: Stable
+
+Architecture: <%= info[:arch] %>
+
+Size: <%= size_mb(size) %>
+
+#### File checksum (SHA256)
+
+```text
+<%= sha %>
+```
+
+| Official Links |
+|------|
+<% alt_links(url).each do |link| %>
+| <%= link %> |
+<% end %>
+
+---
+
+<% end %>
