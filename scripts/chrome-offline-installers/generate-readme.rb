@@ -77,7 +77,7 @@ readme = []
 
 # README header
 readme << <<~MD
-# ![Logo](assets/chrome-logo-64.png) Google Chrome
+# ![Logo](https://raw.githubusercontent.com/arfshl/chromium-build-repolist/main/assets/chrome-logo-64.png) Google Chrome
 official, stable and offline installers
 
 <details>
