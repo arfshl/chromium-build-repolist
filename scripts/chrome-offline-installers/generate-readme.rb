@@ -1,3 +1,5 @@
+# This script is licensed under GPLv3
+
 puts "Generating README..."
 # Read the entire contents of file.txt located in the same directory
 input = File.read(File.join(__dir__, "rawdata.txt"))
@@ -149,7 +151,7 @@ end
 # Save the generated README.md two directories above
 # the current script location.
 #File.write("chrome-offline-installers.md", readme.join("\n"))
-output = File.expand_path("../../chrome-offline-installers.md", __dir__)
+output = File.expand_path("../chrome-offline-installers/README.md", __dir__)
 File.write(output, readme.join("\n"))
 
 # Notify the user that generation completed successfully.

@@ -1,3 +1,5 @@
+# This script is licensed under GPLv3
+
 require 'json'
 require 'net/http'
 require 'uri'
@@ -5,7 +7,8 @@ require 'uri'
 DATA_FILE = File.join(__dir__, 'links_data.json')
 
 def fetch_thorium_links
-  # Ambil 10 rilis terakhir untuk memastikan semua varian arsitektur (jika rilisnya dicicil) tertangkap
+  # Fetch the latest 10 releases to ensure all architecture variants are covered
+  # (in case they are published across multiple releases)
   uri = URI('https://api.github.com/repos/Alex313031/Thorium-Win/releases?per_page=10')
   
   req = Net::HTTP::Get.new(uri)
@@ -24,10 +27,11 @@ def fetch_thorium_links
   releases = JSON.parse(res.body)
   thorium_data = {}
 
-  # Daftar target varian arsitektur yang ingin kita kumpulkan
+  # List of target architecture variants to collect
   variants = ['avx2', 'avx', 'sse4', 'sse3']
   
-  # Tracking untuk mencatat tipe apa saja yang sudah berhasil ditemukan (agar dapat versi paling baru)
+  # Track which targets have already been found
+  # to ensure only the newest version is used
   found_targets = {
     'thorium_win64_installer_avx2' => false, 'thorium_win64_archive_avx2' => false,
     'thorium_win64_installer_avx'  => false, 'thorium_win64_archive_avx'  => false,
@@ -44,10 +48,10 @@ def fetch_thorium_links
       name = asset['name'].downcase
       url = asset['browser_download_url']
 
-      # Skip jika bukan file installer/archive Windows yang valid
+      # Skip files that are not valid Windows installers or archives
       next unless name.end_with?('.exe', '.zip')
 
-      # Tentukan varian arsitektur berdasarkan nama file
+      # Determine the architecture variant from the filename
       detected_variant = nil
       variants.each do |v|
         if name.include?(v)
@@ -56,10 +60,10 @@ def fetch_thorium_links
         end
       end
 
-      # Jika tidak mengandung penanda avx2/avx/sse4/sse3, lewati
+      # Skip files that do not contain an AVX2/AVX/SSE4/SSE3 identifier
       next if detected_variant.nil?
 
-      # Proses file Installer (.exe)
+      # Process installer (.exe) files
       if name.end_with?('.exe') && name.include?('mini_installer')
         key = "thorium_win64_installer_#{detected_variant}"
         unless found_targets[key]
@@ -69,7 +73,7 @@ def fetch_thorium_links
         end
       end
 
-      # Proses file Archive (.zip)
+      # Process archive (.zip) files
       if name.end_with?('.zip')
         key = "thorium_win64_archive_#{detected_variant}"
         unless found_targets[key]
@@ -80,7 +84,7 @@ def fetch_thorium_links
       end
     end
 
-    # Jika semua varian (total 8 file target) sudah lengkap terisi, hentikan loop
+    # Stop once all target variants (8 files total) have been collected
     break if found_targets.values.all?(true)
   end
 

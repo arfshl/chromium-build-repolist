@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script is licensed under GPLv3
 
 ruby scripts/fetch_github.rb
 ruby scripts/fetch_google.rb

@@ -300,7 +300,7 @@ Websites to freely test Widevine:
    * [Google Chrome](https://www.google.com/chrome/?standalone=1)
 
    **2.3 Or from offline installers of Google Chrome:** *(Prefer these following websites because you can unzip the executable files (*.exe) and see the whole content. Note these download links of Google Chrome are official.)*
-   * [Chrome offline installers](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers.md)
+   * [Chrome offline installers](https://github.com/arfshl/chromium-build-repolist/blob/main/chrome-offline-installers/README.md)
    * [Chrome offline installers (woolyss)](https://tools.woolyss.com/chrome-offline-installers/)
    * [[JP] chrome::noki.eu.org](https://chrome.noki.eu.org/)
    * [[JP] chrome::github.com/Bush2021/chrome_installer](https://github.com/Bush2021/chrome_installer/releases)

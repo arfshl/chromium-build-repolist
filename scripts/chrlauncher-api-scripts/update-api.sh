@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script is licensed under GPLv3
 
 ruby scripts/chrlauncher-api-scripts/win32-dev-official.rb
 ruby scripts/chrlauncher-api-scripts/win32-stable-ungoogled.rb
