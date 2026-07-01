@@ -137,11 +137,15 @@ Architecture: #{info[:arch]}
 Size: #{size_mb(size)}
 
 #### File checksum (SHA256)
+```
 #{sha}
+```
 
-#### Official links
-
-#{alt_links(url).join("\n")}
+| Official Links |
+|------|
+<% alt_links(url).each do |link| %>
+| <%= link %> |
+<% end %>
 
 ---
 
