@@ -352,7 +352,7 @@ For older macOS (10.7+), you can use the [Chromium-legacy](https://github.com/bl
 
 - 🟢 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://github.com/macchrome/macstable/releases/download/v150.7871.55-M150.0.7871.55-r1639810-macOS/Chromium.app.ungoogled-150.0.7871.55.tar.xz) ![Static Badge](https://img.shields.io/badge/Marmaduke-036b96) ![Static Badge](https://img.shields.io/badge/ungoogled-731995) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
-- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1655281/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Mac/1655282/chrome-mac.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/mac-%235b6367)
 
 
 #### Chromium for 64-bit macOS on Arm
@@ -395,7 +395,7 @@ For more info, check a [list of software package management systems](https://en.
 
 - ⚫ <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Packages .rpm](https://github.com/RobRich999/Chromium_Clang/releases/download/v151.0.7874.0-r1641382-linux64-rpm-avx/chromium-browser-unstable-151.0.7874.0-1.x86_64.rpm) ![Static Badge](https://img.shields.io/badge/RobRich-036b96) ![Static Badge](https://img.shields.io/badge/avx-731995) ![Static Badge](https://img.shields.io/badge/modified-%23877105) ![Static Badge](https://img.shields.io/badge/widevine-%23877105) ![Static Badge](https://img.shields.io/badge/all--codecs%2B-%23877105) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
-- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/1655262/chrome-linux.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
+- 🔴 <img src="https://raw.githubusercontent.com/chromium/chromium/main/chrome/app/theme/chromium/product_logo_256.png" width="20" alt="logo"> [Archive](https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/1655282/chrome-linux.zip) ![Static Badge](https://img.shields.io/badge/The_Chromium_Authors-036b96) ![Static Badge](https://img.shields.io/badge/linux-%235b6367)
 
 #### Chromium for 32-bit Linux
 
