@@ -151,7 +151,7 @@ end
 # Save the generated README.md two directories above
 # the current script location.
 #File.write("chrome-offline-installers.md", readme.join("\n"))
-output = File.expand_path("../chrome-offline-installers/README.md", __dir__)
+output = File.expand_path("../../chrome-offline-installers/README.md", __dir__)
 File.write(output, readme.join("\n"))
 
 # Notify the user that generation completed successfully.
