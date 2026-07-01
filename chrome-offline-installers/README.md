@@ -48,13 +48,9 @@ Size: 466.52 MB
 
 | Official Links |
 |------|
-
 | https://www.google.com/dl/release2/chrome/hlaraixpx7sigrxa2p4aeezhai_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe |
-
 | https://dl.google.com/dl/release2/chrome/hlaraixpx7sigrxa2p4aeezhai_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe |
-
 | https://edgedl.me.gvt1.com/edgedl/dl/release2/chrome/hlaraixpx7sigrxa2p4aeezhai_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe |
-
 
 ---
 
@@ -79,13 +75,9 @@ Size: 382.07 MB
 
 | Official Links |
 |------|
-
 | https://www.google.com/dl/release2/chrome/c45p6yfabfzpdmrqcmrobdyanq_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe |
-
 | https://dl.google.com/dl/release2/chrome/c45p6yfabfzpdmrqcmrobdyanq_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe |
-
 | https://edgedl.me.gvt1.com/edgedl/dl/release2/chrome/c45p6yfabfzpdmrqcmrobdyanq_150.0.7871.47/150.0.7871.47_chrome_installer_uncompressed.exe |
-
 
 ---
 
@@ -110,13 +102,9 @@ adc1a5953f2a7cb0ea42e02cf0a55787494b852ae575b24eca4cdb48d93853d1
 
 | Official Links |
 |------|
-
 | https://www.google.com/dl/release2/chrome/czao2hrvpk5wgqrkz4kks5r734_109.0.5414.120/109.0.5414.120_chrome_installer.exe |
-
 | https://dl.google.com/dl/release2/chrome/czao2hrvpk5wgqrkz4kks5r734_109.0.5414.120/109.0.5414.120_chrome_installer.exe |
-
 | https://edgedl.me.gvt1.com/edgedl/dl/release2/chrome/czao2hrvpk5wgqrkz4kks5r734_109.0.5414.120/109.0.5414.120_chrome_installer.exe |
-
 
 ---
 
@@ -141,13 +129,9 @@ Size: 85.13 MB
 
 | Official Links |
 |------|
-
 | https://www.google.com/dl/release2/chrome/acihtkcueyye3ymoj2afvv7ulzxa_109.0.5414.120/109.0.5414.120_chrome_installer.exe |
-
 | https://dl.google.com/dl/release2/chrome/acihtkcueyye3ymoj2afvv7ulzxa_109.0.5414.120/109.0.5414.120_chrome_installer.exe |
-
 | https://edgedl.me.gvt1.com/edgedl/dl/release2/chrome/acihtkcueyye3ymoj2afvv7ulzxa_109.0.5414.120/109.0.5414.120_chrome_installer.exe |
-
 
 ---
 
@@ -172,13 +156,9 @@ Size: 42.92 MB
 
 | Official Links |
 |------|
-
 | http://dl.google.com/release2/14okehgrtfipvtyyd9pt7hf7ek7hhs7k47bc481jwgh8fz1ono51hw75dtgcm4j6kkei8h9clijoftygpga0q2kbey0o9n4ec6wd/49.0.2623.112_chrome_installer.exe |
-
 | https://dl.google.com/release2/14okehgrtfipvtyyd9pt7hf7ek7hhs7k47bc481jwgh8fz1ono51hw75dtgcm4j6kkei8h9clijoftygpga0q2kbey0o9n4ec6wd/49.0.2623.112_chrome_installer.exe |
-
 | https://edgedl.me.gvt1.com/edgedl/release2/14okehgrtfipvtyyd9pt7hf7ek7hhs7k47bc481jwgh8fz1ono51hw75dtgcm4j6kkei8h9clijoftygpga0q2kbey0o9n4ec6wd/49.0.2623.112_chrome_installer.exe |
-
 
 ---
 
@@ -203,13 +183,9 @@ Size: 217.36 MB
 
 | Official Links |
 |------|
-
 | https://www.google.com/dl/release2/chrome/acvbvqaeyyrjo6kygs27pc5y27ea_138.0.7204.184/GoogleChrome-138.0.7204.184.dmg |
-
 | https://dl.google.com/dl/release2/chrome/acvbvqaeyyrjo6kygs27pc5y27ea_138.0.7204.184/GoogleChrome-138.0.7204.184.dmg |
-
 | https://edgedl.me.gvt1.com/edgedl/dl/release2/chrome/acvbvqaeyyrjo6kygs27pc5y27ea_138.0.7204.184/GoogleChrome-138.0.7204.184.dmg |
-
 
 ---
 
